@@ -1,10 +1,10 @@
 <template>
-    <h1>About Page</h1>
+    <h1>Commercial Concession Page</h1>
 </template>
 
 <script>
 export default {
-    name:'AboutView'
+    name: 'CommercialConcessionView',
 }
 </script>
 

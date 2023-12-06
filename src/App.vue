@@ -6,16 +6,24 @@
   <router-view/>
 </template>
 
+<script>
+export default {
+
+}
+</script>
+
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  // font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Bahij_TheSansArabic', Arial, sans-serif ;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  direction: rtl;
+  // text-align: center;
+  // color: #2c3e50;
 }
 
-nav {
+/* nav {
   padding: 30px;
 
   a {
@@ -26,5 +34,9 @@ nav {
       color: #42b983;
     }
   }
+} */
+
+#app a{
+  text-decoration: none;
 }
 </style>

@@ -1,10 +1,10 @@
 <template>
-    <h1>About Page</h1>
+    <h1>Steam Fields Page</h1>
 </template>
 
 <script>
 export default {
-    name:'AboutView'
+    name: 'SteamFieldsView',
 }
 </script>
 
