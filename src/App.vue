@@ -1,8 +1,6 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
+  <!-- import navbar in main.js file -->
+  <Navbar />
   <router-view/>
 </template>
 

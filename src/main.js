@@ -30,6 +30,9 @@ import 'animate.css';
 // import Fonts
 import "@/assets/scss/style.scss";
 
+// import Navbar Component
+import Navbar from "@/components/layouts/Navbar.vue";
+
 //add icons to the library
 library.add(fas, far, fab)
 
@@ -37,5 +40,7 @@ const app = createApp(App);
 app.use(store);
 //Add font awesome icon component
 app.component("font-awesome-icon", FontAwesomeIcon);
+//Add Navbar Component
+app.component('Navbar', Navbar);
 app.use(router);
 app.mount("#app");
