@@ -5,6 +5,9 @@
   <!-- Start Service -->
   <Service />
   <!-- End Service -->
+  <!-- Start Commercial_Concession_Home -->
+  <Commercial_Concession_Home />
+  <!-- End Commercial_Concession_Home -->
   <!-- Start Footer -->
   <Footer />
   <!-- End Footer -->
@@ -14,12 +17,14 @@
 
 import Header from '@/components/home/Header.vue';
 import Service from '@/components/home/Service.vue';
+import Commercial_Concession_Home from '@/components/home/Commercial_Concession_Home.vue';
 
 export default {
   name: 'HomeView',
   components: {
     Header,
     Service,
+    Commercial_Concession_Home,
   }
 }
 

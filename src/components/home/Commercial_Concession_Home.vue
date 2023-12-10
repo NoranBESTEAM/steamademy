@@ -1,0 +1,187 @@
+<template>
+    <section id="commercial_concession">
+
+        <img src="@/assets/images/home/commercial_concession/Triangle.svg" alt="" id="top_left">
+
+        <img src="@/assets/images/home/commercial_concession/Triangle2.svg" alt="" id="bottom_right">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div id="img_content" class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+
+                    <div id="img_wrapper" class="animate__animated animate__backInRight animate__delay-0.9s animate__slow">
+                        <img src="@/assets/images/home/commercial_concession/Kid pic.png" alt="">
+                    </div>
+
+                </div>
+
+                <div id="text_content" class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 my-auto">
+
+                    <h3
+                        class="fw-bold text-justify mb-4 animate__animated animate__backInDown animate__delay-0.9s animate__slow">
+                        امتياز STEAM التجاري</h3>
+
+                    <p class="text-justify mb-4 animate__animated animate__backInUp animate__delay-0.9s animate__slow">يوفر
+                        لك منظومة متكاملة لتحقيق أفضل عائد على استثماراتك بداية من التجهيزات
+                        والمحتوى العلمي وتأهيل فريقك وحتى وسائل التواصل مع الطلاب والتسويق كل ما عليك هو أن تؤمن بقدرتك على
+                        تغيير المستقبل وتحقيق أهداف الثورة الصناعية الرابعة.</p>
+
+                    <router-link :to="{ name: 'commercial_concession' }" type="button"
+                        class="btn fw-bold animate__animated animate__backInUp animate__delay-0.9s animate__slow">
+                        عرض المزيد
+                        <font-awesome-icon :icon="['fas', 'fa-arrow-left']" class="me-2" />
+                    </router-link>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+</template>
+
+<script>
+export default {
+    name: 'Commercial_Concession_Home',
+}
+</script>
+
+<style lang="scss" scoped>
+#commercial_concession {
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: $Gray;
+    z-index: -2;
+
+    position: relative;
+
+    #top_left {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    #bottom_right {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    #top_left,
+    #bottom_right {
+        width: 356.495px;
+        height: 291px;
+        z-index: -1;
+        opacity: 70%;
+    }
+
+    .container {
+
+        z-index: 1;
+
+        #img_content {
+
+            @include breakpoints(x-small) {
+                order: 2;
+            }
+
+            @include breakpoints(small) {
+                order: 2;
+            }
+
+            #img_wrapper {
+
+                width: 339px;
+                height: 392px;
+
+                @include breakpoints(x-small) {
+                    width: 343px;
+                    height: 347px;
+                }
+
+                @include breakpoints(small) {
+                    width: 343px;
+                    height: 347px;
+                }
+
+                // 0.6
+                @include breakpoints(medium) {
+                    width: 203.4px;
+                    height: 235.2px;
+                }
+
+                // 0.8
+                @include breakpoints(large) {
+                    width: 271.2px;
+                    height: 313.6px;
+                }
+
+                margin: 0 auto;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
+            }
+
+        }
+
+        #text_content {
+
+            @include breakpoints(x-small) {
+                order: 1;
+            }
+
+            @include breakpoints(small) {
+                order: 1;
+            }
+
+            h3 {
+                color: $Mov;
+                font-size: 24px;
+                // font-weight: 500;
+
+                @include breakpoints(x-small) {
+                    text-align: center;
+                }
+
+                @include breakpoints(small) {
+                    text-align: center;
+                }
+
+            }
+
+            p {
+                color: $Black;
+                font-size: 18px;
+                font-weight: 400;
+            }
+
+            a {
+                padding: 5px 0px;
+
+                display: inline-flex;
+                align-items: center;
+
+                color: $Orange;
+                font-size: 18px;
+                // font-weight: 500;
+
+                svg {
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+
+        }
+
+    }
+
+}
+</style>
