@@ -9,7 +9,8 @@
 
             <div id="content_wrapper" class="animate__animated animate__backInUp animate__delay-0.9s animate__slow">
 
-                <div class="service_ele d-inline-block">
+                <!-- d-inline-block -->
+                <div class="service_ele">
 
                     <img src="@/assets/images/home/service/تعليم_متكامل.svg" alt="" class="mt-3 mb-3">
 
@@ -17,7 +18,7 @@
 
                 </div>
 
-                <div class="service_ele d-inline-block">
+                <div class="service_ele">
 
                     <img src="@/assets/images/home/service/برامج_مبتكرة.svg" alt="" class="mt-3 mb-3">
 
@@ -25,7 +26,7 @@
 
                 </div>
 
-                <div class="service_ele d-inline-block">
+                <div class="service_ele">
 
                     <img src="@/assets/images/home/service/دعم_كامل.svg" alt="" class="mt-3 mb-3">
 
@@ -33,7 +34,7 @@
 
                 </div>
 
-                <div class="service_ele d-inline-block">
+                <div class="service_ele">
 
                     <img src="@/assets/images/home/service/تدريب_مستمر.svg" alt="" class="mt-3 mb-3">
 
@@ -41,7 +42,7 @@
 
                 </div>
 
-                <div class="service_ele d-inline-block">
+                <div class="service_ele">
 
                     <img src="@/assets/images/home/service/دعم_تسويقي.svg" alt="" class="mt-3 mb-3">
 
@@ -49,7 +50,7 @@
 
                 </div>
 
-                <div class="service_ele d-inline-block">
+                <div class="service_ele">
 
                     <img src="@/assets/images/home/service/تجربة_استثنائية.svg" alt="" class="mt-3 mb-3">
 
@@ -57,7 +58,7 @@
 
                 </div>
 
-                <div class="service_ele d-inline-block">
+                <div class="service_ele">
 
                     <img src="@/assets/images/home/service/نموذج_عمل.svg" alt="" class="mt-3 mb-3">
 
@@ -65,7 +66,7 @@
 
                 </div>
 
-                <div class="service_ele d-inline-block">
+                <div class="service_ele">
 
                     <img src="@/assets/images/home/service/عملاء_مضمونين.svg" alt="" class="mt-3 mb-3">
 
@@ -73,7 +74,7 @@
 
                 </div>
 
-                <div class="service_ele d-inline-block">
+                <div class="service_ele">
 
                     <img src="@/assets/images/home/service/منظومة_تشغيلية.svg" alt="" class="mt-3 mb-3">
 
@@ -108,13 +109,11 @@ export default {
 
     #content_wrapper {
 
-        @include breakpoints(x-Large) {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
         .service_ele {
+
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
 
             width: calc(100% / 9 - 16px);
             height: 150px;
@@ -123,6 +122,7 @@ export default {
 
             @include breakpoints(x-small) {
                 width: calc(100% / 3 - 8px);
+                height: 160px;
                 margin-left: 4px;
                 margin-right: 4px;
                 margin-bottom: 8px;
@@ -170,19 +170,47 @@ export default {
                 object-fit: content;
             }
 
+            img:hover {
+                -webkit-animation: blinker 1s linear infinite;
+                -moz-animation: blinker 1s linear infinite;
+                -ms-animation: blinker 1s linear infinite;
+                -o-animation: blinker 1s linear infinite;
+                animation: blinker 1s linear infinite;
+            }
+
             h5 {
                 color: $Dark-blue;
                 font-size: 16px;
                 font-weight: 500;
-
-                @include breakpoints(x-small) {
-                    font-size: 14px;
-                }
             }
 
         }
 
     }
 
+}
+// For Animation
+@-webkit-keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+@-o-keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
 }
 </style>
