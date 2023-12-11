@@ -16,6 +16,10 @@
   <Field_Home />
   <!-- End Field_Home -->
 
+  <!-- Start Technologies -->
+  <Technologies />
+  <!-- End Technologies -->
+
   <!-- Start Footer -->
   <Footer />
   <!-- End Footer -->
@@ -28,6 +32,7 @@ import Header from '@/components/home/Header.vue';
 import Service from '@/components/home/Service.vue';
 import Commercial_Concession_Home from '@/components/home/Commercial_Concession_Home.vue';
 import Field_Home from '@/components/home/Field_Home.vue';
+import Technologies from '@/components/home/Technologies.vue';
 
 export default {
   name: 'HomeView',
@@ -36,6 +41,7 @@ export default {
     Service,
     Commercial_Concession_Home,
     Field_Home,
+    Technologies,
   }
 }
 

@@ -118,11 +118,11 @@ export default {
     background-image: url("@/assets/images/home/fields/field_BG.jpg");
 
     @include breakpoints(x-small) {
-        background-image: url("@/assets/images/home/fields/field_BG_Mobile.png");
+        background-image: url("@/assets/images/home/fields/field_BG_Mobile.jpg");
     }
 
     @include breakpoints(small) {
-        background-image: url("@/assets/images/home/fields/field_BG_Mobile.png");
+        background-image: url("@/assets/images/home/fields/field_BG_Mobile.jpg");
     }
 
     /* Used if the image is unavailable */
