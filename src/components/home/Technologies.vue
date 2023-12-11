@@ -211,6 +211,11 @@ export default {
                 text-align: left;
 
                 a {
+
+                    display: inline-flex;
+                    justify-content: center;
+                    align-items: center;
+
                     border-radius: 4px;
                     background: $Orange;
 
@@ -300,7 +305,7 @@ export default {
                 padding-left: 8px;
                 padding-right: 8px;
 
-                .image_wrapper{
+                .image_wrapper {
 
                     border-radius: 16px;
 
@@ -322,7 +327,7 @@ export default {
 
                 }
 
-                h5{
+                h5 {
                     color: $Ylo;
                     font-size: 18px;
                     // font-weight: 500;

@@ -20,6 +20,10 @@
   <Technologies />
   <!-- End Technologies -->
 
+  <!-- Start Contact_Us_Home -->
+  <Contact_Us_Home />
+  <!-- End Contact_Us_Home -->
+
   <!-- Start Footer -->
   <Footer />
   <!-- End Footer -->
@@ -33,6 +37,7 @@ import Service from '@/components/home/Service.vue';
 import Commercial_Concession_Home from '@/components/home/Commercial_Concession_Home.vue';
 import Field_Home from '@/components/home/Field_Home.vue';
 import Technologies from '@/components/home/Technologies.vue';
+import Contact_Us_Home from '@/components/home/Contact_Us_Home.vue';
 
 export default {
   name: 'HomeView',
@@ -42,6 +47,7 @@ export default {
     Commercial_Concession_Home,
     Field_Home,
     Technologies,
+    Contact_Us_Home,
   }
 }
 
