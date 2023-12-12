@@ -81,26 +81,19 @@ export default {
             h3 {
                 color: $Mov;
                 // text-align: right;
-                font-size: 32px;
+                font-size: 24px;
                 // font-weight: 500;
 
                 @include breakpoints(x-small) {
-                    font-size: 24px;
                     text-align: center;
                 }
 
                 @include breakpoints(small) {
-                    font-size: 24px;
                     text-align: center;
                 }
 
                 @include breakpoints(medium) {
-                    font-size: 24px;
                     text-align: center;
-                }
-
-                @include breakpoints(large) {
-                    font-size: 24px;
                 }
             }
 

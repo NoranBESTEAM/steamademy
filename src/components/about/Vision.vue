@@ -15,9 +15,7 @@
 
                         <h3 class="fw-bold mb-4 animate__animated animate__backInDown animate__delay-0.9s animate__slow">
 
-                            <img src="@/assets/images/about/vision/رؤيتنا.svg" alt="" class="ms-3">
-
-                            رؤيتنا
+                            <img src="@/assets/images/about/vision/رؤيتنا.svg" alt="" class="ms-3">رؤيتنا
 
                         </h3>
 
@@ -32,9 +30,7 @@
 
                         <h3 class="fw-bold mb-4 animate__animated animate__backInDown animate__delay-0.9s animate__slow">
 
-                            <img src="@/assets/images/about/vision/رسالتنا.svg" alt="" class="ms-3">
-
-                            رسالتنا
+                            <img src="@/assets/images/about/vision/رسالتنا.svg" alt="" class="ms-3">رسالتنا
 
                         </h3>
 
@@ -55,9 +51,7 @@
 
                     <h3 class="fw-bold mb-4 animate__animated animate__backInDown animate__delay-0.9s animate__slow">
 
-                        <img src="@/assets/images/about/vision/رؤيتنا.svg" alt="" class="ms-3">
-
-                        رؤيتنا
+                        <img src="@/assets/images/about/vision/رؤيتنا.svg" alt="" class="ms-3">رؤيتنا
 
                     </h3>
 
@@ -72,9 +66,7 @@
 
                     <h3 class="fw-bold mb-4 animate__animated animate__backInDown animate__delay-0.9s animate__slow">
 
-                        <img src="@/assets/images/about/vision/رؤيتنا.svg" alt="" class="ms-3">
-
-                        رؤيتنا
+                        <img src="@/assets/images/about/vision/رؤيتنا.svg" alt="" class="ms-3">رؤيتنا
 
                     </h3>
 
@@ -106,6 +98,18 @@ export default {
 
     .container {
 
+        h3 {
+            color: $Mov;
+            font-size: 24px;
+            font-weight: 500;
+        }
+
+        p {
+            color: $Black;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
         // In Large Screen
 
         #vision_wrapper {
@@ -120,21 +124,11 @@ export default {
 
                 h3 {
 
-                    color: $Mov;
-                    font-size: 32px;
-                    font-weight: 500;
-
                     img {
                         width: 56px;
                         height: 56px;
                     }
 
-                }
-
-                p {
-                    color: $Black;
-                    font-size: 18px;
-                    font-weight: 400;
                 }
 
             }
@@ -152,21 +146,11 @@ export default {
 
                 h3 {
 
-                    color: $Mov;
-                    font-size: 24px;
-                    font-weight: 500;
-
                     img {
                         width: 32px;
                         height: 32px;
                     }
 
-                }
-
-                p {
-                    color: $Black;
-                    font-size: 16px;
-                    font-weight: 400;
                 }
             }
 

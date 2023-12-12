@@ -13,6 +13,10 @@
         <Vision />
         <!-- End Vision -->
 
+        <!-- Start Know_Us -->
+        <KnowUs />
+        <!-- End Know_Us -->
+
         <!-- Start Footer -->
         <Footer />
         <!-- End Footer -->
@@ -25,6 +29,7 @@
 import About from '@/components/about/About.vue';
 import Service_About from '@/components/about/Service_About.vue';
 import Vision from '@/components/about/Vision.vue';
+import KnowUs from '@/components/about/KnowUs.vue';
 
 export default {
     name: 'AboutView',
@@ -32,6 +37,7 @@ export default {
         About,
         Service_About,
         Vision,
+        KnowUs,
     }
 }
 
