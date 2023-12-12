@@ -5,6 +5,10 @@
         <About />
         <!-- End About -->
 
+        <!-- Start Service_About -->
+        <Service_About />
+        <!-- End Service_About -->
+
         <!-- Start Footer -->
         <Footer />
         <!-- End Footer -->
@@ -13,13 +17,18 @@
 </template>
 
 <script>
+
 import About from '@/components/about/About.vue';
+import Service_About from '@/components/about/Service_About.vue';
+
 export default {
     name: 'AboutView',
     components: {
         About,
+        Service_About,
     }
 }
+
 </script>
 
 <style scoped lang="scss">

@@ -5,7 +5,7 @@
 
             <div class="row">
 
-                <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 animate__animated animate__backInDown animate__delay-0.9s animate__slow">
 
                     <div id="text_wrapper">
 
@@ -22,7 +22,7 @@
 
                 </div>
 
-                <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 animate__animated animate__backInUp animate__delay-0.9s animate__slow">
 
                     <div id="image_wrapper">
                         <img src="@/assets/images/about/about/About_kids.png" alt="">
