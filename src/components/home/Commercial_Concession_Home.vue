@@ -9,15 +9,16 @@
 
             <div class="row">
 
-                <div id="img_content" class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                <div id="img_content" class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
 
-                    <div id="img_wrapper" class="animate__animated animate__backInRight animate__delay-0.9s animate__slow">
-                        <img src="@/assets/images/home/commercial_concession/Kid pic.png" alt="">
+                    <!-- class="animate__animated animate__backInRight animate__delay-0.9s animate__slow" -->
+                    <div id="img_wrapper">
+                        <img src="@/assets/images/home/commercial_concession/Kid_pic.png" alt="">
                     </div>
 
                 </div>
 
-                <div id="text_content" class="col-12 col-sm-12 col-md-8 col-lg-8 col-xl-8 my-auto">
+                <div id="text_content" class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 my-auto">
 
                     <h3
                         class="fw-bold text-justify mb-4 animate__animated animate__backInDown animate__delay-0.9s animate__slow">
@@ -93,6 +94,10 @@ export default {
                 order: 2;
             }
 
+            @include breakpoints(medium) {
+                order: 2;
+            }
+
             #img_wrapper {
 
                 width: 339px;
@@ -108,10 +113,9 @@ export default {
                     height: 347px;
                 }
 
-                // 0.6
                 @include breakpoints(medium) {
-                    width: 203.4px;
-                    height: 235.2px;
+                    width: 343px;
+                    height: 347px;
                 }
 
                 // 0.8
@@ -142,6 +146,10 @@ export default {
                 order: 1;
             }
 
+            @include breakpoints(medium) {
+                order: 1;
+            }
+
             h3 {
                 color: $Mov;
                 font-size: 24px;
@@ -152,6 +160,10 @@ export default {
                 }
 
                 @include breakpoints(small) {
+                    text-align: center;
+                }
+
+                @include breakpoints(medium) {
                     text-align: center;
                 }
 

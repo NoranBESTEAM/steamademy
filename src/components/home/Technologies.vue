@@ -8,18 +8,18 @@
 
             <!-- In Large Screen -->
 
-            <div id="content_wrapper" class="d-none d-sm-none d-md-block d-lg-block d-xl-block">
+            <div id="content_wrapper" class="d-none d-sm-none d-md-none d-lg-block d-xl-block">
 
                 <div class="row">
 
-                    <div class="col-md-6 col-lg-6 col-xl-6">
+                    <div class="col-lg-6 col-xl-6">
 
                         <div id="right_content"
                             class="animate__animated animate__backInRight animate__delay-0.9s animate__slow">
 
-                            <div class="tech_ele" id="top_right">
+                            <div class="tech_ele mb-3" id="top_right">
 
-                                <div class="img_wrapper mb-3">
+                                <div class="img_wrapper">
                                     <img src="@/assets/images/home/technologies/الروبوتات.jpg" alt="">
                                 </div>
 
@@ -41,7 +41,7 @@
 
                     </div>
 
-                    <div class="col-md-6 col-lg-6 col-xl-6">
+                    <div class="col-lg-6 col-xl-6">
 
                         <div id="left_content"
                             class="animate__animated animate__backInLeft animate__delay-0.9s animate__slow">
@@ -53,9 +53,9 @@
                                 </router-link>
                             </div>
 
-                            <div class="tech_ele" id="top_left">
+                            <div class="tech_ele mb-3" id="top_left">
 
-                                <div class="img_wrapper mb-3">
+                                <div class="img_wrapper">
                                     <img src="@/assets/images/home/technologies/البرمجة.jpg" alt="">
                                 </div>
 
@@ -83,38 +83,44 @@
 
             <!-- In Small Screen -->
 
-            <div id="carouselExampleSlidesOnly"
-                class="carousel slide animate__animated animate__backInUp animate__delay-0.9s animate__slow d-block d-sm-block d-md-none d-lg-none d-xl-none"
-                data-bs-ride="carousel">
+            <div id="content_wrapper_mobile" class="d-block d-sm-block d-md-block d-lg-none d-xl-none">
 
-                <div class="carousel-inner">
+                <div id="carouselExampleSlidesOnly"
+                    class="carousel slide animate__animated animate__backInUp animate__delay-0.9s animate__slow"
+                    data-bs-ride="carousel">
 
-                    <div class="carousel-item active">
-                        <div class="image_wrapper">
-                            <img src="@/assets/images/home/technologies/الروبوتات.jpg" class="d-block w-100" alt="">
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <div class="image_wrapper">
+                                <img src="@/assets/images/home/technologies/الروبوتات.jpg" class="d-block w-100" alt="">
+                            </div>
+                            <h5 class="fw-bolder">تصميم وبرمجة الروبوتات</h5>
                         </div>
-                        <h5 class="fw-bolder">تصميم وبرمجة الروبوتات</h5>
-                    </div>
 
-                    <div class="carousel-item">
-                        <div class="image_wrapper">
-                            <img src="@/assets/images/home/technologies/التصنيع_الرقمي.jpg" class="d-block w-100" alt="">
+                        <div class="carousel-item">
+                            <div class="image_wrapper">
+                                <img src="@/assets/images/home/technologies/التصنيع_الرقمي.jpg" class="d-block w-100"
+                                    alt="">
+                            </div>
+                            <h5 class="fw-bolder">التصنيع الرقمي</h5>
                         </div>
-                        <h5 class="fw-bolder">التصنيع الرقمي</h5>
-                    </div>
 
-                    <div class="carousel-item">
-                        <div class="image_wrapper">
-                            <img src="@/assets/images/home/technologies/البرمجة.jpg" class="d-block w-100" alt="">
+                        <div class="carousel-item">
+                            <div class="image_wrapper">
+                                <img src="@/assets/images/home/technologies/البرمجة.jpg" class="d-block w-100" alt="">
+                            </div>
+                            <h5 class="fw-bolder">المتحكمات والإلكترونيات</h5>
                         </div>
-                        <h5 class="fw-bolder">المتحكمات والإلكترونيات</h5>
-                    </div>
 
-                    <div class="carousel-item">
-                        <div class="image_wrapper">
-                            <img src="@/assets/images/home/technologies/انترنت_الاشياء.jpg" class="d-block w-100" alt="">
+                        <div class="carousel-item">
+                            <div class="image_wrapper">
+                                <img src="@/assets/images/home/technologies/انترنت_الاشياء.jpg" class="d-block w-100"
+                                    alt="">
+                            </div>
+                            <h5 class="fw-bolder">إنترنت الأشياء</h5>
                         </div>
-                        <h5 class="fw-bolder">إنترنت الأشياء</h5>
+
                     </div>
 
                 </div>
@@ -296,45 +302,49 @@ export default {
 
     // In Small Screen
 
-    #carouselExampleSlidesOnly {
+    #content_wrapper_mobile {
 
-        .carousel-inner {
+        #carouselExampleSlidesOnly {
 
-            .carousel-item {
+            .carousel-inner {
 
-                padding-left: 8px;
-                padding-right: 8px;
+                .carousel-item {
 
-                .image_wrapper {
+                    padding-left: 8px;
+                    padding-right: 8px;
 
-                    border-radius: 16px;
-
-                    // width: 252px;
-                    width: 100%;
-                    height: 214px;
-
-                    background: $Gray;
-
-                    img {
-                        width: 100%;
-                        height: 100%;
-                        object-fit: cover;
+                    .image_wrapper {
 
                         border-radius: 16px;
+
+                        // width: 252px;
+                        width: 100%;
+                        height: 214px;
+
+                        background: $Gray;
+
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+
+                            border-radius: 16px;
+                        }
+
+                        position: relative;
+
                     }
 
-                    position: relative;
+                    h5 {
+                        color: $Ylo;
+                        font-size: 18px;
+                        // font-weight: 500;
 
-                }
+                        position: absolute;
+                        top: 24px;
+                        right: 27px;
+                    }
 
-                h5 {
-                    color: $Ylo;
-                    font-size: 18px;
-                    // font-weight: 500;
-
-                    position: absolute;
-                    top: 24px;
-                    right: 27px;
                 }
 
             }
