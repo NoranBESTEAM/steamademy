@@ -9,6 +9,10 @@
         <Service_About />
         <!-- End Service_About -->
 
+        <!-- Start Vision -->
+        <Vision />
+        <!-- End Vision -->
+
         <!-- Start Footer -->
         <Footer />
         <!-- End Footer -->
@@ -20,12 +24,14 @@
 
 import About from '@/components/about/About.vue';
 import Service_About from '@/components/about/Service_About.vue';
+import Vision from '@/components/about/Vision.vue';
 
 export default {
     name: 'AboutView',
     components: {
         About,
         Service_About,
+        Vision,
     }
 }
 
