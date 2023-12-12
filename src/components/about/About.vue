@@ -5,7 +5,7 @@
 
             <div class="row">
 
-                <div class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
 
                     <div id="text_wrapper">
 
@@ -22,7 +22,7 @@
 
                 </div>
 
-                <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5">
 
                     <div id="image_wrapper">
                         <img src="@/assets/images/about/about/About_kids.png" alt="">
@@ -56,6 +56,28 @@ export default {
 
         #text_wrapper {
 
+            margin-top: 12%;
+
+            @include breakpoints(x-small) {
+                margin: auto;
+            }
+
+            @include breakpoints(small) {
+                margin: auto;
+            }
+
+            @include breakpoints(medium) {
+                margin: auto;
+            }
+
+            @include breakpoints(large) {
+                margin-top: 3%;
+            }
+
+            @include breakpoints(x-Large) {
+                margin-top: 3%;
+            }
+
             h3 {
                 color: $Mov;
                 // text-align: right;
@@ -74,6 +96,7 @@ export default {
 
                 @include breakpoints(medium) {
                     font-size: 24px;
+                    text-align: center;
                 }
 
                 @include breakpoints(large) {
@@ -113,11 +136,17 @@ export default {
             }
 
             @include breakpoints(medium) {
-                width: 324px;
-                height: 235px;
+                width: 343px;
+                height: 254px;
+                margin: 0 auto;
             }
 
             @include breakpoints(large) {
+                width: 343px;
+                height: 254px;
+            }
+
+            @include breakpoints(x-Large) {
                 width: 343px;
                 height: 254px;
             }
