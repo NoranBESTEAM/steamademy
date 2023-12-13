@@ -66,14 +66,12 @@
 
                     <h3 class="fw-bold mb-4 animate__animated animate__backInDown animate__delay-0.9s animate__slow">
 
-                        <img src="@/assets/images/about/vision/رؤيتنا.svg" alt="" class="ms-3">رؤيتنا
+                        <img src="@/assets/images/about/vision/رسالتنا.svg" alt="" class="ms-3">رسالتنا
 
                     </h3>
 
-                    <p class="text-justify animate__animated animate__backInUp animate__delay-0.9s animate__slow">أن
-                        نكون قادرين على تقديم كافة الخدمات التي تمكن الجهات التعليمية والمدربين النهوض بالطلاب نحو
-                        مستقبل
-                        قائم على النهضة الصناعية الرابعة وتعزيز ثقتهم بنفسهم</p>
+                    <p class="text-justify animate__animated animate__backInUp animate__delay-0.9s animate__slow">تنمية
+                            روح الإبداع للطلاب ومساعتهم على خلق حلول مبتكرة لمواجهة المشاكل المجتمعية</p>
 
                 </div>
 

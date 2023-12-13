@@ -242,6 +242,8 @@ export default {
 
                 background: $Gray;
 
+                border: none;
+
                 .card-body {
 
                     .card-title {
@@ -277,6 +279,8 @@ export default {
                         .card {
 
                             background: $Gray;
+
+                            border: none;
 
                             height: 560px;
 
