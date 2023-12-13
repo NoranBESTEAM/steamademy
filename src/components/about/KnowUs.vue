@@ -17,7 +17,7 @@
 
             <div id="video_wrapper" class="ratio ratio-21x9 animate__animated animate__backInUp animate__delay-0.9s animate__slow">
                 <!-- https://www.w3schools.com/tags/att_video_poster.asp -->
-                <video poster="@/assets/images/about/know_us/Steam_Video.png" controls>
+                <video poster="@/assets/images/about/know_us/Steam_Video.jpg" controls>
                     <source src="@/assets/images/about/know_us/STEAMademy.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
