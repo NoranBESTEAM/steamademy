@@ -31,7 +31,7 @@
 
                     <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 animate__animated animate__backInDown animate__delay-0.9s animate__slow">
 
-                        <h5 class="fw-bolder mb-3">يهدف المحتوى لتوفير:</h5>
+                        <h5 class="fw-bold mb-3">يهدف المحتوى لتوفير:</h5>
 
                         <ul class="text-justify">
                             <li>برامج تعليمية متكاملة.</li>
@@ -95,7 +95,7 @@ export default {
             }
 
             h5 {
-                color: $MOV_Light;
+                color: $Pink;
                 font-size: 18px;
                 // font-weight: 500;
             }

@@ -204,6 +204,24 @@
 
                     </div>
 
+                    <!-- https://www.youtube.com/watch?v=BrCz-FlPGgk -->
+
+                    <!-- Carousel controls -->
+
+                    <div class="d-flex justify-content-center">
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly"
+                            data-bs-slide="next">
+                            <font-awesome-icon :icon="['fas', 'fa-chevron-right']" />
+                        </button>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly"
+                            data-bs-slide="prev">
+                            <font-awesome-icon :icon="['fas', 'fa-chevron-left']" />
+                        </button>
+
+                    </div>
+
                 </div>
 
             </div>
@@ -317,6 +335,19 @@ export default {
 
                     }
 
+                }
+
+                .carousel-control-prev,
+                .carousel-control-next {
+                    position: static;
+                    padding-top: 16px;
+
+                }
+
+                .carousel-control-prev svg,
+                .carousel-control-next svg {
+                    color: $Green;
+                    font-size: 24px;
                 }
 
             }

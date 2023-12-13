@@ -16,35 +16,35 @@
                     <div class="image_wrapper">
                         <img src="@/assets/images/home/fields/field_1.png" alt="">
                     </div>
-                    <h5 class="text-center fw-bold mt-2">الاستدامة والبيئة</h5>
+                    <h5 class="text-center fw-bold mt-3">الاستدامة والبيئة</h5>
                 </div>
 
                 <div class="field_ele">
                     <div class="image_wrapper">
                         <img src="@/assets/images/home/fields/field_2.png" alt="">
                     </div>
-                    <h5 class="text-center fw-bold mt-2">الفضاء والطيران</h5>
+                    <h5 class="text-center fw-bold mt-3">الفضاء والطيران</h5>
                 </div>
 
                 <div class="field_ele">
                     <div class="image_wrapper">
                         <img src="@/assets/images/home/fields/field_3.png" alt="">
                     </div>
-                    <h5 class="text-center fw-bold mt-2">الطاقة</h5>
+                    <h5 class="text-center fw-bold mt-3">الطاقة</h5>
                 </div>
 
                 <div class="field_ele">
                     <div class="image_wrapper">
                         <img src="@/assets/images/home/fields/field_4.png" alt="">
                     </div>
-                    <h5 class="text-center fw-bold mt-2">الاتصالات والإلكترونيات</h5>
+                    <h5 class="text-center fw-bold mt-3">الاتصالات والإلكترونيات</h5>
                 </div>
 
                 <div class="field_ele">
                     <div class="image_wrapper">
                         <img src="@/assets/images/home/fields/field_5.png" alt="">
                     </div>
-                    <h5 class="text-center fw-bold mt-2">الذكاء الاصطناعي والروبوتات</h5>
+                    <h5 class="text-center fw-bold mt-3">الذكاء الاصطناعي والروبوتات</h5>
                 </div>
 
             </div>
@@ -61,38 +61,52 @@
                         <div class="image_wrapper">
                             <img src="@/assets/images/home/fields/field_1.png" class="d-block w-100" alt="">
                         </div>
-                        <h5 class="text-center fw-bold mt-2">الاستدامة والبيئة</h5>
+                        <h5 class="text-center fw-bold mt-3">الاستدامة والبيئة</h5>
                     </div>
 
                     <div class="carousel-item">
                         <div class="image_wrapper">
                             <img src="@/assets/images/home/fields/field_2.png" class="d-block w-100" alt="">
                         </div>
-                        <h5 class="text-center fw-bold mt-2">الفضاء والطيران</h5>
+                        <h5 class="text-center fw-bold mt-3">الفضاء والطيران</h5>
                     </div>
 
                     <div class="carousel-item">
                         <div class="image_wrapper">
                             <img src="@/assets/images/home/fields/field_3.png" class="d-block w-100" alt="">
                         </div>
-                        <h5 class="text-center fw-bold mt-2">الطاقة</h5>
+                        <h5 class="text-center fw-bold mt-3">الطاقة</h5>
                     </div>
 
                     <div class="carousel-item">
                         <div class="image_wrapper">
                             <img src="@/assets/images/home/fields/field_4.png" class="d-block w-100" alt="">
                         </div>
-                        <h5 class="text-center fw-bold mt-2">الاتصالات والإلكترونيات</h5>
+                        <h5 class="text-center fw-bold mt-3">الاتصالات والإلكترونيات</h5>
                     </div>
 
                     <div class="carousel-item">
                         <div class="image_wrapper">
                             <img src="@/assets/images/home/fields/field_5.png" class="d-block w-100" alt="">
                         </div>
-                        <h5 class="text-center fw-bold mt-2">الذكاء الاصطناعي والروبوتات</h5>
+                        <h5 class="text-center fw-bold mt-3">الذكاء الاصطناعي والروبوتات</h5>
                     </div>
 
                 </div>
+
+                <!-- https://www.youtube.com/watch?v=BrCz-FlPGgk -->
+
+                <!-- Carousel controls -->
+
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly"
+                    data-bs-slide="next">
+                    <font-awesome-icon :icon="['fas', 'fa-chevron-right']" />
+                </button>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly"
+                    data-bs-slide="prev">
+                    <font-awesome-icon :icon="['fas', 'fa-chevron-left']" />
+                </button>
 
             </div>
 
@@ -229,6 +243,26 @@ export default {
 
             }
 
+        }
+
+        .carousel-control-next,
+        .carousel-control-prev {
+            svg {
+                font-size: 24px;
+                color: $Ylo;
+            }
+        }
+
+        .carousel-control-next {
+            svg {
+                margin-right: -50px;
+            }
+        }
+
+        .carousel-control-prev {
+            svg {
+                margin-left: -50px;
+            }
         }
 
     }

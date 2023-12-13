@@ -85,7 +85,7 @@
 
             <div id="content_wrapper_mobile" class="d-block d-sm-block d-md-block d-lg-none d-xl-none">
 
-                <div id="carouselExampleSlidesOnly"
+                <div id="carouselTechnologySlidesOnly"
                     class="carousel slide animate__animated animate__backInUp animate__delay-0.9s animate__slow"
                     data-bs-ride="carousel">
 
@@ -120,6 +120,24 @@
                             </div>
                             <h5 class="fw-bolder">إنترنت الأشياء</h5>
                         </div>
+
+                    </div>
+
+                    <!-- https://www.youtube.com/watch?v=BrCz-FlPGgk -->
+
+                    <!-- Carousel controls -->
+
+                    <div class="d-flex justify-content-center">
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselTechnologySlidesOnly"
+                            data-bs-slide="next">
+                            <font-awesome-icon :icon="['fas', 'fa-chevron-right']" />
+                        </button>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselTechnologySlidesOnly"
+                            data-bs-slide="prev">
+                            <font-awesome-icon :icon="['fas', 'fa-chevron-left']" />
+                        </button>
 
                     </div>
 
@@ -304,7 +322,7 @@ export default {
 
     #content_wrapper_mobile {
 
-        #carouselExampleSlidesOnly {
+        #carouselTechnologySlidesOnly {
 
             .carousel-inner {
 
@@ -347,6 +365,19 @@ export default {
 
                 }
 
+            }
+
+            .carousel-control-prev,
+            .carousel-control-next {
+                position: static;
+                padding-top: 16px;
+
+            }
+
+            .carousel-control-prev svg,
+            .carousel-control-next svg {
+                color: $Mov;
+                font-size: 24px;
             }
 
         }
