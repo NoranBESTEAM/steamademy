@@ -3,14 +3,15 @@
 
         <div class="container">
 
-            <h3 class="text-center fw-bold mb-4 animate__animated animate__backInDown animate__delay-0.9s animate__slow">
+            <h3
+                class="text-center fw-bold mb-4 wow animate__animated animate__backInDown animate__delay-0.9s animate__slow">
                 مجالات
                 STEAM التطبيقية</h3>
 
             <!-- In Large Screen -->
 
             <div id="content_wrapper"
-                class="animate__animated animate__backInUp animate__delay-0.9s animate__slow d-none d-sm-none d-md-block d-lg-block d-xl-block">
+                class="wow animate__animated animate__backInUp animate__delay-0.9s animate__slow d-none d-sm-none d-md-block d-lg-block d-xl-block">
 
                 <div class="field_ele">
                     <div class="image_wrapper">
@@ -52,7 +53,7 @@
             <!-- In Mobile Screen -->
 
             <div id="carouselExampleSlidesOnly"
-                class="carousel slide animate__animated animate__backInUp animate__delay-0.9s animate__slow d-block d-sm-block d-md-none d-lg-none d-xl-none"
+                class="carousel slide wow animate__animated animate__backInUp animate__delay-0.9s animate__slow d-block d-sm-block d-md-none d-lg-none d-xl-none"
                 data-bs-ride="carousel">
 
                 <div class="carousel-inner">
@@ -116,8 +117,12 @@
 </template>
 
 <script>
+import WOW from "wow.js";
 export default {
     name: 'Field_Home',
+    mounted() {
+        new WOW().init();
+    },
 }
 </script>
 
@@ -249,7 +254,7 @@ export default {
         .carousel-control-prev {
             svg {
                 font-size: 24px;
-                color: $Ylo;
+                color: $Orange;
             }
         }
 

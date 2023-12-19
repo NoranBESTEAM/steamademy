@@ -46,12 +46,12 @@
                         <div id="left_content"
                             class="animate__animated animate__backInLeft animate__delay-0.9s animate__slow">
 
-                            <div class="align-left">
+                            <!-- <div class="align-left">
                                 <router-link :to="{ name: '' }" type="button" class="btn mb-3">
                                     عرض الكل
                                     <font-awesome-icon :icon="['fas', 'fa-arrow-left']" class="me-2" />
                                 </router-link>
-                            </div>
+                            </div> -->
 
                             <div class="tech_ele mb-3" id="top_left">
 
@@ -211,7 +211,7 @@ export default {
             #top_right {
 
                 h5 {
-                    top: 26px;
+                    top: 25px;
                     right: 27px;
                 }
 
@@ -220,7 +220,7 @@ export default {
             #bottom_right {
 
                 h5 {
-                    top: 368px;
+                    top: 369px;
                     right: 27px;
                 }
 
@@ -230,35 +230,37 @@ export default {
 
         #left_content {
 
-            .align-left {
+            margin-top: 58px;
 
-                text-align: left;
+            // .align-left {
 
-                a {
+            //     text-align: left;
 
-                    display: inline-flex;
-                    justify-content: center;
-                    align-items: center;
+            //     a {
 
-                    border-radius: 4px;
-                    background: $Orange;
+            //         display: inline-flex;
+            //         justify-content: center;
+            //         align-items: center;
 
-                    /* Shadow */
-                    box-shadow: 0px 4px 4px 0px $BoxShadow;
+            //         border-radius: 4px;
+            //         background: $Orange;
 
-                    color: $White;
-                    font-size: 18px;
-                    font-weight: 500;
+            //         /* Shadow */
+            //         box-shadow: 0px 4px 4px 0px $BoxShadow;
 
-                    // float: inline-end;
+            //         color: $White;
+            //         font-size: 18px;
+            //         font-weight: 500;
 
-                    svg {
-                        width: 24px;
-                        height: 24px;
-                    }
-                }
+            //         // float: inline-end;
 
-            }
+            //         svg {
+            //             width: 24px;
+            //             height: 24px;
+            //         }
+            //     }
+
+            // }
 
             .tech_ele {
 
@@ -298,7 +300,7 @@ export default {
 
                 h5 {
                     // 58+24
-                    top: 82px;
+                    top: 25px;
                     right: 27px;
                 }
 
@@ -307,8 +309,8 @@ export default {
             #bottom_left {
 
                 h5 {
-                    // 372+24
-                    top: 396px;
+                    // 298+16+25
+                    top: 339px;
                     right: 27px;
                 }
 
@@ -376,7 +378,7 @@ export default {
 
             .carousel-control-prev svg,
             .carousel-control-next svg {
-                color: $Mov;
+                color: $Orange;
                 font-size: 24px;
             }
 

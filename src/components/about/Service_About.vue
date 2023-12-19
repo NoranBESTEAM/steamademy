@@ -182,6 +182,7 @@ export default {
                 font-weight: 500;
                 margin-top: 16px;
                 text-align: justify;
+                line-height: normal;
             }
 
         }

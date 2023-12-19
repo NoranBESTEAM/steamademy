@@ -346,7 +346,7 @@ export default {
 
                 .carousel-control-prev svg,
                 .carousel-control-next svg {
-                    color: $Green;
+                    color: $Orange;
                     font-size: 24px;
                 }
 

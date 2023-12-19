@@ -5,7 +5,7 @@
         <div class="container">
 
             <!-- Logo -->
-            <router-link to="/" class="navbar-brand">
+            <router-link to="/" class="navbar-brand p-0">
                 <img src="@/assets/images/navbar/logo.png" alt="SteamademyLogo" />
             </router-link>
 
@@ -175,7 +175,8 @@ nav {
 
                         a {
                             color: $Black;
-                            font-size: 16px;
+                            // font-size: 16px;
+                            font-size: 18px;
                             font-weight: 400;
                             line-height: normal;
                         }
@@ -202,6 +203,8 @@ nav {
                         color: $White;
                         font-size: 18px;
                         font-weight: 500;
+
+                        line-height: normal;
 
                         img {
                             width: 24px;

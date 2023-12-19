@@ -1,5 +1,4 @@
 <template>
-
     <!-- Enable Touch Simulation In Browser -->
 
     <section id="tools">
@@ -12,7 +11,10 @@
             <p class="text-justify animate__animated animate__backInDown animate__delay-0.9s animate__slow">نقدم الأدوات
                 والتقنيات التعليمية التي تساعد الطلاب على التعلم والابتكار، مثل:</p>
 
-            <div class="tool_wrapper animate__animated animate__backInUp animate__delay-0.9s animate__slow">
+            <!-- In Large Screen -->
+
+            <div
+                class="tool_wrapper animate__animated animate__backInUp animate__delay-0.9s animate__slow d-none d-sm-block d-md-block d-lg-block d-xl-block">
 
                 <div class="row">
 
@@ -26,7 +28,7 @@
                     </div>
 
                     <div class="tool_ele col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-3"
-                        @mouseover="ToolTwoTitle = true; ToolTwoDesc = true;"
+                        @mouseover="ToolTwoTitle = true; ToolOneTitle = false; ToolTwoDesc = true; ToolOneDesc = false;"
                         @mouseleave="ToolTwoTitle = false; ToolTwoDesc = false;">
                         <div class="img_wrapper">
                             <img src="@/assets/images/fields/tools/tool_2.png" alt="التصنيع الرقمي">
@@ -35,7 +37,7 @@
                     </div>
 
                     <div class="tool_ele col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-3"
-                        @mouseover="ToolThreeTitle = true; ToolThreeDesc = true;"
+                        @mouseover="ToolThreeTitle = true; ToolOneTitle = false; ToolThreeDesc = true; ToolOneDesc = false;"
                         @mouseleave="ToolThreeTitle = false; ToolThreeDesc = false;">
                         <div class="img_wrapper">
                             <img src="@/assets/images/fields/tools/tool_3.png" alt="إنترنت الأشياء">
@@ -44,7 +46,7 @@
                     </div>
 
                     <div class="tool_ele col-6 col-sm-6 col-md-6 col-lg-3 col-xl-3 p-3"
-                        @mouseover="ToolFourTitle = true; ToolFourDesc = true;"
+                        @mouseover="ToolFourTitle = true; ToolOneTitle = false; ToolFourDesc = true; ToolOneDesc = false;"
                         @mouseleave="ToolFourTitle = false; ToolFourDesc = false;">
                         <div class="img_wrapper">
                             <img src="@/assets/images/fields/tools/tool_4.png" alt="تصميم وبرمجة الروبوتات">
@@ -82,6 +84,113 @@
 
             </div>
 
+            <!-- In Mobile Screen -->
+
+            <div
+                class="tool_wrapper_mobile animate__animated animate__backInUp animate__delay-0.9s animate__slow d-block d-sm-none d-md-none d-lg-none d-xl-none">
+
+                <div id="carouselToolExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+
+                            <div class="tool_ele p-3">
+                                <div class="img_wrapper">
+                                    <img src="@/assets/images/fields/tools/tool_1.png" alt="المتحكمات والإلكترونيات">
+                                </div>
+                                <h5 class="text-center fw-bold mt-3 mb-0">المتحكمات والإلكترونيات</h5>
+                            </div>
+
+                            <div class="tool_desc">
+                                <p class="text-justify mt-3">نستخدم المتحكمات كأداة تعليمية لتعزيز فهم المفاهيم العلمية
+                                    والتقنية
+                                    والهندسية
+                                    والرياضيات، يتعلم الطلاب كيفية برمجة المتحكمات.</p>
+                            </div>
+
+                        </div>
+
+                        <div class="carousel-item">
+
+                            <div class="tool_ele p-3">
+                                <div class="img_wrapper">
+                                    <img src="@/assets/images/fields/tools/tool_2.png" alt="التصنيع الرقمي">
+                                </div>
+                                <h5 class="text-center fw-bold mt-3 mb-0">التصنيع الرقمي</h5>
+                            </div>
+
+                            <div class="tool_desc">
+                                <p class="text-justify mt-3">نستخدم المتحكمات كأداة تعليمية لتعزيز فهم المفاهيم العلمية
+                                    والتقنية
+                                    والهندسية
+                                    والرياضيات، يتعلم الطلاب كيفية برمجة المتحكمات.</p>
+                            </div>
+
+                        </div>
+
+                        <div class="carousel-item">
+
+                            <div class="tool_ele p-3">
+                                <div class="img_wrapper">
+                                    <img src="@/assets/images/fields/tools/tool_3.png" alt="إنترنت الأشياء">
+                                </div>
+                                <h5 class="text-center fw-bold mt-3 mb-0">إنترنت الأشياء</h5>
+                            </div>
+
+                            <div class="tool_desc">
+                                <p class="text-justify mt-3">يتعلم الطلاب كيفية تصميم وتطوير أنظمة ذكية تستند إلى إنترنت
+                                    الأشياء. يمكن
+                                    لهذه
+                                    التقنية أن تسهم في حل المشكلات في مجالات مثل الزراعة الذكية والمدن الذكية والرعاية
+                                    الصحية.</p>
+                            </div>
+
+                        </div>
+
+                        <div class="carousel-item">
+
+                            <div class="tool_ele p-3">
+                                <div class="img_wrapper">
+                                    <img src="@/assets/images/fields/tools/tool_4.png" alt="تصميم وبرمجة الروبوتات">
+                                </div>
+                                <h5 class="text-center fw-bold mt-3 mb-0">تصميم وبرمجة الروبوتات</h5>
+                            </div>
+
+                            <div class="tool_desc">
+                                <p class="text-justify mt-3">تعتبر البرمجة أداة أساسية في تعليم STEAM. يتعلم الطلاب كيفية
+                                    كتابة وتنفيذ الأكواد وتطوير التطبيقات والألعاب الإلكترونية. يتم تشجيعهم على التفكير
+                                    الإبداعي وحل المشكلات من خلال البرمجة، يتعلم الطلاب كيفية برمجة الروبوتات وتفاعلها مع
+                                    البيئة المحيطة بها. يمكن للروبوتات أن تساعد في تطوير مهارات التفكير النقدي وحل المشكلات
+                                    والعمل الجماعي.</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- https://www.youtube.com/watch?v=BrCz-FlPGgk -->
+
+                    <!-- Carousel controls -->
+
+                    <div class="d-flex justify-content-center">
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselToolExampleSlidesOnly"
+                            data-bs-slide="next">
+                            <font-awesome-icon :icon="['fas', 'fa-chevron-right']" />
+                        </button>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselToolExampleSlidesOnly"
+                            data-bs-slide="prev">
+                            <font-awesome-icon :icon="['fas', 'fa-chevron-left']" />
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
 
     </section>
@@ -98,7 +207,7 @@ export default {
 
             // https://www.youtube.com/watch?v=Y1qBr1VCm-A
 
-            ToolOneTitle: false,
+            ToolOneTitle: true,
 
             ToolTwoTitle: false,
 
@@ -106,7 +215,7 @@ export default {
 
             ToolFourTitle: false,
 
-            ToolOneDesc: false,
+            ToolOneDesc: true,
 
             ToolTwoDesc: false,
 
@@ -158,6 +267,8 @@ export default {
             font-weight: 400;
         }
 
+        // In Large Screen
+
         .tool_wrapper {
 
             .tool_ele {
@@ -165,11 +276,6 @@ export default {
                 width: calc(100% / 4 - 16px);
                 margin-left: 8px;
                 margin-right: 8px;
-
-                @include breakpoints(x-small) {
-                    width: calc(100% / 2 - 16px);
-                    margin-bottom: 16px;
-                }
 
                 @include breakpoints(small) {
                     width: calc(100% / 2 - 16px);
@@ -194,7 +300,7 @@ export default {
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
-                
+
                 .img_wrapper {
 
                     width: 104.464px;
@@ -208,20 +314,7 @@ export default {
 
                     }
 
-                    /* img:hover {
-                        -webkit-animation: blinker 1s linear infinite;
-                        -moz-animation: blinker 1s linear infinite;
-                        -ms-animation: blinker 1s linear infinite;
-                        -o-animation: blinker 1s linear infinite;
-                        animation: blinker 1s linear infinite;
-                    } */
-
                 }
-
-                /* .img_wrapper:hover {
-                    width: 91.652px;
-                    height: 80px;
-                } */
 
                 h5 {
                     color: $Dark-blue;
@@ -232,6 +325,16 @@ export default {
             }
 
             .tool_desc {
+
+                height: 60px;
+
+                @include breakpoints(small) {
+                    height: 100px;
+                }
+
+                @include breakpoints(medium) {
+                    height: 80px;
+                }
 
                 p {
                     color: $Black;
@@ -244,32 +347,92 @@ export default {
 
         }
 
+        // In Mobile Screen
+
+        .tool_wrapper_mobile {
+
+            .carousel {
+
+                .carousel-inner {
+
+                    .carousel-item {
+
+                        padding-left: 8px;
+                        padding-right: 8px;
+
+                        .tool_ele {
+
+                            height: 170px;
+
+                            border-radius: 8px;
+                            background: $Blue_Light;
+
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+
+
+                            .img_wrapper {
+
+                                width: 104.464px;
+                                height: 117px;
+
+                                img {
+
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: contain;
+
+                                }
+
+                            }
+
+                            h5 {
+                                color: $Dark-blue;
+                                font-size: 18px;
+                                font-weight: 500;
+                            }
+
+                        }
+
+                        .tool_desc {
+
+                            height: 190px;
+
+                            p {
+                                color: $Black;
+                                text-align: right;
+                                font-size: 16px;
+                                font-weight: 400;
+                            }
+
+                        }
+
+                    }
+
+                }
+
+                .carousel-control-prev,
+                .carousel-control-next {
+                    position: static;
+                    padding-top: 16px;
+
+                }
+
+                .carousel-control-prev svg,
+                .carousel-control-next svg {
+                    color: $Orange;
+                    font-size: 24px;
+                }
+
+            }
+
+        }
+
+
+
     }
 
-}
-
-// For Animation
-@-webkit-keyframes blinker {
-    50% {
-        opacity: 0;
-    }
-}
-
-@-moz-keyframes blinker {
-    50% {
-        opacity: 0;
-    }
-}
-
-@-o-keyframes blinker {
-    50% {
-        opacity: 0;
-    }
-}
-
-@keyframes blinker {
-    50% {
-        opacity: 0;
-    }
 }
 </style>

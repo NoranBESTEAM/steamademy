@@ -37,4 +37,8 @@ export default {
 #app a{
   text-decoration: none;
 }
+
+p{
+  text-align: justify !important;
+}
 </style>

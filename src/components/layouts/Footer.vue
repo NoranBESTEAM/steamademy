@@ -9,35 +9,38 @@
 
             <!-- Grid row -->
 
-            <div class="row animate__animated animate__lightSpeedInLeft animate__delay-0.9s animate__slow">
+            <div class="row">
 
                 <!-- Grid column -->
-                <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 mx-auto" id="about-us">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 mx-auto wow animate__animated animate__bounceInLeft animate__delay-0.5s animate__slow"
+                    id="about-us">
                     <img src="@/assets/images/footer/logo_white.png" alt="footer_logo">
                     <p class="mt-3 text-justify">شركة رائدة في خدمات STEAM التعليمية!</p>
                 </div>
                 <!-- Grid column -->
 
                 <!-- Grid column -->
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 mx-auto">
+                <div
+                    class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 mx-auto wow animate__animated animate__bounceInLeft animate__delay-1s animate__slow">
                     <!-- Links -->
                     <h6 class="fw-bold mb-3">
                         روابط هامة
                     </h6>
                     <p>
-                        <a href="/about" class="text-reset">من نحن</a>
+                        <a href="/#/about" class="text-reset">من نحن</a>
                     </p>
                     <p>
-                        <a href="/commercial_concession" class="text-reset">امتياز STEAM التجاري</a>
+                        <a href="/#/commercial_concession" class="text-reset">امتياز STEAM التجاري</a>
                     </p>
                     <p>
-                        <a href="/steam_fields" class="text-reset">مجالات STEAM</a>
+                        <a href="/#/steam_fields" class="text-reset">مجالات STEAM</a>
                     </p>
                 </div>
                 <!-- Grid column -->
 
                 <!-- Grid column -->
-                <div class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 mx-auto">
+                <div
+                    class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 mx-auto wow animate__animated animate__bounceInLeft animate__delay-2s animate__slow">
                     <!-- Links -->
                     <h6 class="fw-bold mb-3">
                         تواصل معنا
@@ -48,17 +51,18 @@
                     </p>
                     <p>
                         <img src="@/assets/images/footer/phone.svg" alt="Contact" class="contactImg ms-2">
-                        <span>966531577796+</span>
+                        <span>9-6653-1577-796+</span>
                     </p>
                     <p>
                         <img src="@/assets/images/footer/mail.svg" alt="Mail" class="contactImg ms-2">
-                        <a href="https://portal.thaka.sa/ar" class="text-reset">info@Steamademy.com</a>
+                        <a href="mailto:info@Steamademy.com" class="text-reset">info@Steamademy.com</a>
                     </p>
                 </div>
                 <!-- Grid column -->
 
                 <!-- Grid column -->
-                <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 mx-auto">
+                <div
+                    class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 mx-auto wow animate__animated animate__bounceInLeft animate__delay-3s animate__slow">
                     <!-- Links -->
                     <h6 class="fw-bold mb-3">آخر الأخبار</h6>
                     <p>ادخل بريدك الإلكتروني ليصلك كل جديد</p>
@@ -101,9 +105,12 @@
         </div>
 
         <!-- Copyright -->
-        <div class="text-center pt-3 pb-3" id="copyright">
-            جميع الحقوق محفوظة
-            &copy; <a class="text-reset fw-bold" href="">Steamademy</a> {{ new Date().getFullYear() }}
+        <!--  -->
+        <div class="text-center pt-2 pb-2 wow animate__animated animate__backInDown animate__delay-4s animate__slow"
+            id="copyright">
+            تم التطوير من قبل
+            <a class="text-reset fw-bold" href="https://thaka.net/#/">شركة ذكاء انترناشيونال</a> &copy; {{ new
+                Date().getFullYear() }}
         </div>
         <!-- Copyright -->
 
@@ -113,8 +120,12 @@
 </template>
 
 <script>
+import WOW from "wow.js";
 export default {
     name: 'Footer',
+    mounted() {
+        new WOW().init();
+    },
 }
 </script>
 
@@ -135,15 +146,29 @@ footer {
 
         padding-top: 40px;
 
-        padding-bottom: 16px;
+        padding-bottom: 8px;
 
         border-bottom: 1px solid $White;
+
+        h6 {
+            @include breakpoints(x-small) {
+                margin-top: 16px;
+            }
+            @include breakpoints(small) {
+                margin-top: 16px;
+            }
+            @include breakpoints(medium) {
+                margin-top: 16px;
+            }
+        }
 
         p {
             font-size: 14px;
             // font-size: 16px;
             font-weight: 400;
         }
+
+        // In Grid One
 
         #about-us {
 
@@ -165,11 +190,15 @@ footer {
 
         }
 
+        // In Grid Two
+
+        // In Grid Three
         .contactImg {
             width: 24px;
             height: 24px;
         }
 
+        // In Grid Four
         .input-group {
 
             @include breakpoints(x-small) {
@@ -225,12 +254,24 @@ footer {
 
         }
 
+        #social {
+            a {
+                svg {
+                    color: $Orange;
+                }
+            }
+        }
+
     }
 
     #copyright {
         font-size: 12px;
         // font-size: 16px; 
         font-weight: 400;
+
+        a {
+            color: $Orange !important;
+        }
     }
 
 }

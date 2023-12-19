@@ -107,10 +107,10 @@
                                 <img src="@/assets/images/home/fields/field_1.png" class="d-block w-100" alt="">
                             </div>
                             <h5 class="title_one text-center fw-bold mt-3 mb-4">الاستدامة والبيئة</h5>
-                            <hr class="m-auto" />
+                            <!-- <hr class="m-auto" />
                             <div class="img_wrapper">
                                 <img src="@/assets/images/fields/fields/1.png" alt="">
-                            </div>
+                            </div> -->
                             <div class="field_txt text_one mt-3 mx-auto p-3">
                                 <p class="text-justify">هدفنا هو تدريب الطلاب على إيجاد حلول للمشكلات البيئية وتطبيق مبادئ
                                     الاستدامة
@@ -124,10 +124,10 @@
                                 <img src="@/assets/images/home/fields/field_2.png" class="d-block w-100" alt="">
                             </div>
                             <h5 class="title_two text-center fw-bold mt-3 mb-4">الفضاء والطيران</h5>
-                            <hr class="m-auto" />
+                            <!-- <hr class="m-auto" />
                             <div class="img_wrapper">
                                 <img src="@/assets/images/fields/fields/2.png" alt="">
-                            </div>
+                            </div> -->
                             <div class="field_txt text_two mt-3 mx-auto p-3">
                                 <p class="text-justify">نهدف إلى تزويد الطلاب بالمعرفة والمهارات المتعلقة بتكنولوجيا الفضاء
                                     والطيران.</p>
@@ -139,10 +139,10 @@
                                 <img src="@/assets/images/home/fields/field_3.png" class="d-block w-100" alt="">
                             </div>
                             <h5 class="title_three text-center fw-bold mt-3 mb-4">الطاقة</h5>
-                            <hr class="m-auto" />
+                            <!-- <hr class="m-auto" />
                             <div class="img_wrapper">
                                 <img src="@/assets/images/fields/fields/3.png" alt="">
-                            </div>
+                            </div> -->
                             <div class="field_txt text_three mt-3 mx-auto p-3">
                                 <p class="text-justify">نعلم الطلاب المفاهيم الأساسية عن الطاقة المتجددة وتوليد الطاقة
                                     ليكونوا
@@ -156,10 +156,10 @@
                                 <img src="@/assets/images/home/fields/field_4.png" alt="">
                             </div>
                             <h5 class="title_four text-center fw-bold mt-3 mb-4">الاتصالات والإلكترونيات</h5>
-                            <hr class="m-auto" />
+                            <!-- <hr class="m-auto" />
                             <div class="img_wrapper">
                                 <img src="@/assets/images/fields/fields/4.png" class="d-block w-100" alt="">
-                            </div>
+                            </div> -->
                             <div class="field_txt text_four mt-3 mx-auto p-3">
                                 <p class="text-justify">ندرب الطلاب على المفاهيم الأساسية لتقنيات الاتصالات والإلكترونيات
                                     ليكونوا
@@ -173,10 +173,10 @@
                                 <img src="@/assets/images/home/fields/field_5.png" alt="">
                             </div>
                             <h5 class="title_five text-center fw-bold mt-3 mb-4">الذكاء الاصطناعي والروبوتات</h5>
-                            <hr class="m-auto" />
+                            <!-- <hr class="m-auto" />
                             <div class="img_wrapper">
                                 <img src="@/assets/images/fields/fields/5.png" class="d-block w-100" alt="">
-                            </div>
+                            </div> -->
                             <div class="field_txt text_five mt-3 mx-auto p-3">
                                 <p class="text-justify">يطبق الطلاب مخرجات نهج STEAM التعليمي في مشاريع متعلقة بالذكاء
                                     الاصطناعي
@@ -417,7 +417,7 @@ export default {
             .carousel-control-prev {
                 svg {
                     font-size: 24px;
-                    color: $Mov;
+                    color: $Orange;
                 }
             }
 
