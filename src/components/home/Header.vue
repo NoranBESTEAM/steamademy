@@ -16,27 +16,31 @@
 
             <div id="content">
 
-                <div id="content_wrapper">
+                <div class="container">
 
-                    <h1 class="mt-0 mb-4 fw-bold text-justify">
-                        شركة رائدة
-                        <span>...</span>
-                        <br />
-                        في خدمات
-                        <br />
-                        <span>STEAM</span>
-                        التعلـيمية
-                        <span>!</span>
-                    </h1>
+                    <div id="content_wrapper">
 
-                    <p class="text-justify">نعمل لتأهيل الطلاب في مهارات المستقبل القائمة على النهضة الصناعية الرابعة عن
-                        طريق توفير كل متطلبات
-                        الحصول على امتياز STEAM التجاري. نهدف إلى تمكين الجهات التعليمية والمدربين من تقديم بيئة تعليمية
-                        مستدامة ومبتكرة تعزز مهارات التطبيق العملي والإبداع والتعاون وحل المشكلات.</p>
+                        <h1 class="mt-0 mb-4 fw-bold text-justify">
+                            شركة رائدة
+                            <span>...</span>
+                            <br />
+                            في خدمات
+                            <br />
+                            <span>STEAM</span>
+                            التعلـيمية
+                            <span>!</span>
+                        </h1>
 
-                    <router-link :to="{ name: 'about' }" type="button" class="btn">
-                        عرض المزيد
-                    </router-link>
+                        <p class="text-justify">نعمل لتأهيل الطلاب في مهارات المستقبل القائمة على النهضة الصناعية الرابعة عن
+                            طريق توفير كل متطلبات
+                            الحصول على امتياز STEAM التجاري. نهدف إلى تمكين الجهات التعليمية والمدربين من تقديم بيئة تعليمية
+                            مستدامة ومبتكرة تعزز مهارات التطبيق العملي والإبداع والتعاون وحل المشكلات.</p>
+
+                        <router-link :to="{ name: 'about' }" type="button" class="btn">
+                            عرض المزيد
+                        </router-link>
+
+                    </div>
 
                 </div>
 
@@ -62,25 +66,22 @@ export default {
 
     margin-top: 72px;
     width: 100%;
-    height: 900px;
+    // height: 900px;
+    height: 100vh;
 
     @include breakpoints(x-small) {
-        height: 720px;
+        height: 800px;
     }
 
     @include breakpoints(small) {
-        height: 670px;
+        height: 750px;
     }
 
     @include breakpoints(medium) {
-        height: 770px;
+        height: 800px;
     }
 
     @include breakpoints(large) {
-        height: 930px;
-    }
-
-    @include breakpoints(x-Large) {
         height: 750px;
     }
 
@@ -88,7 +89,7 @@ export default {
     /* The image used */
     background-image: url("@/assets/images/home/header/header_bg.jpg");
     /* Used if the image is unavailable */
-    background-color: $Gray;
+    // background-color: $Gray;
     /* Center the image */
     background-position: center;
     /* Do not repeat the image */
@@ -121,54 +122,48 @@ export default {
             #content_wrapper {
 
                 position: absolute;
-                right: 10%;
-                top: 223px;
+                top: 30vh;
 
                 color: $White;
 
                 @include breakpoints(x-small) {
-                    top: 300px;
+                    top: 28vh;
                 }
 
                 @include breakpoints(small) {
-                    top: 290px;
+                    top: 25vh;
                 }
 
                 @include breakpoints(medium) {
-                    top: 400px;
+                    top: 32vh;
                 }
 
                 @include breakpoints(large) {
-                    top: 560px;
+                    top: 25vh;
+                }
+
+                @include breakpoints(x-Large) {
+                    top: 35vh;
                 }
 
                 h1 {
 
+                    font-family: 'Bahij_TheSansArabic_Bold';
+
                     font-size: 56px;
+
+                    line-height: normal;
 
                     @include breakpoints(x-small) {
                         font-size: 35px;
-                        font-weight: bolder;
                     }
 
                     @include breakpoints(small) {
-                        font-size: 40px;
-                        font-weight: bolder;
+                        font-size: 35px;
                     }
 
                     @include breakpoints(medium) {
                         font-size: 40px;
-                        font-weight: bolder;
-                    }
-
-                    @include breakpoints(large) {
-                        font-size: 40px;
-                        font-weight: bolder;
-                    }
-
-                    @include breakpoints(x-Large) {
-                        font-size: 40px;
-                        font-weight: bolder;
                     }
 
                     span {
@@ -179,37 +174,30 @@ export default {
 
                 p {
 
-                    width: 585px;
+                    width: 60%;
                     font-size: 20px;
                     font-weight: 400;
 
+                    margin-bottom: 40px;
+
                     @include breakpoints(x-small) {
-                        font-size: 18px;
-                        width: 100%;
-                        padding-left: 16px;
+                        width: 90%;
                     }
 
                     @include breakpoints(small) {
-                        font-size: 18px;
-                        width: 100%;
-                        padding-left: 16px;
+                        width: 90%;
                     }
 
                     @include breakpoints(medium) {
-                        font-size: 18px;
-                        width: 100%;
-                        padding-left: 16px;
+                        width: 90%;
                     }
 
                     @include breakpoints(large) {
-                        font-size: 18px;
-                        width: 100%;
-                        padding-left: 16px;
+                        width: 90%;
                     }
 
                     @include breakpoints(x-Large) {
-                        width: 475px;
-                        font-size: 18px;
+                        width: 57%;
                     }
 
                 }
@@ -225,6 +213,7 @@ export default {
                     color: $White;
                     font-size: 18px;
                     font-weight: 500;
+                    line-height: normal;
                 }
 
             }
@@ -232,12 +221,14 @@ export default {
             #img_wrapper {
 
                 position: absolute;
-                top: 0;
+                top: -45px;
                 left: 0;
 
-                // In Large
-                width: 1081px;
-                height: 952px;
+                // In X-Large
+                // width: 1081px;
+                // height: 952px;
+                width: 996px;
+                height: 800px;
 
                 // In Responsive
 
@@ -257,13 +248,8 @@ export default {
                 }
 
                 @include breakpoints(large) {
-                    width: 996px;
-                    height: 800px;
-                }
-
-                @include breakpoints(x-Large) {
-                    width: 996px;
-                    height: 800px;
+                    width: 796px;
+                    height: 600px;
                 }
 
                 img {
