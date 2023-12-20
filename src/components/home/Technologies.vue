@@ -3,7 +3,7 @@
 
         <div class="container">
 
-            <h3 class="text-center fw-bold mb-4 animate__animated animate__backInDown animate__delay-0.9s animate__slow">
+            <h3 class="text-center fw-bold mb-4 wow animate__animated animate__backInDown animate__delay-3s animate__slow">
                 الأدوات والتقنيات المستخدمة</h3>
 
             <!-- In Large Screen -->
@@ -12,10 +12,10 @@
 
                 <div class="row">
 
-                    <div class="col-lg-6 col-xl-6">
+                    <div
+                        class="col-lg-6 col-xl-6 wow animate__animated animate__backInRight animate__delay-3s animate__slow">
 
-                        <div id="right_content"
-                            class="animate__animated animate__backInRight animate__delay-0.9s animate__slow">
+                        <div id="right_content">
 
                             <div class="tech_ele mb-3" id="top_right">
 
@@ -41,10 +41,10 @@
 
                     </div>
 
-                    <div class="col-lg-6 col-xl-6">
+                    <div
+                        class="col-lg-6 col-xl-6 wow animate__animated animate__backInLeft animate__delay-3s animate__slow">
 
-                        <div id="left_content"
-                            class="animate__animated animate__backInLeft animate__delay-0.9s animate__slow">
+                        <div id="left_content">
 
                             <!-- <div class="align-left">
                                 <router-link :to="{ name: '' }" type="button" class="btn mb-3">
@@ -86,19 +86,19 @@
             <div id="content_wrapper_mobile" class="d-block d-sm-block d-md-block d-lg-none d-xl-none">
 
                 <div id="carouselTechnologySlidesOnly"
-                    class="carousel slide animate__animated animate__backInUp animate__delay-0.9s animate__slow"
+                    class="carousel slide wow animate__animated animate__backInUp animate__delay-3s animate__slow"
                     data-bs-ride="carousel">
 
                     <div class="carousel-inner">
 
-                        <div class="carousel-item active">
+                        <div class="carousel-item active" data-bs-interval="10000">
                             <div class="image_wrapper">
                                 <img src="@/assets/images/home/technologies/الروبوتات.jpg" class="d-block w-100" alt="">
                             </div>
                             <h5 class="fw-bolder">تصميم وبرمجة الروبوتات</h5>
                         </div>
 
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="10000">
                             <div class="image_wrapper">
                                 <img src="@/assets/images/home/technologies/التصنيع_الرقمي.jpg" class="d-block w-100"
                                     alt="">
@@ -106,14 +106,14 @@
                             <h5 class="fw-bolder">التصنيع الرقمي</h5>
                         </div>
 
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="10000">
                             <div class="image_wrapper">
                                 <img src="@/assets/images/home/technologies/البرمجة.jpg" class="d-block w-100" alt="">
                             </div>
                             <h5 class="fw-bolder">المتحكمات والإلكترونيات</h5>
                         </div>
 
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="10000">
                             <div class="image_wrapper">
                                 <img src="@/assets/images/home/technologies/انترنت_الاشياء.jpg" class="d-block w-100"
                                     alt="">
@@ -151,8 +151,12 @@
 </template>
 
 <script>
+import WOW from "wow.js";
 export default {
     name: 'Technologies',
+    mounted() {
+        new WOW().init();
+    },
 }
 </script>
 
@@ -163,9 +167,11 @@ export default {
     padding-bottom: 40px;
 
     h3 {
+        font-family: 'Bahij_TheSansArabic_Bold';
         color: $Mov;
         font-size: 24px;
         // font-weight: 500;
+        line-height: normal;
     }
 
     // In Large Screen
@@ -173,6 +179,8 @@ export default {
     #content_wrapper {
 
         #right_content {
+
+            position: relative;
 
             .tech_ele {
 
@@ -192,9 +200,13 @@ export default {
                         object-fit: cover;
 
                         border-radius: 16px;
+
+                        opacity: 0.6;
                     }
 
-                    position: relative;
+                    img:hover{
+                        opacity: 1;
+                    }
 
                 }
 
@@ -202,6 +214,7 @@ export default {
                     color: $Ylo;
                     font-size: 18px;
                     // font-weight: 500;
+                    line-height: normal;
 
                     position: absolute;
                 }
@@ -229,6 +242,8 @@ export default {
         }
 
         #left_content {
+
+            position: relative;
 
             margin-top: 58px;
 
@@ -280,9 +295,13 @@ export default {
                         object-fit: cover;
 
                         border-radius: 16px;
+
+                        opacity: 0.6;
                     }
 
-                    position: relative;
+                    img:hover{
+                        opacity: 1;
+                    }
 
                 }
 
@@ -290,6 +309,7 @@ export default {
                     color: $Ylo;
                     font-size: 18px;
                     // font-weight: 500;
+                    line-height: normal;
 
                     position: absolute;
                 }
@@ -349,6 +369,12 @@ export default {
                             object-fit: cover;
 
                             border-radius: 16px;
+
+                            opacity: 0.6;
+                        }
+
+                        img:hover{
+                            opacity: 1;
                         }
 
                         position: relative;
@@ -359,6 +385,7 @@ export default {
                         color: $Ylo;
                         font-size: 18px;
                         // font-weight: 500;
+                        line-height: normal;
 
                         position: absolute;
                         top: 24px;

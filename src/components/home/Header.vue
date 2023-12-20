@@ -66,8 +66,7 @@ export default {
 
     margin-top: 72px;
     width: 100%;
-    // height: 900px;
-    height: 100vh;
+    height: 900px;
 
     @include breakpoints(x-small) {
         height: 800px;
@@ -82,7 +81,7 @@ export default {
     }
 
     @include breakpoints(large) {
-        height: 750px;
+        height: 830px;
     }
 
     // https://www.w3schools.com/cssref/pr_background-image.php
@@ -122,28 +121,24 @@ export default {
             #content_wrapper {
 
                 position: absolute;
-                top: 30vh;
+                top: 320px;
 
                 color: $White;
 
                 @include breakpoints(x-small) {
-                    top: 28vh;
+                    top: 250px;
                 }
 
                 @include breakpoints(small) {
-                    top: 25vh;
+                    top: 220px;
                 }
 
                 @include breakpoints(medium) {
-                    top: 32vh;
+                    top: 300px;
                 }
 
                 @include breakpoints(large) {
-                    top: 25vh;
-                }
-
-                @include breakpoints(x-Large) {
-                    top: 35vh;
+                    top: 230px;
                 }
 
                 h1 {
@@ -181,20 +176,18 @@ export default {
                     margin-bottom: 40px;
 
                     @include breakpoints(x-small) {
-                        width: 90%;
+                        width: 95%;
                     }
 
                     @include breakpoints(small) {
-                        width: 90%;
+                        width: 80%;
                     }
 
                     @include breakpoints(medium) {
-                        width: 90%;
+                        width: 80%;
                     }
 
-                    @include breakpoints(large) {
-                        width: 90%;
-                    }
+                    // @include breakpoints(large) {}
 
                     @include breakpoints(x-Large) {
                         width: 57%;

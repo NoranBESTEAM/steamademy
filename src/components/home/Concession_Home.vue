@@ -1,36 +1,32 @@
 <template>
-    <section id="commercial_concession">
-
-        <img src="@/assets/images/home/commercial_concession/Triangle.svg" alt="" id="top_left">
-
-        <img src="@/assets/images/home/commercial_concession/Triangle2.svg" alt="" id="bottom_right">
+    <section id="concession_home">
 
         <div class="container">
 
             <div class="row">
 
-                <div id="img_content" class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                <div id="img_content"
+                    class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 wow animate__animated animate__fadeIn animate__delay-1s animate__slow">
 
-                    <!-- class="animate__animated animate__backInRight animate__delay-0.9s animate__slow" -->
                     <div id="img_wrapper">
                         <img src="@/assets/images/home/commercial_concession/Kid_pic.png" alt="">
                     </div>
 
                 </div>
 
-                <div id="text_content" class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 my-auto">
+                <div id="text_content"
+                    class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 my-auto">
 
-                    <h3
-                        class="fw-bold text-justify mb-4 animate__animated animate__backInDown animate__delay-0.9s animate__slow">
+                    <h3 class="fw-bold text-justify mb-4 wow animate__animated animate__backInDown animate__delay-1s animate__slow">
                         امتياز STEAM التجاري</h3>
 
-                    <p class="text-justify mb-4 animate__animated animate__backInUp animate__delay-0.9s animate__slow">يوفر
+                    <p class="text-justify mb-4 wow animate__animated animate__backInUp animate__delay-1s animate__slow">
+                        يوفر
                         لك منظومة متكاملة لتحقيق أفضل عائد على استثماراتك بداية من التجهيزات
                         والمحتوى العلمي وتأهيل فريقك وحتى وسائل التواصل مع الطلاب والتسويق كل ما عليك هو أن تؤمن بقدرتك على
                         تغيير المستقبل وتحقيق أهداف الثورة الصناعية الرابعة.</p>
 
-                    <router-link :to="{ name: 'commercial_concession' }" type="button"
-                        class="btn fw-bold animate__animated animate__backInUp animate__delay-0.9s animate__slow">
+                    <router-link :to="{ name: 'commercial_concession' }" type="button" class="btn fw-bold wow animate__animated animate__backInUp animate__delay-1s animate__slow">
                         عرض المزيد
                         <font-awesome-icon :icon="['fas', 'fa-arrow-left']" class="me-2" />
                     </router-link>
@@ -45,44 +41,30 @@
 </template>
 
 <script>
+import WOW from "wow.js";
 export default {
-    name: 'Commercial_Concession_Home',
+    name: 'Concession_Home',
+    mounted() {
+        new WOW().init();
+    },
 }
 </script>
 
 <style lang="scss" scoped>
-#commercial_concession {
+#concession_home {
 
     padding-top: 40px;
     padding-bottom: 40px;
+
+    // https://www.w3schools.com/css/css3_backgrounds.asp
+
+    background: url("@/assets/images/home/commercial_concession/Triangle.svg") left top no-repeat, url("@/assets/images/home/commercial_concession/Triangle2.svg") right bottom no-repeat;
+
+    background-size: 356.495px 291px, 356.495px 291px;
+
     background-color: $Gray;
-    z-index: -2;
-
-    position: relative;
-
-    #top_left {
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
-
-    #bottom_right {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-    }
-
-    #top_left,
-    #bottom_right {
-        width: 356.495px;
-        height: 291px;
-        z-index: -1;
-        opacity: 70%;
-    }
 
     .container {
-
-        z-index: 1;
 
         #img_content {
 
@@ -151,9 +133,11 @@ export default {
             }
 
             h3 {
+                font-family: 'Bahij_TheSansArabic_Bold';
                 color: $Mov;
                 font-size: 24px;
                 // font-weight: 500;
+                line-height: normal;
 
                 @include breakpoints(x-small) {
                     text-align: center;
@@ -173,6 +157,7 @@ export default {
                 color: $Black;
                 font-size: 18px;
                 font-weight: 400;
+                line-height: normal; 
             }
 
             a {
@@ -184,6 +169,7 @@ export default {
                 color: $Orange;
                 font-size: 18px;
                 // font-weight: 500;
+                line-height: normal;
 
                 svg {
                     width: 24px;
@@ -194,6 +180,5 @@ export default {
         }
 
     }
-
 }
 </style>

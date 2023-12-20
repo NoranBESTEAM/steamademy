@@ -105,10 +105,9 @@
         </div>
 
         <!-- Copyright -->
-        <!--  -->
-        <div class="text-center pt-2 pb-2 wow animate__animated animate__backInDown animate__delay-4s animate__slow"
+        <div class="text-center pt-2 pb-2 wow animate__animated animate__bounceInLeft animate__delay-3.5s animate__slow"
             id="copyright">
-            تم التطوير من قبل
+            جميع الحقوق محفوظة | تم التطوير بواسطة
             <a class="text-reset fw-bold" href="https://thaka.net/#/">شركة ذكاء انترناشيونال</a> &copy; {{ new
                 Date().getFullYear() }}
         </div>
@@ -154,9 +153,11 @@ footer {
             @include breakpoints(x-small) {
                 margin-top: 16px;
             }
+
             @include breakpoints(small) {
                 margin-top: 16px;
             }
+
             @include breakpoints(medium) {
                 margin-top: 16px;
             }
@@ -268,6 +269,10 @@ footer {
         font-size: 12px;
         // font-size: 16px; 
         font-weight: 400;
+
+        @include breakpoints(x-small) {
+            font-size: 10px;
+        }
 
         a {
             color: $Orange !important;

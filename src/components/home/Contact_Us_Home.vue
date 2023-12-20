@@ -1,7 +1,7 @@
 <template>
     <section id="contact_us">
 
-        <div class="container d-flex justify-content-center align-items-center animate__animated animate__flash animate__delay-0.9s animate__slow">
+        <div class="container d-flex justify-content-center align-items-center wow animate__animated animate__bounceIn animate__delay-3s animate__slow">
 
             <div id="text_wrapper" class="d-inline-block ms-5 mb-5">
 
@@ -42,8 +42,12 @@
 </template>
 
 <script>
+import WOW from "wow.js";
 export default {
     name: 'Contact_Us_Home',
+    mounted() {
+        new WOW().init();
+    },
 }
 </script>
 
@@ -86,6 +90,7 @@ export default {
                 // text-align: right;
                 font-size: 20px;
                 // font-weight: 500;
+                line-height: normal;
             }
 
             p {
@@ -93,6 +98,7 @@ export default {
                 // text-align: right;
                 font-size: 24px;
                 // font-weight: 500;
+                line-height: normal;
             }
 
         }
@@ -118,6 +124,7 @@ export default {
                 color: $White;
                 font-size: 18px;
                 font-weight: 500;
+                line-height: normal;
 
                 svg {
                     width: 24px;

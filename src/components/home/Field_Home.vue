@@ -3,15 +3,14 @@
 
         <div class="container">
 
-            <h3
-                class="text-center fw-bold mb-4 wow animate__animated animate__backInDown animate__delay-0.9s animate__slow">
+            <h3 class="text-center fw-bold mb-4 wow animate__animated animate__backInDown animate__delay-2s animate__slow">
                 مجالات
                 STEAM التطبيقية</h3>
 
             <!-- In Large Screen -->
 
             <div id="content_wrapper"
-                class="wow animate__animated animate__backInUp animate__delay-0.9s animate__slow d-none d-sm-none d-md-block d-lg-block d-xl-block">
+                class="wow animate__animated animate__backInUp animate__delay-2s animate__slow d-none d-sm-none d-md-block d-lg-block d-xl-block">
 
                 <div class="field_ele">
                     <div class="image_wrapper">
@@ -53,40 +52,40 @@
             <!-- In Mobile Screen -->
 
             <div id="carouselExampleSlidesOnly"
-                class="carousel slide wow animate__animated animate__backInUp animate__delay-0.9s animate__slow d-block d-sm-block d-md-none d-lg-none d-xl-none"
+                class="carousel slide wow animate__animated animate__backInUp animate__delay-2s animate__slow d-block d-sm-block d-md-none d-lg-none d-xl-none"
                 data-bs-ride="carousel">
 
                 <div class="carousel-inner">
 
-                    <div class="carousel-item active">
+                    <div class="carousel-item active" data-bs-interval="15000">
                         <div class="image_wrapper">
                             <img src="@/assets/images/home/fields/field_1.png" class="d-block w-100" alt="">
                         </div>
                         <h5 class="text-center fw-bold mt-3">الاستدامة والبيئة</h5>
                     </div>
 
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-bs-interval="15000">
                         <div class="image_wrapper">
                             <img src="@/assets/images/home/fields/field_2.png" class="d-block w-100" alt="">
                         </div>
                         <h5 class="text-center fw-bold mt-3">الفضاء والطيران</h5>
                     </div>
 
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-bs-interval="15000">
                         <div class="image_wrapper">
                             <img src="@/assets/images/home/fields/field_3.png" class="d-block w-100" alt="">
                         </div>
                         <h5 class="text-center fw-bold mt-3">الطاقة</h5>
                     </div>
 
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-bs-interval="15000">
                         <div class="image_wrapper">
                             <img src="@/assets/images/home/fields/field_4.png" class="d-block w-100" alt="">
                         </div>
                         <h5 class="text-center fw-bold mt-3">الاتصالات والإلكترونيات</h5>
                     </div>
 
-                    <div class="carousel-item">
+                    <div class="carousel-item" data-bs-interval="15000">
                         <div class="image_wrapper">
                             <img src="@/assets/images/home/fields/field_5.png" class="d-block w-100" alt="">
                         </div>
@@ -154,9 +153,11 @@ export default {
     background-size: cover;
 
     h3 {
+        font-family: 'Bahij_TheSansArabic_Bold';
         color: $Ylo;
         font-size: 24px;
         // font-weight: 500;
+        line-height: normal;
     }
 
     // In Large Screen
@@ -187,18 +188,19 @@ export default {
                 }
 
                 img {
+
                     width: 100%;
                     height: 100%;
-                    object-fit: contain;
-                }
+                    object-fit: cover;
 
-                /* img:hover {
-                    -webkit-animation: blinker 1s linear infinite;
-                    -moz-animation: blinker 1s linear infinite;
-                    -ms-animation: blinker 1s linear infinite;
-                    -o-animation: blinker 1s linear infinite;
-                    animation: blinker 1s linear infinite;
-                } */
+                    @include breakpoints(medium) {
+                        object-fit: contain;
+                    }
+
+                    @include breakpoints(large) {
+                        object-fit: contain;
+                    }
+                }
 
             }
 
@@ -206,6 +208,7 @@ export default {
                 color: $White;
                 font-size: 16px;
                 // font-weight: 500;
+                line-height: normal;
             }
 
         }
@@ -230,20 +233,13 @@ export default {
                         object-fit: contain;
                     }
 
-                    img:hover {
-                        -webkit-animation: blinker 1s linear infinite;
-                        -moz-animation: blinker 1s linear infinite;
-                        -ms-animation: blinker 1s linear infinite;
-                        -o-animation: blinker 1s linear infinite;
-                        animation: blinker 1s linear infinite;
-                    }
-
                 }
 
                 h5 {
                     color: $White;
                     font-size: 16px;
                     // font-weight: 500;
+                    line-height: normal;
                 }
 
             }
@@ -272,30 +268,5 @@ export default {
 
     }
 
-}
-
-// For Animation
-@-webkit-keyframes blinker {
-    50% {
-        opacity: 0;
-    }
-}
-
-@-moz-keyframes blinker {
-    50% {
-        opacity: 0;
-    }
-}
-
-@-o-keyframes blinker {
-    50% {
-        opacity: 0;
-    }
-}
-
-@keyframes blinker {
-    50% {
-        opacity: 0;
-    }
 }
 </style>

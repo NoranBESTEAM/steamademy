@@ -9,7 +9,7 @@
   <!-- End Service -->
 
   <!-- Start Commercial_Concession_Home -->
-  <Commercial_Concession_Home />
+  <Concession_Home />
   <!-- End Commercial_Concession_Home -->
 
   <!-- Start Field_Home -->
@@ -34,7 +34,7 @@
 
 import Header from '@/components/home/Header.vue';
 import Service from '@/components/home/Service.vue';
-import Commercial_Concession_Home from '@/components/home/Commercial_Concession_Home.vue';
+import Concession_Home from '@/components/home/Concession_Home.vue';
 import Field_Home from '@/components/home/Field_Home.vue';
 import Technologies from '@/components/home/Technologies.vue';
 import Contact_Us_Home from '@/components/home/Contact_Us_Home.vue';
@@ -44,7 +44,7 @@ export default {
   components: {
     Header,
     Service,
-    Commercial_Concession_Home,
+    Concession_Home,
     Field_Home,
     Technologies,
     Contact_Us_Home,
