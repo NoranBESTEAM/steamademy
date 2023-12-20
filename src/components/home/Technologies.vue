@@ -206,6 +206,7 @@ export default {
 
                     img:hover{
                         opacity: 1;
+                        transition:opacity 1s linear 0.2s;
                     }
 
                 }
@@ -301,6 +302,7 @@ export default {
 
                     img:hover{
                         opacity: 1;
+                        transition:opacity 1s linear 0.2s;
                     }
 
                 }
@@ -375,6 +377,7 @@ export default {
 
                         img:hover{
                             opacity: 1;
+                            transition:opacity 1s linear 0.2s;
                         }
 
                         position: relative;

@@ -5,7 +5,7 @@
 
             <div class="row">
 
-                <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 animate__animated animate__backInDown animate__delay-0.9s animate__slow">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 wow animate__animated animate__backInDown animate__delay-0.5s animate__slow">
 
                     <div id="text_wrapper">
 
@@ -22,7 +22,7 @@
 
                 </div>
 
-                <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 animate__animated animate__backInUp animate__delay-0.9s animate__slow">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 wow animate__animated animate__backInUp animate__delay-0.5s animate__slow">
 
                     <div id="image_wrapper">
                         <img src="@/assets/images/about/about/About_kids.png" alt="">
@@ -39,8 +39,12 @@
 </template>
 
 <script>
+import WOW from "wow.js";
 export default {
     name: 'About',
+    mounted() {
+        new WOW().init();
+    },
 }
 </script>
 
@@ -79,10 +83,12 @@ export default {
             }
 
             h3 {
+                font-family: 'Bahij_TheSansArabic_Bold';
                 color: $Mov;
                 // text-align: right;
                 font-size: 24px;
                 // font-weight: 500;
+                line-height: normal;
 
                 @include breakpoints(x-small) {
                     text-align: center;
@@ -101,12 +107,14 @@ export default {
                 color: $Green;
                 font-size: 18px;
                 // font-weight: 500;
+                line-height: normal;
             }
 
             p {
                 color: $Black;
                 font-size: 18px;
                 font-weight: 400;
+                line-height: normal;
             }
 
         }

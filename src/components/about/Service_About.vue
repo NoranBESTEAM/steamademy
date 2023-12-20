@@ -4,10 +4,10 @@
         <div class="container">
 
             <h3
-                class="text-center fw-bold text-justify mb-4 animate__animated animate__backInDown animate__delay-0.9s animate__slow">
+                class="text-center fw-bold text-justify mb-4 wow animate__animated animate__backInDown animate__delay-1s animate__slow">
                 ماذا نستطيع أن نقدم لكم؟</h3>
 
-            <div id="content_wrapper" class="animate__animated animate__backInUp animate__delay-0.9s animate__slow">
+            <div id="content_wrapper" class="wow animate__animated animate__backInUp animate__delay-1s animate__slow">
 
                 <div class="service_wrapper">
                     <div class="service_ele">
@@ -80,8 +80,12 @@
 </template>
 
 <script>
+import WOW from "wow.js";
 export default {
     name: 'Service_About',
+    mounted() {
+        new WOW().init();
+    },
 }
 </script>
 
@@ -92,9 +96,11 @@ export default {
     padding-bottom: 40px;
 
     h3 {
+        font-family: 'Bahij_TheSansArabic_Bold';
         color: $Mov;
         font-size: 24px;
         // font-weight: 500;
+        line-height: normal;
     }
 
     #content_wrapper {
@@ -105,37 +111,29 @@ export default {
             flex-direction: column;
             align-items: center;
 
-            width: calc(100% / 9 - 16px);
+            width: calc(100% / 9 - 8px);
 
-            margin-left: 8px;
-            margin-right: 8px;
+            margin-left: 4px;
+            margin-right: 4px;
 
             @include breakpoints(x-small) {
                 width: calc(100% / 3 - 8px);
-                margin-left: 4px;
-                margin-right: 4px;
                 margin-bottom: 8px;
             }
 
             @include breakpoints(small) {
-                width: calc(100% / 3 - 16px);
-                margin-bottom: 16px;
+                width: calc(100% / 3 - 8px);
+                margin-bottom: 8px;
             }
 
             @include breakpoints(medium) {
-                width: calc(100% / 3 - 16px);
-                margin-bottom: 16px;
+                width: calc(100% / 3 - 8px);
+                margin-bottom: 8px;
             }
 
             @include breakpoints(large) {
-                width: calc(100% / 3 - 16px);
-                margin-bottom: 16px;
-            }
-
-            @include breakpoints(x-Large) {
-                width: calc(100% / 9 - 8px);
-                margin-left: 4px;
-                margin-right: 4px;
+                width: calc(100% / 3 - 8px);
+                margin-bottom: 8px;
             }
 
             .service_ele {
@@ -180,8 +178,8 @@ export default {
                 text-align: center;
                 font-size: 16px;
                 font-weight: 500;
-                margin-top: 16px;
-                text-align: justify;
+                margin-top: 8px;
+                // text-align: justify;
                 line-height: normal;
             }
 

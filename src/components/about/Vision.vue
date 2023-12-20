@@ -9,17 +9,19 @@
 
             <div id="vision_wrapper" class="d-none d-sm-none d-md-none d-lg-block d-xl-block">
 
-                <div class="row">
+                <!-- https://getbootstrap.com/docs/5.3/utilities/spacing/#gap -->
+
+                <div class="row grid gap-3">
 
                     <div class="col content_wrapper p-3">
 
-                        <h3 class="fw-bold mb-4 animate__animated animate__backInDown animate__delay-0.9s animate__slow">
+                        <h3 class="fw-bold mb-4 wow animate__animated animate__backInDown animate__delay-2s animate__slow">
 
                             <img src="@/assets/images/about/vision/رؤيتنا.svg" alt="" class="ms-3">رؤيتنا
 
                         </h3>
 
-                        <p class="text-justify animate__animated animate__backInUp animate__delay-0.9s animate__slow">أن
+                        <p class="text-justify wow animate__animated animate__backInUp animate__delay-2s animate__slow">أن
                             نكون قادرين على تقديم كافة الخدمات التي تمكن الجهات التعليمية والمدربين النهوض بالطلاب نحو
                             مستقبل
                             قائم على النهضة الصناعية الرابعة وتعزيز ثقتهم بنفسهم</p>
@@ -28,13 +30,13 @@
 
                     <div class="col content_wrapper p-3">
 
-                        <h3 class="fw-bold mb-4 animate__animated animate__backInDown animate__delay-0.9s animate__slow">
+                        <h3 class="fw-bold mb-4 wow animate__animated animate__backInDown animate__delay-2s animate__slow">
 
                             <img src="@/assets/images/about/vision/رسالتنا.svg" alt="" class="ms-3">رسالتنا
 
                         </h3>
 
-                        <p class="text-justify animate__animated animate__backInUp animate__delay-0.9s animate__slow">تنمية
+                        <p class="text-justify wow animate__animated animate__backInUp animate__delay-2s animate__slow">تنمية
                             روح الإبداع للطلاب ومساعتهم على خلق حلول مبتكرة لمواجهة المشاكل المجتمعية</p>
 
                     </div>
@@ -49,13 +51,13 @@
 
                 <div class="content_wrapper_mobile p-3 mb-3">
 
-                    <h3 class="fw-bold mb-4 animate__animated animate__backInDown animate__delay-0.9s animate__slow">
+                    <h3 class="fw-bold mb-4 wow animate__animated animate__backInDown animate__delay-2s animate__slow">
 
                         <img src="@/assets/images/about/vision/رؤيتنا.svg" alt="" class="ms-3">رؤيتنا
 
                     </h3>
 
-                    <p class="text-justify animate__animated animate__backInUp animate__delay-0.9s animate__slow">أن
+                    <p class="text-justify wow animate__animated animate__backInUp animate__delay-2s animate__slow">أن
                         نكون قادرين على تقديم كافة الخدمات التي تمكن الجهات التعليمية والمدربين النهوض بالطلاب نحو
                         مستقبل
                         قائم على النهضة الصناعية الرابعة وتعزيز ثقتهم بنفسهم</p>
@@ -64,13 +66,13 @@
 
                 <div class="content_wrapper_mobile p-3">
 
-                    <h3 class="fw-bold mb-4 animate__animated animate__backInDown animate__delay-0.9s animate__slow">
+                    <h3 class="fw-bold mb-4 wow animate__animated animate__backInDown animate__delay-2s animate__slow">
 
                         <img src="@/assets/images/about/vision/رسالتنا.svg" alt="" class="ms-3">رسالتنا
 
                     </h3>
 
-                    <p class="text-justify animate__animated animate__backInUp animate__delay-0.9s animate__slow">تنمية
+                    <p class="text-justify wow animate__animated animate__backInUp animate__delay-2s animate__slow">تنمية
                             روح الإبداع للطلاب ومساعتهم على خلق حلول مبتكرة لمواجهة المشاكل المجتمعية</p>
 
                 </div>
@@ -83,8 +85,12 @@
 </template>
 
 <script>
+import WOW from "wow.js";
 export default {
     name: 'Vision',
+    mounted() {
+        new WOW().init();
+    },
 }
 </script>
 
@@ -97,15 +103,18 @@ export default {
     .container {
 
         h3 {
+            font-family: 'Bahij_TheSansArabic_Bold';
             color: $Mov;
             font-size: 24px;
             font-weight: 500;
+            line-height: normal;
         }
 
         p {
             color: $Black;
             font-size: 16px;
             font-weight: 400;
+            line-height: normal;
         }
 
         // In Large Screen
@@ -114,8 +123,8 @@ export default {
 
             .content_wrapper {
 
-                margin-left: 8px;
-                margin-right: 8px;
+                // margin-left: 4px;
+                // margin-right: 4px;
 
                 border: 1px solid $Mov;
                 border-radius: 16px;

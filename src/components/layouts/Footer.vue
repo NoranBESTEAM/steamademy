@@ -105,7 +105,7 @@
         </div>
 
         <!-- Copyright -->
-        <div class="text-center pt-2 pb-2 wow animate__animated animate__bounceInLeft animate__delay-3.5s animate__slow"
+        <div class="text-center pt-2 pb-2 wow animate__animated animate__bounceInLeft animate__delay-4s animate__fast"
             id="copyright">
             جميع الحقوق محفوظة | تم التطوير بواسطة
             <a class="text-reset fw-bold" href="https://thaka.net/#/">شركة ذكاء انترناشيونال</a> &copy; {{ new
