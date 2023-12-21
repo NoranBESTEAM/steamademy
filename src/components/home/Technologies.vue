@@ -91,14 +91,14 @@
 
                     <div class="carousel-inner">
 
-                        <div class="carousel-item active" data-bs-interval="10000">
+                        <div class="carousel-item active" data-bs-interval="5000">
                             <div class="image_wrapper">
                                 <img src="@/assets/images/home/technologies/الروبوتات.jpg" class="d-block w-100" alt="">
                             </div>
                             <h5 class="fw-bolder">تصميم وبرمجة الروبوتات</h5>
                         </div>
 
-                        <div class="carousel-item" data-bs-interval="10000">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <div class="image_wrapper">
                                 <img src="@/assets/images/home/technologies/التصنيع_الرقمي.jpg" class="d-block w-100"
                                     alt="">
@@ -106,14 +106,14 @@
                             <h5 class="fw-bolder">التصنيع الرقمي</h5>
                         </div>
 
-                        <div class="carousel-item" data-bs-interval="10000">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <div class="image_wrapper">
                                 <img src="@/assets/images/home/technologies/البرمجة.jpg" class="d-block w-100" alt="">
                             </div>
                             <h5 class="fw-bolder">المتحكمات والإلكترونيات</h5>
                         </div>
 
-                        <div class="carousel-item" data-bs-interval="10000">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <div class="image_wrapper">
                                 <img src="@/assets/images/home/technologies/انترنت_الاشياء.jpg" class="d-block w-100"
                                     alt="">

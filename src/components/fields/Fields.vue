@@ -2,14 +2,14 @@
     <section id="field">
         <div class="container">
 
-            <h3 class="fw-bold mb-4 animate__animated animate__backInDown animate__delay-0.9s animate__slow">
+            <h3 class="fw-bold mb-4 wow animate__animated animate__backInDown animate__delay-1s animate__slow">
                 مجالات
                 STEAM التطبيقية</h3>
 
             <!-- In Large Screen -->
 
             <div id="content_wrapper"
-                class="animate__animated animate__backInUp animate__delay-0.9s animate__slow d-none d-sm-none d-md-none d-lg-block d-xl-block">
+                class="wow animate__animated animate__backInUp animate__delay-1s animate__slow d-none d-sm-none d-md-none d-lg-block d-xl-block">
 
                 <div class="field_ele">
                     <div class="image_wrapper">
@@ -96,13 +96,13 @@
             <!-- In Mobile Screen -->
 
             <div id="content_wrapper_mobile"
-                class="animate__animated animate__backInUp animate__delay-0.9s animate__slow d-block d-sm-block d-md-block d-lg-none d-xl-none">
+                class="wow animate__animated animate__backInUp animate__delay-1s animate__slow d-block d-sm-block d-md-block d-lg-none d-xl-none">
 
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
 
                     <div class="carousel-inner">
 
-                        <div class="carousel-item active">
+                        <div class="carousel-item active" data-bs-interval="5000">
                             <div class="image_wrapper">
                                 <img src="@/assets/images/home/fields/field_1.png" class="d-block w-100" alt="">
                             </div>
@@ -119,7 +119,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <div class="image_wrapper">
                                 <img src="@/assets/images/home/fields/field_2.png" class="d-block w-100" alt="">
                             </div>
@@ -134,7 +134,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <div class="image_wrapper">
                                 <img src="@/assets/images/home/fields/field_3.png" class="d-block w-100" alt="">
                             </div>
@@ -151,7 +151,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <div class="image_wrapper">
                                 <img src="@/assets/images/home/fields/field_4.png" alt="">
                             </div>
@@ -168,7 +168,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <div class="image_wrapper">
                                 <img src="@/assets/images/home/fields/field_5.png" alt="">
                             </div>
@@ -212,8 +212,12 @@
 </template>
 
 <script>
+import WOW from "wow.js";
 export default {
     name: 'Fields',
+    mounted() {
+        new WOW().init();
+    },
 }
 </script>
 
@@ -226,10 +230,12 @@ export default {
     padding-bottom: 40px;
 
     h3 {
+        font-family: 'Bahij_TheSansArabic_Bold';
         color: $Mov;
         text-align: right;
         font-size: 24px;
         // font-weight: 500;
+        line-height: normal;
 
         @include breakpoints(x-small) {
             text-align: center;
@@ -271,22 +277,15 @@ export default {
                     object-fit: contain;
                 }
 
-                /* img:hover {
-                    -webkit-animation: blinker 1s linear infinite;
-                    -moz-animation: blinker 1s linear infinite;
-                    -ms-animation: blinker 1s linear infinite;
-                    -o-animation: blinker 1s linear infinite;
-                    animation: blinker 1s linear infinite;
-                } */
-
             }
 
             h5 {
                 font-size: 16px;
                 // font-weight: 500;
+                line-height: normal;
 
                 @include breakpoints(large) {
-                    height: 40px;
+                    height: 50px;
                 }
 
             }
@@ -316,16 +315,16 @@ export default {
 
             .field_txt {
                 width: calc(100% - 32px);
-                height: 245px;
+                height: 275px;
                 border-radius: 8px;
                 color: $Black;
 
                 @include breakpoints(large) {
-                    height: 366px;
+                    height: 410px;
                 }
 
                 @include breakpoints(x-Large) {
-                    height: 300px;
+                    height: 330px;
                 }
 
             }
@@ -354,22 +353,15 @@ export default {
                             object-fit: contain;
                         }
 
-                        /* img:hover {
-                            -webkit-animation: blinker 1s linear infinite;
-                            -moz-animation: blinker 1s linear infinite;
-                            -ms-animation: blinker 1s linear infinite;
-                            -o-animation: blinker 1s linear infinite;
-                            animation: blinker 1s linear infinite;
-                        } */
-
                     }
 
                     h5 {
                         font-size: 16px;
                         // font-weight: 500;
+                        line-height: normal;
                     }
 
-                    hr {
+                    /* hr {
                         width: 400px;
                         height: 4px;
                         color: $Black;
@@ -380,9 +372,9 @@ export default {
                             width: 300px;
                         }
 
-                    }
+                    } */
 
-                    .img_wrapper {
+                    /* .img_wrapper {
 
                         width: 24px;
                         height: 180px;
@@ -394,17 +386,24 @@ export default {
                             height: 100%;
                             object-fit: cover;
                         }
-                    }
+                    } */
 
                     .field_txt {
                         width: 400px;
-                        height: 126px;
                         border-radius: 8px;
                         color: $Black;
 
                         @include breakpoints(x-small) {
                             width: 300px;
-                            height: 170px;
+                            height: 190px;
+                        }
+
+                        @include breakpoints(small) {
+                            height: 140px;
+                        }
+
+                        @include breakpoints(medium) {
+                            height: 140px;
                         }
 
                     }
@@ -480,30 +479,4 @@ export default {
 .text_five {
     background: $Orange_Light;
 }
-
-// For Animation
-
-/* @-webkit-keyframes blinker {
-    50% {
-        opacity: 0;
-    }
-}
-
-@-moz-keyframes blinker {
-    50% {
-        opacity: 0;
-    }
-}
-
-@-o-keyframes blinker {
-    50% {
-        opacity: 0;
-    }
-}
-
-@keyframes blinker {
-    50% {
-        opacity: 0;
-    }
-} */
 </style>

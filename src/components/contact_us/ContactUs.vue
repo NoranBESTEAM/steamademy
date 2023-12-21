@@ -69,11 +69,9 @@
 </template>
 
 <script>
-
 export default {
     name: 'ContactUs',
 }
-
 </script>
 
 <style lang="scss" scoped>
@@ -87,6 +85,7 @@ export default {
     .container {
 
         h3 {
+            font-family: 'Bahij_TheSansArabic_Bold';
             color: $Mov;
             text-align: right;
             font-size: 24px;

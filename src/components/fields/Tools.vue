@@ -1,20 +1,21 @@
 <template>
+    
     <!-- Enable Touch Simulation In Browser -->
 
     <section id="tools">
 
         <div class="container">
 
-            <h3 class="fw-bold mb-4 animate__animated animate__backInDown animate__delay-0.9s animate__slow">الأدوات
+            <h3 class="fw-bold mb-4 wow animate__animated animate__backInDown animate__delay-2s animate__slow">الأدوات
                 والتقنيات المستخدمة</h3>
 
-            <p class="text-justify animate__animated animate__backInDown animate__delay-0.9s animate__slow">نقدم الأدوات
+            <p class="text-justify wow animate__animated animate__backInDown animate__delay-2s animate__slow">نقدم الأدوات
                 والتقنيات التعليمية التي تساعد الطلاب على التعلم والابتكار، مثل:</p>
 
             <!-- In Large Screen -->
 
             <div
-                class="tool_wrapper animate__animated animate__backInUp animate__delay-0.9s animate__slow d-none d-sm-block d-md-block d-lg-block d-xl-block">
+                class="tool_wrapper wow animate__animated animate__backInUp animate__delay-2s animate__slow d-none d-sm-block d-md-block d-lg-block d-xl-block">
 
                 <div class="row">
 
@@ -87,13 +88,13 @@
             <!-- In Mobile Screen -->
 
             <div
-                class="tool_wrapper_mobile animate__animated animate__backInUp animate__delay-0.9s animate__slow d-block d-sm-none d-md-none d-lg-none d-xl-none">
+                class="tool_wrapper_mobile wow animate__animated animate__backInUp animate__delay-2s animate__slow d-block d-sm-none d-md-none d-lg-none d-xl-none">
 
                 <div id="carouselToolExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
 
                     <div class="carousel-inner">
 
-                        <div class="carousel-item active">
+                        <div class="carousel-item active" data-bs-interval="10000">
 
                             <div class="tool_ele p-3">
                                 <div class="img_wrapper">
@@ -103,15 +104,12 @@
                             </div>
 
                             <div class="tool_desc">
-                                <p class="text-justify mt-3">نستخدم المتحكمات كأداة تعليمية لتعزيز فهم المفاهيم العلمية
-                                    والتقنية
-                                    والهندسية
-                                    والرياضيات، يتعلم الطلاب كيفية برمجة المتحكمات.</p>
+                                <p class="text-justify mt-3">نستخدم المتحكمات كأداة تعليمية لتعزيز فهم المفاهيم العلمية والتقنية والهندسية والرياضيات، يتعلم الطلاب كيفية برمجة المتحكمات.</p>
                             </div>
 
                         </div>
 
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="10000">
 
                             <div class="tool_ele p-3">
                                 <div class="img_wrapper">
@@ -121,15 +119,12 @@
                             </div>
 
                             <div class="tool_desc">
-                                <p class="text-justify mt-3">نستخدم المتحكمات كأداة تعليمية لتعزيز فهم المفاهيم العلمية
-                                    والتقنية
-                                    والهندسية
-                                    والرياضيات، يتعلم الطلاب كيفية برمجة المتحكمات.</p>
+                                <p class="text-justify mt-3">نقدم للطلاب فرصة للاستكشاف والتعلم من خلال التصميم والإنتاج باستخدام التقنيات الرقمية. يتعلمون كيفية استخدام الطابعات ثلاثية الأبعاد وماكينات الحفر بالليزر والقطع الرقمي لتحويل أفكارهم إلى واقع ملموس.</p>
                             </div>
 
                         </div>
 
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="10000">
 
                             <div class="tool_ele p-3">
                                 <div class="img_wrapper">
@@ -139,16 +134,12 @@
                             </div>
 
                             <div class="tool_desc">
-                                <p class="text-justify mt-3">يتعلم الطلاب كيفية تصميم وتطوير أنظمة ذكية تستند إلى إنترنت
-                                    الأشياء. يمكن
-                                    لهذه
-                                    التقنية أن تسهم في حل المشكلات في مجالات مثل الزراعة الذكية والمدن الذكية والرعاية
-                                    الصحية.</p>
+                                <p class="text-justify mt-3">يتعلم الطلاب كيفية تصميم وتطوير أنظمة ذكية تستند إلى إنترنت الأشياء. يمكن لهذه التقنية أن تسهم في حل المشكلات في مجالات مثل الزراعة الذكية والمدن الذكية والرعاية الصحية.</p>
                             </div>
 
                         </div>
 
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="10000">
 
                             <div class="tool_ele p-3">
                                 <div class="img_wrapper">
@@ -158,11 +149,7 @@
                             </div>
 
                             <div class="tool_desc">
-                                <p class="text-justify mt-3">تعتبر البرمجة أداة أساسية في تعليم STEAM. يتعلم الطلاب كيفية
-                                    كتابة وتنفيذ الأكواد وتطوير التطبيقات والألعاب الإلكترونية. يتم تشجيعهم على التفكير
-                                    الإبداعي وحل المشكلات من خلال البرمجة، يتعلم الطلاب كيفية برمجة الروبوتات وتفاعلها مع
-                                    البيئة المحيطة بها. يمكن للروبوتات أن تساعد في تطوير مهارات التفكير النقدي وحل المشكلات
-                                    والعمل الجماعي.</p>
+                                <p class="text-justify mt-3">تعتبر البرمجة أداة أساسية في تعليم STEAM. يتعلم الطلاب كيفية كتابة وتنفيذ الأكواد وتطوير التطبيقات والألعاب الإلكترونية. يتم تشجيعهم على التفكير الإبداعي وحل المشكلات من خلال البرمجة، يتعلم الطلاب كيفية برمجة الروبوتات وتفاعلها مع البيئة المحيطة بها. يمكن للروبوتات أن تساعد في تطوير مهارات التفكير النقدي وحل المشكلات والعمل الجماعي.</p>
                             </div>
 
                         </div>
@@ -198,9 +185,15 @@
 
 <script>
 
+import WOW from "wow.js";
+
 export default {
 
     name: 'Tools',
+
+    mounted() {
+        new WOW().init();
+    },
 
     data() {
         return {
@@ -242,10 +235,12 @@ export default {
 
 
         h3 {
+            font-family: 'Bahij_TheSansArabic_Bold';
             color: $Mov;
             text-align: right;
             font-size: 24px;
             // font-weight: 500;
+            line-height: normal;
 
             @include breakpoints(x-small) {
                 text-align: center;
@@ -265,11 +260,30 @@ export default {
             text-align: right;
             font-size: 18px;
             font-weight: 400;
+            line-height: normal;
         }
 
         // In Large Screen
 
         .tool_wrapper {
+
+            height: 260px;
+
+            @include breakpoints(small) {
+                height: 520px;
+            }
+
+            @include breakpoints(medium) {
+                height: 500px;
+            }
+
+            @include breakpoints(large) {
+                height: 300px;
+            }
+
+            @include breakpoints(x-Large) {
+                height: 280px;
+            }
 
             .tool_ele {
 
@@ -301,6 +315,8 @@ export default {
                 justify-content: center;
                 align-items: center;
 
+                cursor: pointer;
+
                 .img_wrapper {
 
                     width: 104.464px;
@@ -320,6 +336,7 @@ export default {
                     color: $Dark-blue;
                     font-size: 18px;
                     font-weight: 500;
+                    line-height: normal;
                 }
 
             }
@@ -341,6 +358,7 @@ export default {
                     text-align: right;
                     font-size: 16px;
                     font-weight: 400;
+                    line-height: normal;
                 }
 
             }
@@ -392,19 +410,21 @@ export default {
                                 color: $Dark-blue;
                                 font-size: 18px;
                                 font-weight: 500;
+                                line-height: normal;
                             }
 
                         }
 
                         .tool_desc {
 
-                            height: 190px;
+                            height: 210px;
 
                             p {
                                 color: $Black;
                                 text-align: right;
                                 font-size: 16px;
                                 font-weight: 400;
+                                line-height: normal;
                             }
 
                         }

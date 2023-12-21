@@ -57,35 +57,35 @@
 
                 <div class="carousel-inner">
 
-                    <div class="carousel-item active" data-bs-interval="15000">
+                    <div class="carousel-item active" data-bs-interval="10000">
                         <div class="image_wrapper">
                             <img src="@/assets/images/home/fields/field_1.png" class="d-block w-100" alt="">
                         </div>
                         <h5 class="text-center fw-bold mt-3">الاستدامة والبيئة</h5>
                     </div>
 
-                    <div class="carousel-item" data-bs-interval="15000">
+                    <div class="carousel-item" data-bs-interval="10000">
                         <div class="image_wrapper">
                             <img src="@/assets/images/home/fields/field_2.png" class="d-block w-100" alt="">
                         </div>
                         <h5 class="text-center fw-bold mt-3">الفضاء والطيران</h5>
                     </div>
 
-                    <div class="carousel-item" data-bs-interval="15000">
+                    <div class="carousel-item" data-bs-interval="10000">
                         <div class="image_wrapper">
                             <img src="@/assets/images/home/fields/field_3.png" class="d-block w-100" alt="">
                         </div>
                         <h5 class="text-center fw-bold mt-3">الطاقة</h5>
                     </div>
 
-                    <div class="carousel-item" data-bs-interval="15000">
+                    <div class="carousel-item" data-bs-interval="10000">
                         <div class="image_wrapper">
                             <img src="@/assets/images/home/fields/field_4.png" class="d-block w-100" alt="">
                         </div>
                         <h5 class="text-center fw-bold mt-3">الاتصالات والإلكترونيات</h5>
                     </div>
 
-                    <div class="carousel-item" data-bs-interval="15000">
+                    <div class="carousel-item" data-bs-interval="10000">
                         <div class="image_wrapper">
                             <img src="@/assets/images/home/fields/field_5.png" class="d-block w-100" alt="">
                         </div>

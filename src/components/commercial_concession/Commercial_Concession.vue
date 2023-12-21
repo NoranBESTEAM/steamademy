@@ -1,10 +1,6 @@
 <template>
     <section id="commercial_concession">
 
-        <img src="@/assets/images/commercial_concession/commercial_concession/Triangle.png" alt="" id="top_left">
-
-        <img src="@/assets/images/commercial_concession/commercial_concession/Triangle2.png" alt="" id="bottom_right">
-
         <div class="container">
 
             <div class="row">
@@ -12,19 +8,18 @@
                 <div id="text_content" class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 my-auto">
 
                     <h3
-                        class="fw-bold text-justify mb-4 animate__animated animate__backInDown animate__delay-0.9s animate__slow">
+                        class="fw-bold text-justify mb-4 wow animate__animated animate__backInDown animate__delay-1s animate__slow">
                         امتياز STEAM التجاري</h3>
 
-                    <p class="text-justify mb-4 animate__animated animate__backInUp animate__delay-0.9s animate__slow">يوفر
+                    <p class="text-justify mb-4 wow animate__animated animate__backInUp animate__delay-1s animate__slow">يوفر
                         لك منظومة متكاملة لتحقيق أفضل عائد على استثماراتك بداية من التجهيزات
                         والمحتوى العلمي وتأهيل فريقك وحتى وسائل التواصل مع الطلاب والتسويق كل ما عليك هو أن تؤمن بقدرتك على
                         تغيير المستقبل وتحقيق أهداف الثورة الصناعية الرابعة.</p>
 
                 </div>
 
-                <div id="img_content" class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                <div id="img_content" class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 wow animate__animated animate__fadeIn animate__delay-1s animate__slow">
 
-                    <!-- class="animate__animated animate__backInRight animate__delay-0.9s animate__slow" -->
                     <div id="img_wrapper">
                         <img src="@/assets/images/home/commercial_concession/Kid_pic.png" alt="">
                     </div>
@@ -39,8 +34,12 @@
 </template>
 
 <script>
+import WOW from "wow.js";
 export default {
     name: 'Commercial_Concession',
+    mounted() {
+        new WOW().init();
+    },
 }
 </script>
 
@@ -52,33 +51,15 @@ export default {
     padding-top: 40px;
     padding-bottom: 40px;
 
-    z-index: -2;
+    // https://www.w3schools.com/css/css3_backgrounds.asp
 
-    position: relative;
+    background: url("@/assets/images/commercial_concession/commercial_concession/Triangle.png") left top no-repeat, url("@/assets/images/commercial_concession/commercial_concession/Triangle2.png") right bottom no-repeat;
 
-    #top_left {
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
+    background-size: 356.495px 291px, 356.495px 291px;
 
-    #bottom_right {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-    }
-
-    #top_left,
-    #bottom_right {
-        width: 356.495px;
-        height: 291px;
-        z-index: -1;
-        opacity: 70%;
-    }
+    background-color: $White;
 
     .container {
-
-        z-index: 1;
 
         #text_content {
 
@@ -95,9 +76,11 @@ export default {
             } */
 
             h3 {
+                font-family: 'Bahij_TheSansArabic_Bold';
                 color: $Mov;
                 font-size: 24px;
                 // font-weight: 500;
+                line-height: normal;
 
                 @include breakpoints(x-small) {
                     text-align: center;
@@ -117,6 +100,7 @@ export default {
                 color: $Black;
                 font-size: 18px;
                 font-weight: 400;
+                line-height: normal;
             }
 
         }
@@ -140,19 +124,28 @@ export default {
                 width: 339px;
                 height: 392px;
 
+                // float: left;
+                float: inline-end;
+
                 @include breakpoints(x-small) {
                     width: 343px;
                     height: 347px;
+                    float: inherit;
+                    margin: 0 auto;
                 }
 
                 @include breakpoints(small) {
                     width: 343px;
                     height: 347px;
+                    float: inherit;
+                    margin: 0 auto;
                 }
 
                 @include breakpoints(medium) {
                     width: 343px;
                     height: 347px;
+                    float: inherit;
+                    margin: 0 auto;
                 }
 
                 // 0.8
@@ -160,8 +153,6 @@ export default {
                     width: 271.2px;
                     height: 313.6px;
                 }
-
-                margin: 0 auto;
 
                 img {
                     width: 100%;

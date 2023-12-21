@@ -7,7 +7,8 @@
 
                 <div class="row">
 
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 animate__animated animate__backInDown animate__delay-0.9s animate__slow">
+                    <div
+                        class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 wow animate__animated animate__backInRight animate__delay-3s animate__slow">
 
                         <h3 class="fw-bold mb-3">المحتوى الرقمي</h3>
 
@@ -29,7 +30,8 @@
 
                     </div>
 
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 animate__animated animate__backInDown animate__delay-0.9s animate__slow">
+                    <div
+                        class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 wow animate__animated animate__backInRight animate__delay-3s animate__slow">
 
                         <h5 class="fw-bold mb-3">يهدف المحتوى لتوفير:</h5>
 
@@ -43,7 +45,8 @@
 
                     </div>
 
-                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 animate__animated animate__backInUp animate__delay-0.9s animate__slow">
+                    <div
+                        class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 wow animate__animated animate__backInLeft animate__delay-3s animate__slow">
 
                         <div id="img_wrapper">
 
@@ -69,8 +72,12 @@
 </template>
 
 <script>
+import WOW from "wow.js";
 export default {
     name: 'Content',
+    mounted() {
+        new WOW().init();
+    },
 }
 </script>
 
@@ -88,16 +95,19 @@ export default {
             background: $Gray;
 
             h3 {
+                font-family: 'Bahij_TheSansArabic_Bold';
                 color: $Mov;
                 // text-align: right;
                 font-size: 24px;
                 // font-weight: 500;
+                line-height: normal;
             }
 
             h5 {
                 color: $Pink;
                 font-size: 18px;
                 // font-weight: 500;
+                line-height: normal;
             }
 
             p,
@@ -105,6 +115,7 @@ export default {
                 color: $Black;
                 font-size: 18px;
                 font-weight: 400;
+                line-height: normal;
             }
 
             ul {
@@ -115,7 +126,19 @@ export default {
             #img_wrapper {
 
                 width: 100%;
-                height: 299px;
+                height: 350px;
+
+                @include breakpoints(x-small) {
+                    height: 300px;
+                }
+
+                @include breakpoints(small) {
+                    height: 300px;
+                }
+
+                @include breakpoints(medium) {
+                    height: 300px;
+                }
 
                 border-radius: 8px;
 
@@ -123,15 +146,11 @@ export default {
 
                     width: 100%;
                     height: 100%;
-                    object-fit: cover;
+                    object-fit: fill;
                     border-radius: 8px;
 
-                    @include breakpoints(x-small) {
-                        object-fit: fill;
-                    }
-
-                    @include breakpoints(large) {
-                        object-fit: fill;
+                    @include breakpoints(medium) {
+                        object-fit: cover;
                     }
 
                 }

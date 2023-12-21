@@ -3,13 +3,13 @@
 
         <div class="container">
 
-            <h3 class="fw-bold mb-4 text-justify animate__animated animate__backInDown animate__delay-0.9s animate__slow">
+            <h3 class="fw-bold mb-4 text-justify wow animate__animated animate__backInDown animate__delay-2s animate__slow">
                 إليك مميزات الامتياز التجاري STEAMdemy</h3>
 
             <!-- For Large Screen -->
 
             <div id="content_wrapper"
-                class="d-none d-sm-none d-md-none d-lg-block d-xl-block animate__animated animate__backInUp animate__delay-0.9s animate__slow">
+                class="d-none d-sm-none d-md-none d-lg-block d-xl-block wow animate__animated animate__backInUp animate__delay-2s animate__slow">
 
                 <div class="row gy-4">
 
@@ -104,13 +104,13 @@
             <!-- For Small Screen -->
 
             <div id="content_wrapper_mobile"
-                class="d-block d-sm-block d-md-block d-lg-none d-xl-none animate__animated animate__backInUp animate__delay-0.9s animate__slow">
+                class="d-block d-sm-block d-md-block d-lg-none d-xl-none wow animate__animated animate__backInUp animate__delay-2s animate__slow">
 
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
 
                     <div class="carousel-inner">
 
-                        <div class="carousel-item active">
+                        <div class="carousel-item active" data-bs-interval="5000">
                             <div class="card">
                                 <img src="@/assets/images/commercial_concession/advantages/advantage_1.jpg"
                                     class="card-img-top"
@@ -126,7 +126,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <div class="card">
                                 <img src="@/assets/images/commercial_concession/advantages/advantage_2.jpg"
                                     class="card-img-top" alt="metal-3d-printer-with-abstract-lines">
@@ -141,7 +141,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <div class="card">
                                 <img src="@/assets/images/commercial_concession/advantages/advantage_3.jpg"
                                     class="card-img-top" alt="">
@@ -155,7 +155,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <div class="card">
                                 <img src="@/assets/images/commercial_concession/advantages/advantage_4.jpg"
                                     class="card-img-top" alt="father-sons-making-robot">
@@ -172,7 +172,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <div class="card">
                                 <img src="@/assets/images/commercial_concession/advantages/advantage_5.jpg"
                                     class="card-img-top" alt="tech-devices-icons-connected-digital-planet-earth">
@@ -185,7 +185,7 @@
                             </div>
                         </div>
 
-                        <div class="carousel-item">
+                        <div class="carousel-item" data-bs-interval="5000">
                             <div class="card">
                                 <img src="@/assets/images/commercial_concession/advantages/advantage_6.jpg"
                                     class="card-img-top" alt="disabled-man-shows-financial-diagrams-office">
@@ -232,8 +232,12 @@
 </template>
 
 <script>
+import WOW from "wow.js";
 export default {
     name: 'Advantages',
+    mounted() {
+        new WOW().init();
+    },
 }
 </script>
 
@@ -246,10 +250,12 @@ export default {
     .container {
 
         h3 {
+            font-family: 'Bahij_TheSansArabic_Bold';
             color: $Green;
             // text-align: right;
             font-size: 24px;
             // font-weight: 500;
+            line-height: normal;
         }
 
         // For Large Screen
@@ -269,6 +275,7 @@ export default {
                         text-align: right;
                         font-size: 18px;
                         // font-weight: 500;
+                        line-height: normal;
                     }
 
                     .card-text {
@@ -276,6 +283,7 @@ export default {
                         text-align: justify;
                         font-size: 16px;
                         font-weight: 400;
+                        line-height: normal;
                     }
 
                 }
@@ -310,23 +318,29 @@ export default {
                                 height: 500px;
                             }
 
+                            @include breakpoints(medium) {
+                                height: 580px;
+                            }
+
                             margin-left: 5px;
                             margin-right: 5px;
 
                             .card-body {
 
-                                .card-title {
+                                h5 {
                                     color: $Mov;
                                     text-align: right;
                                     font-size: 18px;
                                     // font-weight: 500;
+                                    line-height: normal;
                                 }
 
-                                .card-text {
+                                p {
                                     color: $Black;
                                     text-align: justify;
                                     font-size: 16px;
                                     font-weight: 400;
+                                    line-height: normal;
                                 }
 
                             }
