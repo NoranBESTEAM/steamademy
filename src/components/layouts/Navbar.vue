@@ -179,6 +179,7 @@ nav {
                             font-size: 18px;
                             font-weight: 400;
                             line-height: normal;
+                            text-align: center;
                         }
 
                         a:hover,

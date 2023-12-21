@@ -197,16 +197,18 @@ export default {
                     img {
                         width: 100%;
                         height: 100%;
-                        object-fit: cover;
+                        object-fit: fill;
 
                         border-radius: 16px;
 
                         opacity: 0.6;
                     }
 
-                    img:hover{
+                    img:hover {
                         opacity: 1;
-                        transition:opacity 1s linear 0.2s;
+                        -webkit-transition: opacity 1s linear 0.2s;
+                        -moz-transition: opacity 1s linear 0.2s;
+                        transition: opacity 1s linear 0.2s;
                     }
 
                 }
@@ -293,16 +295,18 @@ export default {
                     img {
                         width: 100%;
                         height: 100%;
-                        object-fit: cover;
+                        object-fit: fill;
 
                         border-radius: 16px;
 
                         opacity: 0.6;
                     }
 
-                    img:hover{
+                    img:hover {
                         opacity: 1;
-                        transition:opacity 1s linear 0.2s;
+                        -webkit-transition: opacity 1s linear 0.2s;
+                        -moz-transition: opacity 1s linear 0.2s;
+                        transition: opacity 1s linear 0.2s;
                     }
 
                 }
@@ -368,16 +372,18 @@ export default {
                         img {
                             width: 100%;
                             height: 100%;
-                            object-fit: cover;
+                            object-fit: fill;
 
                             border-radius: 16px;
 
                             opacity: 0.6;
                         }
 
-                        img:hover{
+                        img:hover {
                             opacity: 1;
-                            transition:opacity 1s linear 0.2s;
+                            -webkit-transition: opacity 1s linear 0.2s;
+                            -moz-transition: opacity 1s linear 0.2s;
+                            transition: opacity 1s linear 0.2s;
                         }
 
                         position: relative;

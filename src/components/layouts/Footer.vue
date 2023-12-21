@@ -15,7 +15,7 @@
                 <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 mx-auto wow animate__animated animate__bounceInLeft animate__delay-0.5s animate__slow"
                     id="about-us">
                     <img src="@/assets/images/footer/logo_white.png" alt="footer_logo">
-                    <p class="mt-3 text-justify">شركة رائدة في خدمات STEAM التعليمية!</p>
+                    <p class="mt-3">شركة رائدة في خدمات STEAM التعليمية!</p>
                 </div>
                 <!-- Grid column -->
 
@@ -107,9 +107,9 @@
         <!-- Copyright -->
         <div class="text-center pt-2 pb-2 wow animate__animated animate__bounceInLeft animate__delay-4s animate__fast"
             id="copyright">
-            جميع الحقوق محفوظة | تم التطوير بواسطة
-            <a class="text-reset fw-bold" href="https://thaka.net/#/">شركة ذكاء انترناشيونال</a> &copy; {{ new
-                Date().getFullYear() }}
+            &copy; {{ new Date().getFullYear() }}
+            جميع الحقوق محفوظة لدى شركة 
+            <a class="text-reset fw-bold" href="https://thaka.net/#/">ذكاء انترناشيونال</a> 
         </div>
         <!-- Copyright -->
 
@@ -187,6 +187,7 @@ footer {
             p {
                 // font-size: 18px;
                 font-size: 16px;
+                text-justify: none;
             }
 
         }

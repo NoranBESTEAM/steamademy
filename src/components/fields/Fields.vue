@@ -21,7 +21,7 @@
                         <img src="@/assets/images/fields/fields/1.png" alt="">
                     </div>
                     <div class="field_txt text_one m-3 p-3">
-                        <p class="text-justify">هدفنا هو تدريب الطلاب على إيجاد حلول للمشكلات البيئية وتطبيق مبادئ الاستدامة
+                        <p>هدفنا هو تدريب الطلاب على إيجاد حلول للمشكلات البيئية وتطبيق مبادئ الاستدامة
                             في حياتهم اليومية.
                         </p>
                     </div>
@@ -37,7 +37,7 @@
                         <img src="@/assets/images/fields/fields/2.png" alt="">
                     </div>
                     <div class="field_txt text_two m-3 p-3">
-                        <p class="text-justify">نهدف إلى تزويد الطلاب بالمعرفة والمهارات المتعلقة بتكنولوجيا الفضاء
+                        <p>نهدف إلى تزويد الطلاب بالمعرفة والمهارات المتعلقة بتكنولوجيا الفضاء
                             والطيران.</p>
                     </div>
                 </div>
@@ -52,7 +52,7 @@
                         <img src="@/assets/images/fields/fields/3.png" alt="">
                     </div>
                     <div class="field_txt text_three m-3 p-3">
-                        <p class="text-justify">نعلم الطلاب المفاهيم الأساسية عن الطاقة المتجددة وتوليد الطاقة ليكونوا
+                        <p>نعلم الطلاب المفاهيم الأساسية عن الطاقة المتجددة وتوليد الطاقة ليكونوا
                             قادرين على بناء مشاريع
                             عملية قادرة على حل مشكلات الطاقة.</p>
                     </div>
@@ -68,7 +68,7 @@
                         <img src="@/assets/images/fields/fields/4.png" alt="">
                     </div>
                     <div class="field_txt text_four m-3 p-3">
-                        <p class="text-justify">ندرب الطلاب على المفاهيم الأساسية لتقنيات الاتصالات والإلكترونيات ليكونوا
+                        <p>ندرب الطلاب على المفاهيم الأساسية لتقنيات الاتصالات والإلكترونيات ليكونوا
                             قادرين على تصميم
                             الأجهزة الإلكترونية وإنشاء حلول تقنية في مجال الاتصالات.</p>
                     </div>
@@ -84,7 +84,7 @@
                         <img src="@/assets/images/fields/fields/5.png" alt="">
                     </div>
                     <div class="field_txt text_five m-3 p-3">
-                        <p class="text-justify">يطبق الطلاب مخرجات نهج STEAM التعليمي في مشاريع متعلقة بالذكاء الاصطناعي
+                        <p>يطبق الطلاب مخرجات نهج STEAM التعليمي في مشاريع متعلقة بالذكاء الاصطناعي
                             وتعلم الآلة ليكونوا
                             قادرين على دمج مفاهيم STEAM الأساسية بالتقنيات التكنولوجية الحديثة القائمة على الذكاء الاصطناعي.
                         </p>
@@ -112,7 +112,7 @@
                                 <img src="@/assets/images/fields/fields/1.png" alt="">
                             </div> -->
                             <div class="field_txt text_one mt-3 mx-auto p-3">
-                                <p class="text-justify">هدفنا هو تدريب الطلاب على إيجاد حلول للمشكلات البيئية وتطبيق مبادئ
+                                <p>هدفنا هو تدريب الطلاب على إيجاد حلول للمشكلات البيئية وتطبيق مبادئ
                                     الاستدامة
                                     في حياتهم اليومية.
                                 </p>
@@ -129,7 +129,7 @@
                                 <img src="@/assets/images/fields/fields/2.png" alt="">
                             </div> -->
                             <div class="field_txt text_two mt-3 mx-auto p-3">
-                                <p class="text-justify">نهدف إلى تزويد الطلاب بالمعرفة والمهارات المتعلقة بتكنولوجيا الفضاء
+                                <p>نهدف إلى تزويد الطلاب بالمعرفة والمهارات المتعلقة بتكنولوجيا الفضاء
                                     والطيران.</p>
                             </div>
                         </div>
@@ -144,7 +144,7 @@
                                 <img src="@/assets/images/fields/fields/3.png" alt="">
                             </div> -->
                             <div class="field_txt text_three mt-3 mx-auto p-3">
-                                <p class="text-justify">نعلم الطلاب المفاهيم الأساسية عن الطاقة المتجددة وتوليد الطاقة
+                                <p>نعلم الطلاب المفاهيم الأساسية عن الطاقة المتجددة وتوليد الطاقة
                                     ليكونوا
                                     قادرين على بناء مشاريع
                                     عملية قادرة على حل مشكلات الطاقة.</p>
@@ -161,7 +161,7 @@
                                 <img src="@/assets/images/fields/fields/4.png" class="d-block w-100" alt="">
                             </div> -->
                             <div class="field_txt text_four mt-3 mx-auto p-3">
-                                <p class="text-justify">ندرب الطلاب على المفاهيم الأساسية لتقنيات الاتصالات والإلكترونيات
+                                <p>ندرب الطلاب على المفاهيم الأساسية لتقنيات الاتصالات والإلكترونيات
                                     ليكونوا
                                     قادرين على تصميم
                                     الأجهزة الإلكترونية وإنشاء حلول تقنية في مجال الاتصالات.</p>
@@ -178,7 +178,7 @@
                                 <img src="@/assets/images/fields/fields/5.png" class="d-block w-100" alt="">
                             </div> -->
                             <div class="field_txt text_five mt-3 mx-auto p-3">
-                                <p class="text-justify">يطبق الطلاب مخرجات نهج STEAM التعليمي في مشاريع متعلقة بالذكاء
+                                <p>يطبق الطلاب مخرجات نهج STEAM التعليمي في مشاريع متعلقة بالذكاء
                                     الاصطناعي
                                     وتعلم الآلة ليكونوا
                                     قادرين على دمج مفاهيم STEAM الأساسية بالتقنيات التكنولوجية الحديثة القائمة على الذكاء
@@ -318,6 +318,7 @@ export default {
                 height: 275px;
                 border-radius: 8px;
                 color: $Black;
+                text-justify: none;
 
                 @include breakpoints(large) {
                     height: 410px;
@@ -392,6 +393,7 @@ export default {
                         width: 400px;
                         border-radius: 8px;
                         color: $Black;
+                        text-justify: none;
 
                         @include breakpoints(x-small) {
                             width: 300px;

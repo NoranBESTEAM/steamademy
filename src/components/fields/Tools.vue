@@ -267,22 +267,22 @@ export default {
 
         .tool_wrapper {
 
-            height: 260px;
+            height: 250px;
 
             @include breakpoints(small) {
-                height: 520px;
-            }
-
-            @include breakpoints(medium) {
                 height: 500px;
             }
 
+            @include breakpoints(medium) {
+                height: 480px;
+            }
+
             @include breakpoints(large) {
-                height: 300px;
+                height: 260px;
             }
 
             @include breakpoints(x-Large) {
-                height: 280px;
+                height: 260px;
             }
 
             .tool_ele {

@@ -69,7 +69,7 @@ export default {
     height: 900px;
 
     @include breakpoints(x-small) {
-        height: 800px;
+        height: 770px;
     }
 
     @include breakpoints(small) {
@@ -77,10 +77,14 @@ export default {
     }
 
     @include breakpoints(medium) {
-        height: 800px;
+        height: 825px;
     }
 
     @include breakpoints(large) {
+        height: 825px;
+    }
+
+    @include breakpoints(x-Large) {
         height: 830px;
     }
 
@@ -111,7 +115,7 @@ export default {
             width: 100%;
             height: 100%;
             object-fit: cover;
-            opacity: 80%;
+            opacity: 60%;
         }
 
         #content {
@@ -121,7 +125,7 @@ export default {
             #content_wrapper {
 
                 position: absolute;
-                top: 320px;
+                top: 310px;
 
                 color: $White;
 
@@ -130,15 +134,19 @@ export default {
                 }
 
                 @include breakpoints(small) {
-                    top: 220px;
+                    top: 250px;
                 }
 
                 @include breakpoints(medium) {
-                    top: 300px;
+                    top: 350px;
                 }
 
                 @include breakpoints(large) {
-                    top: 230px;
+                    top: 250px;
+                }
+
+                @include breakpoints(x-Large) {
+                    top: 320px;
                 }
 
                 h1 {
@@ -147,7 +155,7 @@ export default {
 
                     font-size: 56px;
 
-                    line-height: normal;
+                    line-height: 1.2;
 
                     @include breakpoints(x-small) {
                         font-size: 35px;
@@ -217,11 +225,11 @@ export default {
                 top: -45px;
                 left: 0;
 
-                // In X-Large
+                // In XX-Large
                 // width: 1081px;
                 // height: 952px;
-                width: 996px;
-                height: 800px;
+                width: 1000px;
+                height: 871px;
 
                 // In Responsive
 
@@ -243,6 +251,11 @@ export default {
                 @include breakpoints(large) {
                     width: 796px;
                     height: 600px;
+                }
+
+                @include breakpoints(x-Large) {
+                    width: 996px;
+                    height: 800px;
                 }
 
                 img {

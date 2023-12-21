@@ -12,7 +12,7 @@
 
                         <h3 class="fw-bold mb-3">المحتوى الرقمي</h3>
 
-                        <p class="text-justify">نقدم محتوى تعليمي رقمي تفاعلي متكامل لإعداد المتدربين لوظائف النهضة
+                        <p class="mb-3 mb-sm-3 mb-md-3 mb-lg-0">نقدم محتوى تعليمي رقمي تفاعلي متكامل لإعداد المتدربين لوظائف النهضة
                             الصناعية
                             الرابعة، هذا المحتوى
                             قائم على مبادئ نهج STEAM التعليمي وهي:
@@ -35,7 +35,7 @@
 
                         <h5 class="fw-bold mb-3">يهدف المحتوى لتوفير:</h5>
 
-                        <ul class="text-justify">
+                        <ul>
                             <li>برامج تعليمية متكاملة.</li>
                             <li>مشاريع تطبيق المفاهيم العلمية. تعليم برمجة الروبوتات.</li>
                             <li>تعليم تصميم المواقع والتطبيقات.</li>
@@ -46,7 +46,7 @@
                     </div>
 
                     <div
-                        class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 wow animate__animated animate__backInLeft animate__delay-3s animate__slow">
+                        class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 wow animate__animated animate__backInLeft animate__delay-3s animate__slow d-flex justify-content-center align-items-center">
 
                         <div id="img_wrapper">
 
@@ -115,7 +115,8 @@ export default {
                 color: $Black;
                 font-size: 18px;
                 font-weight: 400;
-                line-height: normal;
+                text-justify: none;
+                line-height: 1.2;
             }
 
             ul {
@@ -126,19 +127,12 @@ export default {
             #img_wrapper {
 
                 width: 100%;
-                height: 350px;
+                // height: 100%;
 
-                @include breakpoints(x-small) {
-                    height: 300px;
-                }
-
-                @include breakpoints(small) {
-                    height: 300px;
-                }
-
-                @include breakpoints(medium) {
-                    height: 300px;
-                }
+                /* @include breakpoints(medium) {
+                    width: 90%;
+                    height: 90%;
+                } */
 
                 border-radius: 8px;
 
@@ -149,9 +143,9 @@ export default {
                     object-fit: fill;
                     border-radius: 8px;
 
-                    @include breakpoints(medium) {
+                    /* @include breakpoints(medium) {
                         object-fit: cover;
-                    }
+                    } */
 
                 }
 
