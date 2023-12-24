@@ -6,7 +6,7 @@
             <h3
                 class="text-center fw-bold text-justify mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="10" data-wow-delay="0.5s">
 
-                <img src="@/assets/images/about/know_us/تعرف_علينا.svg" alt="" class="ms-3">تعرف علينا
+                <img src="@/assets/images/about/know_us/know_us.svg" alt="" class="ms-3">تعرف علينا
 
             </h3>
 

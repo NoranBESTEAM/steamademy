@@ -11,63 +11,63 @@
 
                 <div class="service_wrapper">
                     <div class="service_ele">
-                        <img src="@/assets/images/home/service/تعليم_متكامل.svg" alt="">
+                        <img src="@/assets/images/home/service/integrated_education.svg" alt="">
                     </div>
                     <h5 class="text-center fw-bold">نظام تعليم متكامل ل STEAM</h5>
                 </div>
 
                 <div class="service_wrapper">
                     <div class="service_ele">
-                        <img src="@/assets/images/home/service/برامج_مبتكرة.svg" alt="">
+                        <img src="@/assets/images/home/service/innovative_programs.svg" alt="">
                     </div>
                     <h5 class="text-center fw-bold">برامج تعليمية مبتكرة</h5>
                 </div>
 
                 <div class="service_wrapper">
                     <div class="service_ele">
-                        <img src="@/assets/images/home/service/دعم_كامل.svg" alt="">
+                        <img src="@/assets/images/home/service/complete_support.svg" alt="">
                     </div>
                     <h5 class="text-center fw-bold">دعم كامل من فريق محترف</h5>
                 </div>
 
                 <div class="service_wrapper">
                     <div class="service_ele">
-                        <img src="@/assets/images/home/service/تدريب_مستمر.svg" alt="">
+                        <img src="@/assets/images/home/service/continuous_training.svg" alt="">
                     </div>
                     <h5 class="text-center fw-bold">مواد شاملة وتدريب مستمر</h5>
                 </div>
 
                 <div class="service_wrapper">
                     <div class="service_ele">
-                        <img src="@/assets/images/home/service/دعم_تسويقي.svg" alt="">
+                        <img src="@/assets/images/home/service/marketing_support.svg" alt="">
                     </div>
                     <h5 class="text-center fw-bold"> إدارة أعمال ودعم تسويقي</h5>
                 </div>
 
                 <div class="service_wrapper">
                     <div class="service_ele">
-                        <img src="@/assets/images/home/service/تجربة_استثنائية.svg" alt="">
+                        <img src="@/assets/images/home/service/exceptional_experience.svg" alt="">
                     </div>
                     <h5 class="text-center fw-bold">تجربة تعليمية استثنائية</h5>
                 </div>
 
                 <div class="service_wrapper">
                     <div class="service_ele">
-                        <img src="@/assets/images/home/service/نموذج_عمل.svg" alt="">
+                        <img src="@/assets/images/home/service/business_model.svg" alt="">
                     </div>
                     <h5 class="text-center fw-bold">نموذج عمل متكامل</h5>
                 </div>
 
                 <div class="service_wrapper">
                     <div class="service_ele">
-                        <img src="@/assets/images/home/service/عملاء_مضمونين.svg" alt="">
+                        <img src="@/assets/images/home/service/guaranteed_clients.svg" alt="">
                     </div>
                     <h5 class="text-center fw-bold">عائد مادي وعملاء مضمونين</h5>
                 </div>
 
                 <div class="service_wrapper">
                     <div class="service_ele">
-                        <img src="@/assets/images/home/service/منظومة_تشغيلية.svg" alt="">
+                        <img src="@/assets/images/home/service/operating_system.svg" alt="">
                     </div>
                     <h5 class="text-center fw-bold">منظومة تشغيلية تقنية للتدريب والمتابعات</h5>
                 </div>

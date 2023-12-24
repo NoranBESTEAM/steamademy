@@ -12,7 +12,7 @@
                 <!-- d-inline-block -->
                 <div class="service_ele">
 
-                    <img src="@/assets/images/home/service/تعليم_متكامل.svg" alt="" class="mt-3 mb-3">
+                    <img src="@/assets/images/home/service/integrated_education.svg" alt="" class="mt-3 mb-3">
 
                     <h5 class="text-center fw-bold">تعليم متكامل</h5>
 
@@ -20,7 +20,7 @@
 
                 <div class="service_ele">
 
-                    <img src="@/assets/images/home/service/برامج_مبتكرة.svg" alt="" class="mt-3 mb-3">
+                    <img src="@/assets/images/home/service/innovative_programs.svg" alt="" class="mt-3 mb-3">
 
                     <h5 class="text-center fw-bold">برامج مبتكرة</h5>
 
@@ -28,7 +28,7 @@
 
                 <div class="service_ele">
 
-                    <img src="@/assets/images/home/service/دعم_كامل.svg" alt="" class="mt-3 mb-3">
+                    <img src="@/assets/images/home/service/complete_support.svg" alt="" class="mt-3 mb-3">
 
                     <h5 class="text-center fw-bold">دعم كامل</h5>
 
@@ -36,7 +36,7 @@
 
                 <div class="service_ele">
 
-                    <img src="@/assets/images/home/service/تدريب_مستمر.svg" alt="" class="mt-3 mb-3">
+                    <img src="@/assets/images/home/service/continuous_training.svg" alt="" class="mt-3 mb-3">
 
                     <h5 class="text-center fw-bold">تدريب مستمر</h5>
 
@@ -44,7 +44,7 @@
 
                 <div class="service_ele">
 
-                    <img src="@/assets/images/home/service/دعم_تسويقي.svg" alt="" class="mt-3 mb-3">
+                    <img src="@/assets/images/home/service/marketing_support.svg" alt="" class="mt-3 mb-3">
 
                     <h5 class="text-center fw-bold">دعم تسويقي</h5>
 
@@ -52,7 +52,7 @@
 
                 <div class="service_ele">
 
-                    <img src="@/assets/images/home/service/تجربة_استثنائية.svg" alt="" class="mt-3 mb-3">
+                    <img src="@/assets/images/home/service/exceptional_experience.svg" alt="" class="mt-3 mb-3">
 
                     <h5 class="text-center fw-bold">تجربة استثنائية</h5>
 
@@ -60,7 +60,7 @@
 
                 <div class="service_ele">
 
-                    <img src="@/assets/images/home/service/نموذج_عمل.svg" alt="" class="mt-3 mb-3">
+                    <img src="@/assets/images/home/service/business_model.svg" alt="" class="mt-3 mb-3">
 
                     <h5 class="text-center fw-bold">نموذج عمل</h5>
 
@@ -68,7 +68,7 @@
 
                 <div class="service_ele">
 
-                    <img src="@/assets/images/home/service/عملاء_مضمونين.svg" alt="" class="mt-3 mb-3">
+                    <img src="@/assets/images/home/service/guaranteed_clients.svg" alt="" class="mt-3 mb-3">
 
                     <h5 class="text-center fw-bold">عملاء مضمونين</h5>
 
@@ -76,7 +76,7 @@
 
                 <div class="service_ele">
 
-                    <img src="@/assets/images/home/service/منظومة_تشغيلية.svg" alt="" class="mt-3 mb-3">
+                    <img src="@/assets/images/home/service/operating_system.svg" alt="" class="mt-3 mb-3">
 
                     <h5 class="text-center fw-bold">منظومة تشغيلية</h5>
 

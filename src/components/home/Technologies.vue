@@ -3,7 +3,8 @@
 
         <div class="container">
 
-            <h3 class="text-center fw-bold mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="10" data-wow-delay="0.5s">
+            <h3 class="text-center fw-bold mb-4 wow animate__animated animate__backInDown animate__slow"
+                data-wow-offset="10" data-wow-delay="0.5s">
                 الأدوات والتقنيات المستخدمة</h3>
 
             <!-- In Large Screen -->
@@ -12,15 +13,15 @@
 
                 <div class="row">
 
-                    <div
-                        class="col-lg-6 col-xl-6 wow animate__animated animate__backInRight animate__slow" data-wow-offset="10" data-wow-delay="1s">
+                    <div class="col-lg-6 col-xl-6 wow animate__animated animate__backInRight animate__slow"
+                        data-wow-offset="10" data-wow-delay="1s">
 
                         <div id="right_content">
 
                             <div class="tech_ele mb-3" id="top_right">
 
                                 <div class="img_wrapper">
-                                    <img src="@/assets/images/home/technologies/الروبوتات.jpg" alt="">
+                                    <img src="@/assets/images/home/technologies/robots.jpg" alt="">
                                 </div>
 
                                 <h5 class="fw-bold">تصميم وبرمجة الروبوتات</h5>
@@ -30,7 +31,7 @@
                             <div class="tech_ele" id="bottom_right">
 
                                 <div class="img_wrapper">
-                                    <img src="@/assets/images/home/technologies/التصنيع_الرقمي.jpg" alt="">
+                                    <img src="@/assets/images/home/technologies/digital_manufacturing.jpg" alt="">
                                 </div>
 
                                 <h5 class="fw-bold">التصنيع الرقمي</h5>
@@ -41,8 +42,8 @@
 
                     </div>
 
-                    <div
-                        class="col-lg-6 col-xl-6 wow animate__animated animate__backInLeft animate__slow" data-wow-offset="10" data-wow-delay="1s">
+                    <div class="col-lg-6 col-xl-6 wow animate__animated animate__backInLeft animate__slow"
+                        data-wow-offset="10" data-wow-delay="1s">
 
                         <div id="left_content">
 
@@ -56,7 +57,7 @@
                             <div class="tech_ele mb-3" id="top_left">
 
                                 <div class="img_wrapper">
-                                    <img src="@/assets/images/home/technologies/البرمجة.jpg" alt="">
+                                    <img src="@/assets/images/home/technologies/programming.jpg" alt="">
                                 </div>
 
                                 <h5 class="fw-bold">المتحكمات والإلكترونيات</h5>
@@ -66,7 +67,7 @@
                             <div class="tech_ele" id="bottom_left">
 
                                 <div class="img_wrapper">
-                                    <img src="@/assets/images/home/technologies/انترنت_الاشياء.jpg" alt="">
+                                    <img src="@/assets/images/home/technologies/internet_things.jpg" alt="">
                                 </div>
 
                                 <h5 class="fw-bold">إنترنت الأشياء</h5>
@@ -86,21 +87,21 @@
             <div id="content_wrapper_mobile" class="d-block d-sm-block d-md-block d-lg-none d-xl-none">
 
                 <div id="carouselTechnologySlidesOnly"
-                    class="carousel slide wow animate__animated animate__backInUp animate__slow" data-wow-offset="10" data-wow-delay="1s"
-                    data-bs-ride="carousel">
+                    class="carousel slide wow animate__animated animate__backInUp animate__slow" data-wow-offset="10"
+                    data-wow-delay="1s" data-bs-ride="carousel">
 
                     <div class="carousel-inner">
 
                         <div class="carousel-item active" data-bs-interval="5000">
                             <div class="image_wrapper">
-                                <img src="@/assets/images/home/technologies/الروبوتات.jpg" class="d-block w-100" alt="">
+                                <img src="@/assets/images/home/technologies/robots.jpg" class="d-block w-100" alt="">
                             </div>
                             <h5 class="fw-bolder">تصميم وبرمجة الروبوتات</h5>
                         </div>
 
                         <div class="carousel-item" data-bs-interval="5000">
                             <div class="image_wrapper">
-                                <img src="@/assets/images/home/technologies/التصنيع_الرقمي.jpg" class="d-block w-100"
+                                <img src="@/assets/images/home/technologies/digital_manufacturing.jpg" class="d-block w-100"
                                     alt="">
                             </div>
                             <h5 class="fw-bolder">التصنيع الرقمي</h5>
@@ -108,14 +109,14 @@
 
                         <div class="carousel-item" data-bs-interval="5000">
                             <div class="image_wrapper">
-                                <img src="@/assets/images/home/technologies/البرمجة.jpg" class="d-block w-100" alt="">
+                                <img src="@/assets/images/home/technologies/programming.jpg" class="d-block w-100" alt="">
                             </div>
                             <h5 class="fw-bolder">المتحكمات والإلكترونيات</h5>
                         </div>
 
                         <div class="carousel-item" data-bs-interval="5000">
                             <div class="image_wrapper">
-                                <img src="@/assets/images/home/technologies/انترنت_الاشياء.jpg" class="d-block w-100"
+                                <img src="@/assets/images/home/technologies/internet_things.jpg" class="d-block w-100"
                                     alt="">
                             </div>
                             <h5 class="fw-bolder">إنترنت الأشياء</h5>
@@ -363,9 +364,21 @@ export default {
 
                         border-radius: 16px;
 
-                        // width: 252px;
-                        width: 100%;
-                        height: 214px;
+                        @include breakpoints(x-small) {
+                            width: 100%;
+                            height: 276px;
+                        }
+
+                        @include breakpoints(small) {
+                            width: 100%;
+                            height: 456px;
+                        }
+
+                        @include breakpoints(medium) {
+                            // width: 252px;
+                            width: 100%;
+                            height: 454px;
+                        }
 
                         background: $Gray;
 

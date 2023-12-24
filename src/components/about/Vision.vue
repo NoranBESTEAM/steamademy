@@ -17,7 +17,7 @@
 
                         <h3 class="fw-bold mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="10" data-wow-delay="0.5s">
 
-                            <img src="@/assets/images/about/vision/رؤيتنا.svg" alt="" class="ms-3">رؤيتنا
+                            <img src="@/assets/images/about/vision/our_vision.svg" alt="" class="ms-3">رؤيتنا
 
                         </h3>
 
@@ -32,7 +32,7 @@
 
                         <h3 class="fw-bold mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="10" data-wow-delay="0.5s">
 
-                            <img src="@/assets/images/about/vision/رسالتنا.svg" alt="" class="ms-3">رسالتنا
+                            <img src="@/assets/images/about/vision/our_message.svg" alt="" class="ms-3">رسالتنا
 
                         </h3>
 
@@ -53,7 +53,7 @@
 
                     <h3 class="fw-bold mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="10" data-wow-delay="0.5s">
 
-                        <img src="@/assets/images/about/vision/رؤيتنا.svg" alt="" class="ms-3">رؤيتنا
+                        <img src="@/assets/images/about/vision/our_vision.svg" alt="" class="ms-3">رؤيتنا
 
                     </h3>
 
@@ -68,7 +68,7 @@
 
                     <h3 class="fw-bold mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="10" data-wow-delay="0.5s">
 
-                        <img src="@/assets/images/about/vision/رسالتنا.svg" alt="" class="ms-3">رسالتنا
+                        <img src="@/assets/images/about/vision/our_message.svg" alt="" class="ms-3">رسالتنا
 
                     </h3>
 
