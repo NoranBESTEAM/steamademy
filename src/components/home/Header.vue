@@ -69,11 +69,11 @@ export default {
     height: 900px;
 
     @include breakpoints(x-small) {
-        height: 770px;
+        height: 760px;
     }
 
     @include breakpoints(small) {
-        height: 750px;
+        height: 720px;
     }
 
     @include breakpoints(medium) {
@@ -182,6 +182,8 @@ export default {
                     font-weight: 400;
 
                     margin-bottom: 40px;
+
+                    text-align: justify;
 
                     @include breakpoints(x-small) {
                         width: 95%;

@@ -7,12 +7,13 @@
 
                 <div class="row">
 
-                    <div
-                        class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 wow animate__animated animate__backInRight animate__delay-3s animate__slow">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 wow animate__animated animate__backInRight animate__slow"
+                        data-wow-offset="10" data-wow-delay="0.5s">
 
                         <h3 class="fw-bold mb-3">المحتوى الرقمي</h3>
 
-                        <p class="mb-3 mb-sm-3 mb-md-3 mb-lg-0">نقدم محتوى تعليمي رقمي تفاعلي متكامل لإعداد المتدربين لوظائف النهضة
+                        <p class="mb-3 mb-sm-3 mb-md-3 mb-lg-0">نقدم محتوى تعليمي رقمي تفاعلي متكامل لإعداد المتدربين لوظائف
+                            النهضة
                             الصناعية
                             الرابعة، هذا المحتوى
                             قائم على مبادئ نهج STEAM التعليمي وهي:
@@ -30,8 +31,8 @@
 
                     </div>
 
-                    <div
-                        class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 wow animate__animated animate__backInRight animate__delay-3s animate__slow">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 wow animate__animated animate__backInRight animate__slow"
+                        data-wow-offset="10" data-wow-delay="1s">
 
                         <h5 class="fw-bold mb-3">يهدف المحتوى لتوفير:</h5>
 
@@ -45,8 +46,8 @@
 
                     </div>
 
-                    <div
-                        class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 wow animate__animated animate__backInLeft animate__delay-3s animate__slow d-flex justify-content-center align-items-center">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 d-flex justify-content-center align-items-center wow animate__animated animate__backInLeft animate__slow"
+                        data-wow-offset="10" data-wow-delay="1.5s">
 
                         <div id="img_wrapper">
 
@@ -115,8 +116,8 @@ export default {
                 color: $Black;
                 font-size: 18px;
                 font-weight: 400;
-                text-justify: none;
-                line-height: 1.2;
+                line-height: normal;
+                text-align: justify;
             }
 
             ul {
@@ -129,9 +130,17 @@ export default {
                 width: 100%;
                 // height: 100%;
 
-                /* @include breakpoints(medium) {
-                    width: 90%;
-                    height: 90%;
+                /* @include breakpoints(x-small) {
+                    width: 377px;
+                    height: 261px;
+                }
+                @include breakpoints(small) {
+                    width: 377px;
+                    height: 261px;
+                }
+                @include breakpoints(medium) {
+                    width: 377px;
+                    height: 261px;
                 } */
 
                 border-radius: 8px;

@@ -4,10 +4,10 @@
         <div class="container">
 
             <h3
-                class="text-center fw-bold text-justify mb-4 wow animate__animated animate__backInDown animate__delay-0.5s animate__slow">
+                class="text-center fw-bold text-justify mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="10">
                 ماذا نستطيع أن نقدم لك؟</h3>
 
-            <div id="content_wrapper" class="wow animate__animated animate__backInUp animate__delay-0.5s animate__slow">
+            <div id="content_wrapper" class="wow animate__animated animate__backInUp animate__slow" data-wow-offset="10" data-wow-delay="1s">
 
                 <!-- d-inline-block -->
                 <div class="service_ele">

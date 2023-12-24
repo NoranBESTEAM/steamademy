@@ -178,7 +178,6 @@ nav {
                             // font-size: 16px;
                             font-size: 18px;
                             font-weight: 400;
-                            line-height: normal;
                             text-align: center;
                         }
 
@@ -204,8 +203,6 @@ nav {
                         color: $White;
                         font-size: 18px;
                         font-weight: 500;
-
-                        line-height: normal;
 
                         img {
                             width: 24px;

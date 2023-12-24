@@ -6,7 +6,7 @@
             <div class="row">
 
                 <div id="img_content"
-                    class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 wow animate__animated animate__fadeIn animate__delay-1s animate__slow">
+                    class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 wow animate__animated animate__fadeIn animate__slow" data-wow-offset="10" data-wow-delay="0.5s">
 
                     <div id="img_wrapper">
                         <img src="@/assets/images/home/commercial_concession/Kid_pic.png" alt="">
@@ -17,16 +17,16 @@
                 <div id="text_content"
                     class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 my-auto">
 
-                    <h3 class="fw-bold text-justify mb-4 wow animate__animated animate__backInDown animate__delay-1s animate__slow">
+                    <h3 class="fw-bold text-justify mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="10" data-wow-delay="1s">
                         امتياز STEAM التجاري</h3>
 
-                    <p class="text-justify mb-4 wow animate__animated animate__backInUp animate__delay-1s animate__slow">
+                    <p class="text-justify mb-4 wow animate__animated animate__backInUp animate__slow" data-wow-offset="10" data-wow-delay="1.5s">
                         يوفر
                         لك منظومة متكاملة لتحقيق أفضل عائد على استثماراتك بداية من التجهيزات
                         والمحتوى العلمي وتأهيل فريقك وحتى وسائل التواصل مع الطلاب والتسويق كل ما عليك هو أن تؤمن بقدرتك على
                         تغيير المستقبل وتحقيق أهداف الثورة الصناعية الرابعة.</p>
 
-                    <router-link :to="{ name: 'commercial_concession' }" type="button" class="btn fw-bold wow animate__animated animate__backInUp animate__delay-1s animate__slow">
+                    <router-link :to="{ name: 'commercial_concession' }" type="button" class="btn fw-bold wow animate__animated animate__backInUp animate__slow" data-wow-offset="10" data-wow-delay="2s">
                         عرض المزيد
                         <font-awesome-icon :icon="['fas', 'fa-arrow-left']" class="me-2" />
                     </router-link>
@@ -157,7 +157,8 @@ export default {
                 color: $Black;
                 font-size: 18px;
                 font-weight: 400;
-                line-height: normal; 
+                line-height: normal;
+                text-align: justify;
             }
 
             a {

@@ -12,8 +12,7 @@
             <div class="row">
 
                 <!-- Grid column -->
-                <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 mx-auto wow animate__animated animate__bounceInLeft animate__delay-0.5s animate__slow"
-                    id="about-us">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 mx-auto wow animate__animated animate__bounceInLeft animate__slower" data-wow-offset="10" id="about-us" data-wow-delay="0.5s">
                     <img src="@/assets/images/footer/logo_white.png" alt="footer_logo">
                     <p class="mt-3">شركة رائدة في خدمات STEAM التعليمية!</p>
                 </div>
@@ -21,7 +20,7 @@
 
                 <!-- Grid column -->
                 <div
-                    class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 mx-auto wow animate__animated animate__bounceInLeft animate__delay-1s animate__slow">
+                    class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 mx-auto wow animate__animated animate__bounceInLeft animate__slower" data-wow-offset="10" data-wow-delay="1s">
                     <!-- Links -->
                     <h6 class="fw-bold mb-3">
                         روابط هامة
@@ -40,7 +39,7 @@
 
                 <!-- Grid column -->
                 <div
-                    class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 mx-auto wow animate__animated animate__bounceInLeft animate__delay-2s animate__slow">
+                    class="col-12 col-sm-6 col-md-6 col-lg-3 col-xl-3 mx-auto wow animate__animated animate__bounceInLeft animate__slower" data-wow-offset="10" data-wow-delay="1.5s">
                     <!-- Links -->
                     <h6 class="fw-bold mb-3">
                         تواصل معنا
@@ -62,7 +61,7 @@
 
                 <!-- Grid column -->
                 <div
-                    class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 mx-auto wow animate__animated animate__bounceInLeft animate__delay-3s animate__slow">
+                    class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 mx-auto wow animate__animated animate__bounceInLeft animate__slower" data-wow-offset="10" data-wow-delay="2s">
                     <!-- Links -->
                     <h6 class="fw-bold mb-3">آخر الأخبار</h6>
                     <p>ادخل بريدك الإلكتروني ليصلك كل جديد</p>
@@ -105,7 +104,7 @@
         </div>
 
         <!-- Copyright -->
-        <div class="text-center pt-2 pb-2 wow animate__animated animate__bounceInLeft animate__delay-4s animate__fast"
+        <div class="text-center pt-2 pb-2 wow animate__animated animate__bounceInLeft animate__slower" data-wow-offset="5" data-wow-delay="0.5s"
             id="copyright">
             &copy; {{ new Date().getFullYear() }}
             جميع الحقوق محفوظة لدى شركة 
@@ -187,7 +186,6 @@ footer {
             p {
                 // font-size: 18px;
                 font-size: 16px;
-                text-justify: none;
             }
 
         }
@@ -260,6 +258,9 @@ footer {
             a {
                 svg {
                     color: $Orange;
+                }
+                svg:hover {
+                    color: $White;
                 }
             }
         }

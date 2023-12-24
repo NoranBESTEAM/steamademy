@@ -3,9 +3,9 @@
 
         <div class="container">
 
-            <h3 class="fw-bold mb-4 animate__animated animate__backInDown animate__delay-0.9s animate__slow">تواصل معنا</h3>
+            <h3 class="fw-bold mb-4 animate__animated animate__backInDown animate__delay-0.5s animate__slow">تواصل معنا</h3>
 
-            <div id="content_wrapper" class="animate__animated animate__backInUp animate__delay-0.9s animate__slow">
+            <div id="content_wrapper" class="animate__animated animate__backInUp animate__delay-1s animate__slow">
 
                 <form>
 

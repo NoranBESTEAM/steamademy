@@ -4,7 +4,7 @@
         <div class="container">
 
             <h3
-                class="text-center fw-bold text-justify mb-4 wow animate__animated animate__backInDown animate__delay-3s animate__slow">
+                class="text-center fw-bold text-justify mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="10" data-wow-delay="0.5s">
 
                 <img src="@/assets/images/about/know_us/تعرف_علينا.svg" alt="" class="ms-3">تعرف علينا
 
@@ -18,7 +18,7 @@
             <!-- https://blog.teamtreehouse.com/building-custom-controls-for-html5-videos -->
 
             <div id="video_wrapper"
-                class="ratio ratio-21x9 wow animate__animated animate__backInUp animate__delay-3s animate__slow">
+                class="ratio ratio-21x9 wow animate__animated animate__backInUp animate__slow" data-wow-offset="10" data-wow-delay="1s">
                 <!-- https://www.w3schools.com/tags/att_video_poster.asp -->
                 <video poster="@/assets/images/about/know_us/Steam_Video.jpg" controls>
                     <source src="@/assets/images/about/know_us/STEAMademy.mp4" type="video/mp4">

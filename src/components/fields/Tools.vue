@@ -6,16 +6,16 @@
 
         <div class="container">
 
-            <h3 class="fw-bold mb-4 wow animate__animated animate__backInDown animate__delay-2s animate__slow">الأدوات
+            <h3 class="fw-bold mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="10" data-wow-delay="0.5s">الأدوات
                 والتقنيات المستخدمة</h3>
 
-            <p class="text-justify wow animate__animated animate__backInDown animate__delay-2s animate__slow">نقدم الأدوات
+            <p class="text-justify wow animate__animated animate__backInDown animate__slow" data-wow-offset="10" data-wow-delay="1s">نقدم الأدوات
                 والتقنيات التعليمية التي تساعد الطلاب على التعلم والابتكار، مثل:</p>
 
             <!-- In Large Screen -->
 
             <div
-                class="tool_wrapper wow animate__animated animate__backInUp animate__delay-2s animate__slow d-none d-sm-block d-md-block d-lg-block d-xl-block">
+                class="tool_wrapper d-none d-sm-block d-md-block d-lg-block d-xl-block wow animate__animated animate__backInUp animate__slow" data-wow-offset="10" data-wow-delay="1.5s">
 
                 <div class="row">
 
@@ -88,7 +88,7 @@
             <!-- In Mobile Screen -->
 
             <div
-                class="tool_wrapper_mobile wow animate__animated animate__backInUp animate__delay-2s animate__slow d-block d-sm-none d-md-none d-lg-none d-xl-none">
+                class="tool_wrapper_mobile d-block d-sm-none d-md-none d-lg-none d-xl-none wow animate__animated animate__backInUp animate__slow" data-wow-offset="10" data-wow-delay="1.5s">
 
                 <div id="carouselToolExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
 
@@ -261,6 +261,18 @@ export default {
             font-size: 18px;
             font-weight: 400;
             line-height: normal;
+
+            @include breakpoints(x-small) {
+                text-align: center;
+            }
+
+            @include breakpoints(small) {
+                text-align: center;
+            }
+
+            @include breakpoints(medium) {
+                text-align: center;
+            }
         }
 
         // In Large Screen
@@ -359,6 +371,7 @@ export default {
                     font-size: 16px;
                     font-weight: 400;
                     line-height: normal;
+                    text-align: justify;
                 }
 
             }
@@ -425,6 +438,7 @@ export default {
                                 font-size: 16px;
                                 font-weight: 400;
                                 line-height: normal;
+                                text-align: justify;
                             }
 
                         }

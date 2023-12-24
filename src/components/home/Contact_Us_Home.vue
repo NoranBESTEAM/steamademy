@@ -1,7 +1,7 @@
 <template>
     <section id="contact_us">
 
-        <div class="container d-flex justify-content-center align-items-center wow animate__animated animate__flash animate__delay-0.9s animate__slow">
+        <div class="container d-flex justify-content-center align-items-center wow animate__animated animate__flash animate__slow" data-wow-offset="10">
 
             <div id="text_wrapper" class="d-inline-block ms-5 mb-5">
 

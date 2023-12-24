@@ -39,7 +39,7 @@ export default {
   text-decoration: none;
 }
 
-p{
+/* p{
   text-align: justify !important;
-}
+} */
 </style>

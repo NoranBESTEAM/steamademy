@@ -2,14 +2,14 @@
     <section id="field">
         <div class="container">
 
-            <h3 class="fw-bold mb-4 wow animate__animated animate__backInDown animate__delay-1s animate__slow">
+            <h3 class="fw-bold mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="10" data-wow-delay="0.5s">
                 مجالات
                 STEAM التطبيقية</h3>
 
             <!-- In Large Screen -->
 
             <div id="content_wrapper"
-                class="wow animate__animated animate__backInUp animate__delay-1s animate__slow d-none d-sm-none d-md-none d-lg-block d-xl-block">
+                class="d-none d-sm-none d-md-none d-lg-block d-xl-block wow animate__animated animate__backInUp animate__slow" data-wow-offset="10" data-wow-delay="1s">
 
                 <div class="field_ele">
                     <div class="image_wrapper">
@@ -96,7 +96,7 @@
             <!-- In Mobile Screen -->
 
             <div id="content_wrapper_mobile"
-                class="wow animate__animated animate__backInUp animate__delay-1s animate__slow d-block d-sm-block d-md-block d-lg-none d-xl-none">
+                class="d-block d-sm-block d-md-block d-lg-none d-xl-none wow animate__animated animate__backInUp animate__slow" data-wow-offset="10" data-wow-delay="1s">
 
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
 
@@ -318,7 +318,7 @@ export default {
                 height: 275px;
                 border-radius: 8px;
                 color: $Black;
-                text-justify: none;
+                line-height: normal;
 
                 @include breakpoints(large) {
                     height: 410px;
@@ -393,7 +393,7 @@ export default {
                         width: 400px;
                         border-radius: 8px;
                         color: $Black;
-                        text-justify: none;
+                        line-height: normal;
 
                         @include breakpoints(x-small) {
                             width: 300px;

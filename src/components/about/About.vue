@@ -5,15 +5,15 @@
 
             <div class="row">
 
-                <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 wow animate__animated animate__backInDown animate__delay-0.5s animate__slow">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
 
                     <div id="text_wrapper">
 
-                        <h3 class="fw-bold mb-4 text-justify">من نحن</h3>
+                        <h3 class="fw-bold mb-4 text-justify wow animate__animated animate__backInRight animate__slow" data-wow-offset="10" data-wow-delay="0.5s">من نحن</h3>
 
-                        <h5 class="fw-bold mb-3 text-justify">شركة رائدة في خدمات STEAM التعليمية!</h5>
+                        <h5 class="fw-bold mb-3 text-justify wow animate__animated animate__backInRight animate__slow" data-wow-offset="10" data-wow-delay="1s">شركة رائدة في خدمات STEAM التعليمية!</h5>
 
-                        <p class="text-justify">نعمل لتأهيل الطلاب في مهارات المستقبل القائمة على النهضة الصناعية الرابعة عن
+                        <p class="text-justify wow animate__animated animate__backInRight animate__slow" data-wow-offset="10" data-wow-delay="1.5s">نعمل لتأهيل الطلاب في مهارات المستقبل القائمة على النهضة الصناعية الرابعة عن
                             طريق توفير كل
                             متطلبات الحصول على امتياز STEAM التجاري. نهدف إلى تمكين الجهات التعليمية والمدربين من تقديم بيئة
                             تعليمية مستدامة ومبتكرة تعزز مهارات التطبيق العملي والإبداع والتعاون وحل المشكلات.</p>
@@ -22,7 +22,7 @@
 
                 </div>
 
-                <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 wow animate__animated animate__backInUp animate__delay-0.5s animate__slow">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 wow animate__animated animate__backInLeft animate__slow" data-wow-offset="10" data-wow-delay="0.5s">
 
                     <div id="image_wrapper">
                         <img src="@/assets/images/about/about/About_kids.png" alt="">
@@ -115,6 +115,7 @@ export default {
                 font-size: 18px;
                 font-weight: 400;
                 line-height: normal;
+                text-align: justify;
             }
 
         }

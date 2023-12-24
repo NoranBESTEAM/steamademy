@@ -3,13 +3,13 @@
 
         <div class="container">
 
-            <h3 class="fw-bold mb-4 text-justify wow animate__animated animate__backInDown animate__delay-2s animate__slow">
+            <h3 class="fw-bold mb-4 text-justify wow animate__animated animate__backInDown animate__slow" data-wow-offset="10" data-wow-delay="0.5s">
                 إليك مميزات الامتياز التجاري STEAMdemy</h3>
 
             <!-- For Large Screen -->
 
             <div id="content_wrapper"
-                class="d-none d-sm-none d-md-none d-lg-block d-xl-block wow animate__animated animate__backInUp animate__delay-2s animate__slow">
+                class="d-none d-sm-none d-md-none d-lg-block d-xl-block wow animate__animated animate__backInUp animate__slow" data-wow-offset="10" data-wow-delay="1s">
 
                 <div class="row gy-4">
 
@@ -104,7 +104,7 @@
             <!-- For Small Screen -->
 
             <div id="content_wrapper_mobile"
-                class="d-block d-sm-block d-md-block d-lg-none d-xl-none wow animate__animated animate__backInUp animate__delay-2s animate__slow">
+                class="d-block d-sm-block d-md-block d-lg-none d-xl-none wow animate__animated animate__backInUp animate__slow" data-wow-offset="10" data-wow-delay="1s">
 
                 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
 
@@ -284,6 +284,7 @@ export default {
                         font-size: 16px;
                         font-weight: 400;
                         line-height: normal;
+                        text-align: justify;
                     }
 
                 }
@@ -341,6 +342,7 @@ export default {
                                     font-size: 16px;
                                     font-weight: 400;
                                     line-height: normal;
+                                    text-align: justify;
                                 }
 
                             }
