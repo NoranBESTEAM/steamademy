@@ -9,7 +9,7 @@
                     class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 wow animate__animated animate__fadeIn animate__slow" data-wow-offset="10" data-wow-delay="0.5s">
 
                     <div id="img_wrapper">
-                        <img src="@/assets/images/home/commercial_concession/Kid_pic.png" alt="">
+                        <img src="@/assets/images/home/commercial_concession/Kid_pic.webp" alt="">
                     </div>
 
                 </div>
@@ -58,7 +58,7 @@ export default {
 
     // https://www.w3schools.com/css/css3_backgrounds.asp
 
-    background: url("@/assets/images/home/commercial_concession/Triangle.svg") left top no-repeat, url("@/assets/images/home/commercial_concession/Triangle2.svg") right bottom no-repeat;
+    background: url("@/assets/images/home/commercial_concession/Triangle.webp") left top no-repeat, url("@/assets/images/home/commercial_concession/Triangle2.webp") right bottom no-repeat;
 
     background-size: 356.495px 291px, 356.495px 291px;
 

@@ -8,7 +8,7 @@
 
         <div id="video-wrapper">
 
-            <video playsinline autoplay muted loop poster="@/assets/images/home/header/header_bg.jpg">
+            <video playsinline autoplay muted loop>
                 <source src="@/assets/images/home/header/bg_video.webm" type="video/webm">
                 <source src="@/assets/images/home/header/bg_video.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -45,7 +45,7 @@
                 </div>
 
                 <div id="img_wrapper">
-                    <img class="img-responsive" src="@/assets/images/home/header/header_img.png" alt="">
+                    <img class="img-responsive" src="@/assets/images/home/header/header_img.webp" alt="">
                 </div>
 
             </div>
@@ -90,7 +90,8 @@ export default {
 
     // https://www.w3schools.com/cssref/pr_background-image.php
     /* The image used */
-    background-image: url("@/assets/images/home/header/header_bg.jpg");
+    // background-image: url("@/assets/images/home/header/header_bg.jpg");
+    background-image: linear-gradient(125deg, rgba(114,200,127,1) 60%, rgba(105,151,146,1) 80%, rgba(99,117,162,1) 100%);
     /* Used if the image is unavailable */
     // background-color: $Gray;
     /* Center the image */

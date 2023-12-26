@@ -21,7 +21,7 @@
                             <div class="tech_ele mb-3" id="top_right">
 
                                 <div class="img_wrapper">
-                                    <img src="@/assets/images/home/technologies/robots.jpg" alt="">
+                                    <img src="@/assets/images/home/technologies/robots.webp" alt="">
                                 </div>
 
                                 <h5 class="fw-bold">تصميم وبرمجة الروبوتات</h5>
@@ -31,7 +31,7 @@
                             <div class="tech_ele" id="bottom_right">
 
                                 <div class="img_wrapper">
-                                    <img src="@/assets/images/home/technologies/digital_manufacturing.jpg" alt="">
+                                    <img src="@/assets/images/home/technologies/digital_manufacturing.webp" alt="">
                                 </div>
 
                                 <h5 class="fw-bold">التصنيع الرقمي</h5>
@@ -57,7 +57,7 @@
                             <div class="tech_ele mb-3" id="top_left">
 
                                 <div class="img_wrapper">
-                                    <img src="@/assets/images/home/technologies/programming.jpg" alt="">
+                                    <img src="@/assets/images/home/technologies/programming.webp" alt="">
                                 </div>
 
                                 <h5 class="fw-bold">المتحكمات والإلكترونيات</h5>
@@ -67,7 +67,7 @@
                             <div class="tech_ele" id="bottom_left">
 
                                 <div class="img_wrapper">
-                                    <img src="@/assets/images/home/technologies/internet_things.jpg" alt="">
+                                    <img src="@/assets/images/home/technologies/internet_things.webp" alt="">
                                 </div>
 
                                 <h5 class="fw-bold">إنترنت الأشياء</h5>
@@ -94,14 +94,14 @@
 
                         <div class="carousel-item active" data-bs-interval="5000">
                             <div class="image_wrapper">
-                                <img src="@/assets/images/home/technologies/robots.jpg" class="d-block w-100" alt="">
+                                <img src="@/assets/images/home/technologies/robots.webp" class="d-block w-100" alt="">
                             </div>
                             <h5 class="fw-bolder">تصميم وبرمجة الروبوتات</h5>
                         </div>
 
                         <div class="carousel-item" data-bs-interval="5000">
                             <div class="image_wrapper">
-                                <img src="@/assets/images/home/technologies/digital_manufacturing.jpg" class="d-block w-100"
+                                <img src="@/assets/images/home/technologies/digital_manufacturing.webp" class="d-block w-100"
                                     alt="">
                             </div>
                             <h5 class="fw-bolder">التصنيع الرقمي</h5>
@@ -109,14 +109,14 @@
 
                         <div class="carousel-item" data-bs-interval="5000">
                             <div class="image_wrapper">
-                                <img src="@/assets/images/home/technologies/programming.jpg" class="d-block w-100" alt="">
+                                <img src="@/assets/images/home/technologies/programming.webp" class="d-block w-100" alt="">
                             </div>
                             <h5 class="fw-bolder">المتحكمات والإلكترونيات</h5>
                         </div>
 
                         <div class="carousel-item" data-bs-interval="5000">
                             <div class="image_wrapper">
-                                <img src="@/assets/images/home/technologies/internet_things.jpg" class="d-block w-100"
+                                <img src="@/assets/images/home/technologies/internet_things.webp" class="d-block w-100"
                                     alt="">
                             </div>
                             <h5 class="fw-bolder">إنترنت الأشياء</h5>

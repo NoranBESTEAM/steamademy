@@ -8,7 +8,7 @@ import "bootstrap"
 import "bootstrap/dist/css/bootstrap.min.css"
 
 //import Normalize
-import "normalize.css"
+import "normalize.min.css"
 
 //import the fontawesome core
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -25,7 +25,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 
 // import Wow Library
-import 'animate.css';
+import 'animate.min.css';
 
 // import Fonts
 import "@/assets/scss/style.scss";

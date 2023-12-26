@@ -13,7 +13,7 @@
 
                 <!-- Grid column -->
                 <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 mx-auto wow animate__animated animate__bounceInLeft animate__slower" data-wow-offset="10" id="about-us" data-wow-delay="0.5s">
-                    <img src="@/assets/images/footer/logo_white.png" alt="footer_logo">
+                    <img src="@/assets/images/footer/logo_white.webp" alt="footer_logo">
                     <p class="mt-3">شركة رائدة في خدمات STEAM التعليمية!</p>
                 </div>
                 <!-- Grid column -->
@@ -45,15 +45,15 @@
                         تواصل معنا
                     </h6>
                     <p>
-                        <img src="@/assets/images/footer/location.svg" alt="Location" class="contactImg ms-2">
+                        <img src="@/assets/images/footer/location.webp" alt="Location" class="contactImg ms-2">
                         السعودية - الإمارات - مصر
                     </p>
                     <p>
-                        <img src="@/assets/images/footer/phone.svg" alt="Contact" class="contactImg ms-2">
+                        <img src="@/assets/images/footer/phone.webp" alt="Contact" class="contactImg ms-2">
                         <span>9-6653-1577-796+</span>
                     </p>
                     <p>
-                        <img src="@/assets/images/footer/mail.svg" alt="Mail" class="contactImg ms-2">
+                        <img src="@/assets/images/footer/mail.webp" alt="Mail" class="contactImg ms-2">
                         <a href="mailto:info@Steamademy.com" class="text-reset">info@Steamademy.com</a>
                     </p>
                 </div>

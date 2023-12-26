@@ -6,7 +6,7 @@
 
             <!-- Logo -->
             <router-link to="/" class="navbar-brand p-0">
-                <img src="@/assets/images/navbar/logo.png" alt="SteamademyLogo" />
+                <img src="@/assets/images/navbar/logo.webp" alt="SteamademyLogo" />
             </router-link>
 
             <!-- Toggle Button -->
@@ -23,7 +23,7 @@
                 <!-- Sidebar Header -->
                 <div class="offcanvas-header">
                     <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
-                        <img src="@/assets/images/navbar/logo.png" alt="SteamademyLogo" />
+                        <img src="@/assets/images/navbar/logo.webp" alt="SteamademyLogo" />
                     </h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
@@ -61,7 +61,7 @@
                     <div class="d-none d-sm-none d-md-none d-lg-block d-xl-block">
                         <router-link :to="{ name: 'contact_us' }" class="btn border-0">
                             تواصل معنا
-                            <img src="@/assets/images/navbar/arrow-up.svg" alt="" class="me-2">
+                            <img src="@/assets/images/navbar/arrow-up.webp" alt="" class="me-2">
                         </router-link>
                     </div>
 

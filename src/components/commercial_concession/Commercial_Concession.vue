@@ -21,7 +21,7 @@
                 <div id="img_content" class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 wow animate__animated animate__fadeIn animate__slow" data-wow-offset="10" data-wow-delay="0.5s">
 
                     <div id="img_wrapper">
-                        <img src="@/assets/images/home/commercial_concession/Kid_pic.png" alt="">
+                        <img src="@/assets/images/home/commercial_concession/Kid_pic.webp" alt="">
                     </div>
 
                 </div>

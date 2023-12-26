@@ -14,35 +14,35 @@
 
                 <div class="field_ele">
                     <div class="image_wrapper">
-                        <img src="@/assets/images/home/fields/field_1.png" alt="">
+                        <img src="@/assets/images/home/fields/field_1.webp" alt="">
                     </div>
                     <h5 class="text-center fw-bold mt-3">الاستدامة والبيئة</h5>
                 </div>
 
                 <div class="field_ele">
                     <div class="image_wrapper">
-                        <img src="@/assets/images/home/fields/field_2.png" alt="">
+                        <img src="@/assets/images/home/fields/field_2.webp" alt="">
                     </div>
                     <h5 class="text-center fw-bold mt-3">الفضاء والطيران</h5>
                 </div>
 
                 <div class="field_ele">
                     <div class="image_wrapper">
-                        <img src="@/assets/images/home/fields/field_3.png" alt="">
+                        <img src="@/assets/images/home/fields/field_3.webp" alt="">
                     </div>
                     <h5 class="text-center fw-bold mt-3">الطاقة</h5>
                 </div>
 
                 <div class="field_ele">
                     <div class="image_wrapper">
-                        <img src="@/assets/images/home/fields/field_4.png" alt="">
+                        <img src="@/assets/images/home/fields/field_4.webp" alt="">
                     </div>
                     <h5 class="text-center fw-bold mt-3">الاتصالات والإلكترونيات</h5>
                 </div>
 
                 <div class="field_ele">
                     <div class="image_wrapper">
-                        <img src="@/assets/images/home/fields/field_5.png" alt="">
+                        <img src="@/assets/images/home/fields/field_5.webp" alt="">
                     </div>
                     <h5 class="text-center fw-bold mt-3">الذكاء الاصطناعي والروبوتات</h5>
                 </div>
@@ -59,35 +59,35 @@
 
                     <div class="carousel-item active" data-bs-interval="10000">
                         <div class="image_wrapper">
-                            <img src="@/assets/images/home/fields/field_1.png" class="d-block w-100" alt="">
+                            <img src="@/assets/images/home/fields/field_1.webp" class="d-block w-100" alt="">
                         </div>
                         <h5 class="text-center fw-bold mt-3">الاستدامة والبيئة</h5>
                     </div>
 
                     <div class="carousel-item" data-bs-interval="10000">
                         <div class="image_wrapper">
-                            <img src="@/assets/images/home/fields/field_2.png" class="d-block w-100" alt="">
+                            <img src="@/assets/images/home/fields/field_2.webp" class="d-block w-100" alt="">
                         </div>
                         <h5 class="text-center fw-bold mt-3">الفضاء والطيران</h5>
                     </div>
 
                     <div class="carousel-item" data-bs-interval="10000">
                         <div class="image_wrapper">
-                            <img src="@/assets/images/home/fields/field_3.png" class="d-block w-100" alt="">
+                            <img src="@/assets/images/home/fields/field_3.webp" class="d-block w-100" alt="">
                         </div>
                         <h5 class="text-center fw-bold mt-3">الطاقة</h5>
                     </div>
 
                     <div class="carousel-item" data-bs-interval="10000">
                         <div class="image_wrapper">
-                            <img src="@/assets/images/home/fields/field_4.png" class="d-block w-100" alt="">
+                            <img src="@/assets/images/home/fields/field_4.webp" class="d-block w-100" alt="">
                         </div>
                         <h5 class="text-center fw-bold mt-3">الاتصالات والإلكترونيات</h5>
                     </div>
 
                     <div class="carousel-item" data-bs-interval="10000">
                         <div class="image_wrapper">
-                            <img src="@/assets/images/home/fields/field_5.png" class="d-block w-100" alt="">
+                            <img src="@/assets/images/home/fields/field_5.webp" class="d-block w-100" alt="">
                         </div>
                         <h5 class="text-center fw-bold mt-3">الذكاء الاصطناعي والروبوتات</h5>
                     </div>
@@ -133,14 +133,14 @@ export default {
 
     // https://www.w3schools.com/cssref/pr_background-image.php
     /* The image used */
-    background-image: url("@/assets/images/home/fields/field_BG.jpg");
+    background-image: url("@/assets/images/home/fields/field_BG.webp");
 
     @include breakpoints(x-small) {
-        background-image: url("@/assets/images/home/fields/field_BG_Mobile.jpg");
+        background-image: url("@/assets/images/home/fields/field_BG_Mobile.webp");
     }
 
     @include breakpoints(small) {
-        background-image: url("@/assets/images/home/fields/field_BG_Mobile.jpg");
+        background-image: url("@/assets/images/home/fields/field_BG_Mobile.webp");
     }
 
     /* Used if the image is unavailable */
