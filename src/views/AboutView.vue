@@ -48,7 +48,7 @@ export default {
 
     // https://www.w3schools.com/cssref/pr_background-image.php
     /* The image used */
-    background-image: url("@/assets/images/about/about_BG.jpg");
+    background-image: url("@/assets/images/about/about_BG.webp");
 
     /* Used if the image is unavailable */
     background-color: $White;

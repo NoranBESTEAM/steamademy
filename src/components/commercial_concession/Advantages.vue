@@ -15,7 +15,7 @@
 
                     <div class="col-lg-6 col-xl-4 d-flex align-items-stretch">
                         <div class="card">
-                            <img src="@/assets/images/commercial_concession/advantages/advantage_1.jpg" class="card-img-top"
+                            <img src="@/assets/images/commercial_concession/advantages/advantage_1.webp" class="card-img-top"
                                 alt="intercultural-kids-working-pairs-while-girls-controlling-virtual-presentation">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold">التجهيزات والأثاث</h5>
@@ -29,7 +29,7 @@
 
                     <div class="col-lg-6 col-xl-4 d-flex align-items-stretch">
                         <div class="card">
-                            <img src="@/assets/images/commercial_concession/advantages/advantage_2.jpg" class="card-img-top"
+                            <img src="@/assets/images/commercial_concession/advantages/advantage_2.webp" class="card-img-top"
                                 alt="metal-3d-printer-with-abstract-lines">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold">الأدوات والأجهزة</h5>
@@ -42,7 +42,7 @@
 
                     <div class="col-lg-6 col-xl-4 d-flex align-items-stretch">
                         <div class="card">
-                            <img src="@/assets/images/commercial_concession/advantages/advantage_3.jpg" class="card-img-top"
+                            <img src="@/assets/images/commercial_concession/advantages/advantage_3.webp" class="card-img-top"
                                 alt="">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold">الأدلة وجودة التشغيل</h5>
@@ -55,7 +55,7 @@
 
                     <div class="col-lg-6 col-xl-4 d-flex align-items-stretch">
                         <div class="card">
-                            <img src="@/assets/images/commercial_concession/advantages/advantage_4.jpg" class="card-img-top"
+                            <img src="@/assets/images/commercial_concession/advantages/advantage_4.webp" class="card-img-top"
                                 alt="father-sons-making-robot">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold">البرمجيات التعليمية</h5>
@@ -71,7 +71,7 @@
 
                     <div class="col-lg-6 col-xl-4 d-flex align-items-stretch">
                         <div class="card">
-                            <img src="@/assets/images/commercial_concession/advantages/advantage_5.jpg" class="card-img-top"
+                            <img src="@/assets/images/commercial_concession/advantages/advantage_5.webp" class="card-img-top"
                                 alt="tech-devices-icons-connected-digital-planet-earth">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold">اختبارات STEAM الدولية</h5>
@@ -83,7 +83,7 @@
 
                     <div class="col-lg-6 col-xl-4 d-flex align-items-stretch">
                         <div class="card">
-                            <img src="@/assets/images/commercial_concession/advantages/advantage_6.jpg" class="card-img-top"
+                            <img src="@/assets/images/commercial_concession/advantages/advantage_6.webp" class="card-img-top"
                                 alt="disabled-man-shows-financial-diagrams-office">
                             <div class="card-body">
                                 <h5 class="card-title fw-bold">تأهيل المدربين</h5>
@@ -112,7 +112,7 @@
 
                         <div class="carousel-item active" data-bs-interval="5000">
                             <div class="card">
-                                <img src="@/assets/images/commercial_concession/advantages/advantage_1.jpg"
+                                <img src="@/assets/images/commercial_concession/advantages/advantage_1.webp"
                                     class="card-img-top"
                                     alt="intercultural-kids-working-pairs-while-girls-controlling-virtual-presentation">
                                 <div class="card-body">
@@ -128,7 +128,7 @@
 
                         <div class="carousel-item" data-bs-interval="5000">
                             <div class="card">
-                                <img src="@/assets/images/commercial_concession/advantages/advantage_2.jpg"
+                                <img src="@/assets/images/commercial_concession/advantages/advantage_2.webp"
                                     class="card-img-top" alt="metal-3d-printer-with-abstract-lines">
                                 <div class="card-body">
                                     <h5 class="card-title fw-bold">الأدوات والأجهزة</h5>
@@ -143,7 +143,7 @@
 
                         <div class="carousel-item" data-bs-interval="5000">
                             <div class="card">
-                                <img src="@/assets/images/commercial_concession/advantages/advantage_3.jpg"
+                                <img src="@/assets/images/commercial_concession/advantages/advantage_3.webp"
                                     class="card-img-top" alt="">
                                 <div class="card-body">
                                     <h5 class="card-title fw-bold">الأدلة وجودة التشغيل</h5>
@@ -157,7 +157,7 @@
 
                         <div class="carousel-item" data-bs-interval="5000">
                             <div class="card">
-                                <img src="@/assets/images/commercial_concession/advantages/advantage_4.jpg"
+                                <img src="@/assets/images/commercial_concession/advantages/advantage_4.webp"
                                     class="card-img-top" alt="father-sons-making-robot">
                                 <div class="card-body">
                                     <h5 class="card-title fw-bold">البرمجيات التعليمية</h5>
@@ -174,7 +174,7 @@
 
                         <div class="carousel-item" data-bs-interval="5000">
                             <div class="card">
-                                <img src="@/assets/images/commercial_concession/advantages/advantage_5.jpg"
+                                <img src="@/assets/images/commercial_concession/advantages/advantage_5.webp"
                                     class="card-img-top" alt="tech-devices-icons-connected-digital-planet-earth">
                                 <div class="card-body">
                                     <h5 class="card-title fw-bold">اختبارات STEAM الدولية</h5>
@@ -187,7 +187,7 @@
 
                         <div class="carousel-item" data-bs-interval="5000">
                             <div class="card">
-                                <img src="@/assets/images/commercial_concession/advantages/advantage_6.jpg"
+                                <img src="@/assets/images/commercial_concession/advantages/advantage_6.webp"
                                     class="card-img-top" alt="disabled-man-shows-financial-diagrams-office">
                                 <div class="card-body">
                                     <h5 class="card-title fw-bold">تأهيل المدربين</h5>

@@ -25,7 +25,7 @@
                 <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 wow animate__animated animate__backInLeft animate__slow" data-wow-offset="10" data-wow-delay="0.5s">
 
                     <div id="image_wrapper">
-                        <img src="@/assets/images/about/about/About_kids.png" alt="">
+                        <img src="@/assets/images/about/about/About_kids.webp" alt="">
                     </div>
 
                 </div>

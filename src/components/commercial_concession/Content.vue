@@ -51,11 +51,11 @@
 
                         <div id="img_wrapper">
 
-                            <img src="@/assets/images/commercial_concession/content/content_img.jpg"
+                            <img src="@/assets/images/commercial_concession/content/content_img.webp"
                                 alt="children-standing-sideways-camera-looking-charge-boards"
                                 class="d-none d-sm-none d-md-block d-lg-none d-xl-block">
 
-                            <img src="@/assets/images/commercial_concession/content/content_img_mobile.jpg"
+                            <img src="@/assets/images/commercial_concession/content/content_img_mobile.webp"
                                 alt="children-standing-sideways-camera-looking-charge-boards"
                                 class="d-block d-sm-block d-md-none d-lg-block d-xl-none">
 

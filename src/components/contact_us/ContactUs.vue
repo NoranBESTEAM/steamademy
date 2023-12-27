@@ -57,7 +57,7 @@
                 </form>
 
                 <div id="img_wrapper">
-                    <img src="@/assets/images/contact_us/ContactUs.png" alt="">
+                    <img src="@/assets/images/contact_us/ContactUs.webp" alt="">
                 </div>
 
             </div>

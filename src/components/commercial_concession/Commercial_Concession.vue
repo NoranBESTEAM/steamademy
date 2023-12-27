@@ -53,7 +53,7 @@ export default {
 
     // https://www.w3schools.com/css/css3_backgrounds.asp
 
-    background: url("@/assets/images/commercial_concession/commercial_concession/Triangle.png") left top no-repeat, url("@/assets/images/commercial_concession/commercial_concession/Triangle2.png") right bottom no-repeat;
+    background: url("@/assets/images/commercial_concession/commercial_concession/Triangle.webp") left top no-repeat, url("@/assets/images/commercial_concession/commercial_concession/Triangle2.webp") right bottom no-repeat;
 
     background-size: 356.495px 291px, 356.495px 291px;
 

@@ -20,7 +20,8 @@
             <div id="video_wrapper"
                 class="ratio ratio-21x9 wow animate__animated animate__backInUp animate__slow" data-wow-offset="10" data-wow-delay="1s">
                 <!-- https://www.w3schools.com/tags/att_video_poster.asp -->
-                <video poster="@/assets/images/about/know_us/Steam_Video.jpg" controls>
+                <video poster="@/assets/images/about/know_us/Steam_Video.webp" controls>
+                    <source src="@/assets/images/about/know_us/STEAMademy.webm" type="video/webm">
                     <source src="@/assets/images/about/know_us/STEAMademy.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>

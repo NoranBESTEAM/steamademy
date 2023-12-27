@@ -23,7 +23,7 @@
                         @mouseover="ToolOneTitle = true; ToolOneDesc = true;"
                         @mouseleave="ToolOneTitle = false; ToolOneDesc = false;">
                         <div class="img_wrapper">
-                            <img src="@/assets/images/fields/tools/tool_1.png" alt="المتحكمات والإلكترونيات">
+                            <img src="@/assets/images/fields/tools/tool_1.webp" alt="المتحكمات والإلكترونيات">
                         </div>
                         <h5 class="text-center fw-bold mt-3 mb-0" v-if="ToolOneTitle">المتحكمات والإلكترونيات</h5>
                     </div>
@@ -32,7 +32,7 @@
                         @mouseover="ToolTwoTitle = true; ToolOneTitle = false; ToolTwoDesc = true; ToolOneDesc = false;"
                         @mouseleave="ToolTwoTitle = false; ToolTwoDesc = false;">
                         <div class="img_wrapper">
-                            <img src="@/assets/images/fields/tools/tool_2.png" alt="التصنيع الرقمي">
+                            <img src="@/assets/images/fields/tools/tool_2.webp" alt="التصنيع الرقمي">
                         </div>
                         <h5 class="text-center fw-bold mt-3 mb-0" v-if="ToolTwoTitle">التصنيع الرقمي</h5>
                     </div>
@@ -41,7 +41,7 @@
                         @mouseover="ToolThreeTitle = true; ToolOneTitle = false; ToolThreeDesc = true; ToolOneDesc = false;"
                         @mouseleave="ToolThreeTitle = false; ToolThreeDesc = false;">
                         <div class="img_wrapper">
-                            <img src="@/assets/images/fields/tools/tool_3.png" alt="إنترنت الأشياء">
+                            <img src="@/assets/images/fields/tools/tool_3.webp" alt="إنترنت الأشياء">
                         </div>
                         <h5 class="text-center fw-bold mt-3 mb-0" v-if="ToolThreeTitle">إنترنت الأشياء</h5>
                     </div>
@@ -50,7 +50,7 @@
                         @mouseover="ToolFourTitle = true; ToolOneTitle = false; ToolFourDesc = true; ToolOneDesc = false;"
                         @mouseleave="ToolFourTitle = false; ToolFourDesc = false;">
                         <div class="img_wrapper">
-                            <img src="@/assets/images/fields/tools/tool_4.png" alt="تصميم وبرمجة الروبوتات">
+                            <img src="@/assets/images/fields/tools/tool_4.webp" alt="تصميم وبرمجة الروبوتات">
                         </div>
                         <h5 class="text-center fw-bold mt-3 mb-0" v-if="ToolFourTitle">تصميم وبرمجة الروبوتات</h5>
                     </div>
@@ -98,7 +98,7 @@
 
                             <div class="tool_ele p-3">
                                 <div class="img_wrapper">
-                                    <img src="@/assets/images/fields/tools/tool_1.png" alt="المتحكمات والإلكترونيات">
+                                    <img src="@/assets/images/fields/tools/tool_1.webp" alt="المتحكمات والإلكترونيات">
                                 </div>
                                 <h5 class="text-center fw-bold mt-3 mb-0">المتحكمات والإلكترونيات</h5>
                             </div>
@@ -113,7 +113,7 @@
 
                             <div class="tool_ele p-3">
                                 <div class="img_wrapper">
-                                    <img src="@/assets/images/fields/tools/tool_2.png" alt="التصنيع الرقمي">
+                                    <img src="@/assets/images/fields/tools/tool_2.webp" alt="التصنيع الرقمي">
                                 </div>
                                 <h5 class="text-center fw-bold mt-3 mb-0">التصنيع الرقمي</h5>
                             </div>
@@ -128,7 +128,7 @@
 
                             <div class="tool_ele p-3">
                                 <div class="img_wrapper">
-                                    <img src="@/assets/images/fields/tools/tool_3.png" alt="إنترنت الأشياء">
+                                    <img src="@/assets/images/fields/tools/tool_3.webp" alt="إنترنت الأشياء">
                                 </div>
                                 <h5 class="text-center fw-bold mt-3 mb-0">إنترنت الأشياء</h5>
                             </div>
@@ -143,7 +143,7 @@
 
                             <div class="tool_ele p-3">
                                 <div class="img_wrapper">
-                                    <img src="@/assets/images/fields/tools/tool_4.png" alt="تصميم وبرمجة الروبوتات">
+                                    <img src="@/assets/images/fields/tools/tool_4.webp" alt="تصميم وبرمجة الروبوتات">
                                 </div>
                                 <h5 class="text-center fw-bold mt-3 mb-0">تصميم وبرمجة الروبوتات</h5>
                             </div>
