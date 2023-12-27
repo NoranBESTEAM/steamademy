@@ -69,29 +69,13 @@ export default {
     height: 900px;
 
     @include breakpoints(x-small) {
-        height: 760px;
-    }
-
-    @include breakpoints(small) {
-        height: 720px;
-    }
-
-    @include breakpoints(medium) {
-        height: 825px;
-    }
-
-    @include breakpoints(large) {
-        height: 825px;
-    }
-
-    @include breakpoints(x-Large) {
-        height: 830px;
+        height: 800px;
     }
 
     // https://www.w3schools.com/cssref/pr_background-image.php
     /* The image used */
     // background-image: url("@/assets/images/home/header/header_bg.jpg");
-    background-image: linear-gradient(125deg, rgba(114,200,127,1) 60%, rgba(105,151,146,1) 80%, rgba(99,117,162,1) 100%);
+    background-image: linear-gradient(125deg, rgba(114, 200, 127, 1) 60%, rgba(105, 151, 146, 1) 80%, rgba(99, 117, 162, 1) 100%);
     /* Used if the image is unavailable */
     // background-color: $Gray;
     /* Center the image */
@@ -125,28 +109,25 @@ export default {
 
             #content_wrapper {
 
-                position: absolute;
-                top: 310px;
-
                 color: $White;
 
+                position: absolute;
+
+                top: 300px;
+
                 @include breakpoints(x-small) {
-                    top: 250px;
+                    top: 280px;
                 }
 
                 @include breakpoints(small) {
-                    top: 250px;
+                    top: 400px;
                 }
 
                 @include breakpoints(medium) {
-                    top: 350px;
+                    top: 400px;
                 }
 
                 @include breakpoints(large) {
-                    top: 250px;
-                }
-
-                @include breakpoints(x-Large) {
                     top: 320px;
                 }
 
@@ -178,13 +159,14 @@ export default {
 
                 p {
 
-                    width: 60%;
                     font-size: 20px;
                     font-weight: 400;
 
                     margin-bottom: 40px;
 
                     text-align: justify;
+
+                    width: 50%;
 
                     @include breakpoints(x-small) {
                         width: 95%;
@@ -196,12 +178,6 @@ export default {
 
                     @include breakpoints(medium) {
                         width: 80%;
-                    }
-
-                    // @include breakpoints(large) {}
-
-                    @include breakpoints(x-Large) {
-                        width: 57%;
                     }
 
                 }
@@ -225,40 +201,43 @@ export default {
             #img_wrapper {
 
                 position: absolute;
-                top: -45px;
+                top: 0;
                 left: 0;
 
                 // In XX-Large
-                // width: 1081px;
-                // height: 952px;
-                width: 1000px;
-                height: 871px;
+                width: 1008px;
+                height: 784px;
 
                 // In Responsive
 
+                // 0.37
                 @include breakpoints(x-small) {
-                    width: 496px;
-                    height: 300px;
+                    width: 372.96px;
+                    height: 290.08px;
                 }
 
+                // 0.56
                 @include breakpoints(small) {
-                    width: 596px;
-                    height: 400px;
+                    width: 564.48px;
+                    height: 439.04px;
                 }
 
+                // 0.7
                 @include breakpoints(medium) {
-                    width: 796px;
-                    height: 600px;
+                    width: 705.6px;
+                    height: 548.8px;
                 }
 
+                // 0.80
                 @include breakpoints(large) {
-                    width: 796px;
-                    height: 600px;
+                    width: 806.4px;
+                    height: 627.2px;
                 }
 
+                // 0.9
                 @include breakpoints(x-Large) {
-                    width: 996px;
-                    height: 800px;
+                    width: 907.2px;
+                    height: 705.6px;
                 }
 
                 img {
@@ -272,6 +251,7 @@ export default {
         }
 
     }
+
 
 }
 </style>
