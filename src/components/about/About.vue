@@ -5,15 +5,15 @@
 
             <div class="row">
 
-                <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-7 col-xl-7 d-flex justify-content-center align-items-center">
 
                     <div id="text_wrapper">
 
-                        <h3 class="fw-bold mb-4 text-justify wow animate__animated animate__backInRight animate__slow" data-wow-offset="10" data-wow-delay="0.5s">من نحن</h3>
+                        <h3 class="fw-bold mb-4 text-justify wow animate__animated animate__backInRight animate__slow" data-wow-offset="1" data-wow-delay="0.1s">من نحن</h3>
 
-                        <h5 class="fw-bold mb-3 text-justify wow animate__animated animate__backInRight animate__slow" data-wow-offset="10" data-wow-delay="1s">شركة رائدة في خدمات STEAM التعليمية!</h5>
+                        <h5 class="fw-bold mb-3 text-justify wow animate__animated animate__backInRight animate__slow" data-wow-offset="1" data-wow-delay="0.2s">شركة رائدة في خدمات STEAM التعليمية!</h5>
 
-                        <p class="text-justify wow animate__animated animate__backInRight animate__slow" data-wow-offset="10" data-wow-delay="1.5s">نعمل لتأهيل الطلاب في مهارات المستقبل القائمة على النهضة الصناعية الرابعة عن
+                        <p class="text-justify wow animate__animated animate__backInRight animate__slow" data-wow-offset="1" data-wow-delay="0.3s">نعمل لتأهيل الطلاب في مهارات المستقبل القائمة على النهضة الصناعية الرابعة عن
                             طريق توفير كل
                             متطلبات الحصول على امتياز STEAM التجاري. نهدف إلى تمكين الجهات التعليمية والمدربين من تقديم بيئة
                             تعليمية مستدامة ومبتكرة تعزز مهارات التطبيق العملي والإبداع والتعاون وحل المشكلات.</p>
@@ -22,7 +22,7 @@
 
                 </div>
 
-                <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 wow animate__animated animate__backInLeft animate__slow" data-wow-offset="10" data-wow-delay="0.5s">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 wow animate__animated animate__backInLeft animate__slow" data-wow-offset="1" data-wow-delay="0.4s">
 
                     <div id="image_wrapper">
                         <img src="@/assets/images/about/about/About_kids.webp" alt="">
@@ -59,28 +59,6 @@ export default {
     .container {
 
         #text_wrapper {
-
-            margin-top: 12%;
-
-            @include breakpoints(x-small) {
-                margin: auto;
-            }
-
-            @include breakpoints(small) {
-                margin: auto;
-            }
-
-            @include breakpoints(medium) {
-                margin: auto;
-            }
-
-            @include breakpoints(large) {
-                margin-top: 3%;
-            }
-
-            @include breakpoints(x-Large) {
-                margin-top: 3%;
-            }
 
             h3 {
                 font-family: 'Bahij_TheSansArabic_Bold';
@@ -143,14 +121,16 @@ export default {
                 margin: 0 auto;
             }
 
+            // 0.75
             @include breakpoints(large) {
-                width: 343px;
-                height: 254px;
+                width: 396.75px;
+                height: 294px;
             }
 
+            // 0.92
             @include breakpoints(x-Large) {
-                width: 343px;
-                height: 254px;
+                width: 486.68px;
+                height: 360.64px;
             }
 
             img {

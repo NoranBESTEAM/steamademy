@@ -4,7 +4,7 @@
         <div class="container">
 
             <h3 class="text-center fw-bold mb-4 wow animate__animated animate__backInDown animate__slow"
-                data-wow-offset="10" data-wow-delay="0.5s">
+                data-wow-offset="1" data-wow-delay="0.1s">
                 الأدوات والتقنيات المستخدمة</h3>
 
             <!-- In Large Screen -->
@@ -14,7 +14,7 @@
                 <div class="row">
 
                     <div class="col-lg-6 col-xl-6 wow animate__animated animate__backInRight animate__slow"
-                        data-wow-offset="10" data-wow-delay="1s">
+                        data-wow-offset="1" data-wow-delay="0.2s">
 
                         <div id="right_content">
 
@@ -43,7 +43,7 @@
                     </div>
 
                     <div class="col-lg-6 col-xl-6 wow animate__animated animate__backInLeft animate__slow"
-                        data-wow-offset="10" data-wow-delay="1s">
+                        data-wow-offset="1" data-wow-delay="0.3s">
 
                         <div id="left_content">
 
@@ -87,8 +87,8 @@
             <div id="content_wrapper_mobile" class="d-block d-sm-block d-md-block d-lg-none d-xl-none">
 
                 <div id="carouselTechnologySlidesOnly"
-                    class="carousel slide wow animate__animated animate__backInUp animate__slow" data-wow-offset="10"
-                    data-wow-delay="1s" data-bs-ride="carousel">
+                    class="carousel slide wow animate__animated animate__backInUp animate__slow" data-wow-offset="1"
+                    data-wow-delay="0.2s" data-bs-ride="carousel">
 
                     <div class="carousel-inner">
 

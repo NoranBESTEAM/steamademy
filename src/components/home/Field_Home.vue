@@ -3,14 +3,14 @@
 
         <div class="container">
 
-            <h3 class="text-center fw-bold mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="10" data-wow-delay="0.5s">
+            <h3 class="text-center fw-bold mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="1" data-wow-delay="0.1s">
                 مجالات
                 STEAM التطبيقية</h3>
 
             <!-- In Large Screen -->
 
             <div id="content_wrapper"
-                class="d-none d-sm-none d-md-block d-lg-block d-xl-block wow animate__animated animate__backInUp animate__slow" data-wow-offset="10" data-wow-delay="1s">
+                class="d-none d-sm-none d-md-block d-lg-block d-xl-block wow animate__animated animate__backInUp animate__slow" data-wow-offset="1" data-wow-delay="0.2s">
 
                 <div class="field_ele">
                     <div class="image_wrapper">
@@ -52,7 +52,7 @@
             <!-- In Mobile Screen -->
 
             <div id="carouselExampleSlidesOnly"
-                class="carousel slide d-block d-sm-block d-md-none d-lg-none d-xl-none wow animate__animated animate__backInUp animate__slow" data-wow-offset="10" data-wow-delay="1.5s"
+                class="carousel slide d-block d-sm-block d-md-none d-lg-none d-xl-none wow animate__animated animate__backInUp animate__slow" data-wow-offset="1" data-wow-delay="0.2s"
                 data-bs-ride="carousel">
 
                 <div class="carousel-inner">

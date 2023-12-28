@@ -4,70 +4,70 @@
         <div class="container">
 
             <h3
-                class="text-center fw-bold text-justify mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="10" data-wow-delay="0.5s">
+                class="text-center fw-bold text-justify mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="1" data-wow-delay="0.1s">
                 ماذا نستطيع أن نقدم لكم؟</h3>
 
-            <div id="content_wrapper" class="wow animate__animated animate__backInUp animate__slow" data-wow-offset="10" data-wow-delay="1s">
+            <div id="content_wrapper" class="wow animate__animated animate__backInUp animate__slow" data-wow-offset="1" data-wow-delay="0.2s">
 
                 <div class="service_wrapper">
                     <div class="service_ele">
-                        <img src="@/assets/images/home/service/integrated_education.svg" alt="">
+                        <img src="@/assets/images/home/service/integrated_education.webp" alt="">
                     </div>
                     <h5 class="text-center fw-bold">نظام تعليم متكامل ل STEAM</h5>
                 </div>
 
                 <div class="service_wrapper">
                     <div class="service_ele">
-                        <img src="@/assets/images/home/service/innovative_programs.svg" alt="">
+                        <img src="@/assets/images/home/service/innovative_programs.webp" alt="">
                     </div>
                     <h5 class="text-center fw-bold">برامج تعليمية مبتكرة</h5>
                 </div>
 
                 <div class="service_wrapper">
                     <div class="service_ele">
-                        <img src="@/assets/images/home/service/complete_support.svg" alt="">
+                        <img src="@/assets/images/home/service/complete_support.webp" alt="">
                     </div>
                     <h5 class="text-center fw-bold">دعم كامل من فريق محترف</h5>
                 </div>
 
                 <div class="service_wrapper">
                     <div class="service_ele">
-                        <img src="@/assets/images/home/service/continuous_training.svg" alt="">
+                        <img src="@/assets/images/home/service/continuous_training.webp" alt="">
                     </div>
                     <h5 class="text-center fw-bold">مواد شاملة وتدريب مستمر</h5>
                 </div>
 
                 <div class="service_wrapper">
                     <div class="service_ele">
-                        <img src="@/assets/images/home/service/marketing_support.svg" alt="">
+                        <img src="@/assets/images/home/service/marketing_support.webp" alt="">
                     </div>
                     <h5 class="text-center fw-bold"> إدارة أعمال ودعم تسويقي</h5>
                 </div>
 
                 <div class="service_wrapper">
                     <div class="service_ele">
-                        <img src="@/assets/images/home/service/exceptional_experience.svg" alt="">
+                        <img src="@/assets/images/home/service/exceptional_experience.webp" alt="">
                     </div>
                     <h5 class="text-center fw-bold">تجربة تعليمية استثنائية</h5>
                 </div>
 
                 <div class="service_wrapper">
                     <div class="service_ele">
-                        <img src="@/assets/images/home/service/business_model.svg" alt="">
+                        <img src="@/assets/images/home/service/business_model.webp" alt="">
                     </div>
                     <h5 class="text-center fw-bold">نموذج عمل متكامل</h5>
                 </div>
 
                 <div class="service_wrapper">
                     <div class="service_ele">
-                        <img src="@/assets/images/home/service/guaranteed_clients.svg" alt="">
+                        <img src="@/assets/images/home/service/guaranteed_clients.webp" alt="">
                     </div>
                     <h5 class="text-center fw-bold">عائد مادي وعملاء مضمونين</h5>
                 </div>
 
                 <div class="service_wrapper">
                     <div class="service_ele">
-                        <img src="@/assets/images/home/service/operating_system.svg" alt="">
+                        <img src="@/assets/images/home/service/operating_system.webp" alt="">
                     </div>
                     <h5 class="text-center fw-bold">منظومة تشغيلية تقنية للتدريب والمتابعات</h5>
                 </div>

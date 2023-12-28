@@ -3,16 +3,19 @@
 
         <div class="container">
 
-            <h3
-                class="text-center fw-bold text-justify mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="10">
+            <h3 class="text-center fw-bold text-justify mb-4 wow animate__animated animate__backInDown animate__slow"
+                data-wow-offset="1" data-wow-delay="0.1s">
                 ماذا نستطيع أن نقدم لك؟</h3>
 
-            <div id="content_wrapper" class="wow animate__animated animate__backInUp animate__slow" data-wow-offset="10" data-wow-delay="1s">
+            <div id="content_wrapper" class="wow animate__animated animate__backInUp animate__slow" data-wow-offset="1"
+                data-wow-delay="0.2s">
 
                 <!-- d-inline-block -->
                 <div class="service_ele">
 
-                    <img src="@/assets/images/home/service/integrated_education.svg" alt="" class="mt-3 mb-3">
+                    <div class="img_wrapper mt-3 mb-3">
+                        <img src="@/assets/images/home/service/integrated_education.webp" alt="">
+                    </div>
 
                     <h5 class="text-center fw-bold">تعليم متكامل</h5>
 
@@ -20,7 +23,9 @@
 
                 <div class="service_ele">
 
-                    <img src="@/assets/images/home/service/innovative_programs.svg" alt="" class="mt-3 mb-3">
+                    <div class="img_wrapper mt-3 mb-3">
+                        <img src="@/assets/images/home/service/innovative_programs.webp" alt="">
+                    </div>
 
                     <h5 class="text-center fw-bold">برامج مبتكرة</h5>
 
@@ -28,7 +33,9 @@
 
                 <div class="service_ele">
 
-                    <img src="@/assets/images/home/service/complete_support.svg" alt="" class="mt-3 mb-3">
+                    <div class="img_wrapper mt-3 mb-3">
+                        <img src="@/assets/images/home/service/complete_support.webp" alt="">
+                    </div>
 
                     <h5 class="text-center fw-bold">دعم كامل</h5>
 
@@ -36,7 +43,9 @@
 
                 <div class="service_ele">
 
-                    <img src="@/assets/images/home/service/continuous_training.svg" alt="" class="mt-3 mb-3">
+                    <div class="img_wrapper mt-3 mb-3">
+                        <img src="@/assets/images/home/service/continuous_training.webp" alt="">
+                    </div>
 
                     <h5 class="text-center fw-bold">تدريب مستمر</h5>
 
@@ -44,7 +53,9 @@
 
                 <div class="service_ele">
 
-                    <img src="@/assets/images/home/service/marketing_support.svg" alt="" class="mt-3 mb-3">
+                    <div class="img_wrapper mt-3 mb-3">
+                        <img src="@/assets/images/home/service/marketing_support.webp" alt="">
+                    </div>
 
                     <h5 class="text-center fw-bold">دعم تسويقي</h5>
 
@@ -52,7 +63,9 @@
 
                 <div class="service_ele">
 
-                    <img src="@/assets/images/home/service/exceptional_experience.svg" alt="" class="mt-3 mb-3">
+                    <div class="img_wrapper mt-3 mb-3">
+                        <img src="@/assets/images/home/service/exceptional_experience.webp" alt="">
+                    </div>
 
                     <h5 class="text-center fw-bold">تجربة استثنائية</h5>
 
@@ -60,7 +73,9 @@
 
                 <div class="service_ele">
 
-                    <img src="@/assets/images/home/service/business_model.svg" alt="" class="mt-3 mb-3">
+                    <div class="img_wrapper mt-3 mb-3">
+                        <img src="@/assets/images/home/service/business_model.webp" alt="">
+                    </div>
 
                     <h5 class="text-center fw-bold">نموذج عمل</h5>
 
@@ -68,7 +83,9 @@
 
                 <div class="service_ele">
 
-                    <img src="@/assets/images/home/service/guaranteed_clients.svg" alt="" class="mt-3 mb-3">
+                    <div class="img_wrapper mt-3 mb-3">
+                        <img src="@/assets/images/home/service/guaranteed_clients.webp" alt="">
+                    </div>
 
                     <h5 class="text-center fw-bold">عملاء مضمونين</h5>
 
@@ -76,7 +93,9 @@
 
                 <div class="service_ele">
 
-                    <img src="@/assets/images/home/service/operating_system.svg" alt="" class="mt-3 mb-3">
+                    <div class="img_wrapper mt-3 mb-3">
+                        <img src="@/assets/images/home/service/operating_system.webp" alt="">
+                    </div>
 
                     <h5 class="text-center fw-bold">منظومة تشغيلية</h5>
 
@@ -167,18 +186,25 @@ export default {
             /* Resize the background image to cover the entire container */
             background-size: cover;
 
-            img {
-                width: 100%;
-                height: 80px;
-                object-fit: content;
-            }
+            .img_wrapper {
 
-            img:hover {
-                -webkit-animation: blinker 1s linear infinite;
-                -moz-animation: blinker 1s linear infinite;
-                -ms-animation: blinker 1s linear infinite;
-                -o-animation: blinker 1s linear infinite;
-                animation: blinker 1s linear infinite;
+                width: 102.857px;
+                height: 80px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+
+                img:hover {
+                    -webkit-animation: blinker 1s linear infinite;
+                    -moz-animation: blinker 1s linear infinite;
+                    -ms-animation: blinker 1s linear infinite;
+                    -o-animation: blinker 1s linear infinite;
+                    animation: blinker 1s linear infinite;
+                }
+
             }
 
             h5 {
@@ -193,6 +219,7 @@ export default {
     }
 
 }
+
 // For Animation
 @-webkit-keyframes blinker {
     50% {

@@ -8,7 +8,7 @@
                 <div class="row">
 
                     <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 wow animate__animated animate__backInRight animate__slow"
-                        data-wow-offset="10" data-wow-delay="0.5s">
+                        data-wow-offset="1" data-wow-delay="0.1s">
 
                         <h3 class="fw-bold mb-3">المحتوى الرقمي</h3>
 
@@ -32,7 +32,7 @@
                     </div>
 
                     <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 wow animate__animated animate__backInRight animate__slow"
-                        data-wow-offset="10" data-wow-delay="1s">
+                        data-wow-offset="1" data-wow-delay="0.2s">
 
                         <h5 class="fw-bold mb-3">يهدف المحتوى لتوفير:</h5>
 
@@ -47,7 +47,7 @@
                     </div>
 
                     <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 d-flex justify-content-center align-items-center wow animate__animated animate__backInLeft animate__slow"
-                        data-wow-offset="10" data-wow-delay="1.5s">
+                        data-wow-offset="1" data-wow-delay="0.3s">
 
                         <div id="img_wrapper">
 

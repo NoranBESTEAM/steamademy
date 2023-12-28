@@ -6,16 +6,16 @@
 
         <div class="container">
 
-            <h3 class="fw-bold mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="10" data-wow-delay="0.5s">الأدوات
+            <h3 class="fw-bold mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="1" data-wow-delay="0.1s">الأدوات
                 والتقنيات المستخدمة</h3>
 
-            <p class="text-justify wow animate__animated animate__backInDown animate__slow" data-wow-offset="10" data-wow-delay="1s">نقدم الأدوات
+            <p class="text-justify wow animate__animated animate__backInDown animate__slow" data-wow-offset="1" data-wow-delay="0.2s">نقدم الأدوات
                 والتقنيات التعليمية التي تساعد الطلاب على التعلم والابتكار، مثل:</p>
 
             <!-- In Large Screen -->
 
             <div
-                class="tool_wrapper d-none d-sm-block d-md-block d-lg-block d-xl-block wow animate__animated animate__backInUp animate__slow" data-wow-offset="10" data-wow-delay="1.5s">
+                class="tool_wrapper d-none d-sm-block d-md-block d-lg-block d-xl-block wow animate__animated animate__backInUp animate__slow" data-wow-offset="1" data-wow-delay="0.3s">
 
                 <div class="row">
 
@@ -88,7 +88,7 @@
             <!-- In Mobile Screen -->
 
             <div
-                class="tool_wrapper_mobile d-block d-sm-none d-md-none d-lg-none d-xl-none wow animate__animated animate__backInUp animate__slow" data-wow-offset="10" data-wow-delay="1.5s">
+                class="tool_wrapper_mobile d-block d-sm-none d-md-none d-lg-none d-xl-none wow animate__animated animate__backInUp animate__slow" data-wow-offset="1" data-wow-delay="0.3s">
 
                 <div id="carouselToolExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
 

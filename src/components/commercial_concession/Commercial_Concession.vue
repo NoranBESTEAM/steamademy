@@ -8,17 +8,17 @@
                 <div id="text_content" class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 my-auto">
 
                     <h3
-                        class="fw-bold text-justify mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="10" data-wow-delay="0.5s">
+                        class="fw-bold text-justify mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="1" data-wow-delay="0.1s">
                         امتياز STEAM التجاري</h3>
 
-                    <p class="text-justify mb-4 wow animate__animated animate__backInUp animate__slow" data-wow-offset="10" data-wow-delay="1s">يوفر
+                    <p class="text-justify mb-4 wow animate__animated animate__backInUp animate__slow" data-wow-offset="1" data-wow-delay="0.2s">يوفر
                         لك منظومة متكاملة لتحقيق أفضل عائد على استثماراتك بداية من التجهيزات
                         والمحتوى العلمي وتأهيل فريقك وحتى وسائل التواصل مع الطلاب والتسويق كل ما عليك هو أن تؤمن بقدرتك على
                         تغيير المستقبل وتحقيق أهداف الثورة الصناعية الرابعة.</p>
 
                 </div>
 
-                <div id="img_content" class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 wow animate__animated animate__fadeIn animate__slow" data-wow-offset="10" data-wow-delay="0.5s">
+                <div id="img_content" class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 wow animate__animated animate__fadeIn animate__slow" data-wow-offset="1" data-wow-delay="0.3s">
 
                     <div id="img_wrapper">
                         <img src="@/assets/images/home/commercial_concession/Kid_pic.webp" alt="">
@@ -129,22 +129,22 @@ export default {
                 float: inline-end;
 
                 @include breakpoints(x-small) {
-                    width: 343px;
-                    height: 347px;
+                    width: 271.2px;
+                    height: 313.6px;
                     float: inherit;
                     margin: 0 auto;
                 }
 
                 @include breakpoints(small) {
-                    width: 343px;
-                    height: 347px;
+                    width: 271.2px;
+                    height: 313.6px;
                     float: inherit;
                     margin: 0 auto;
                 }
 
                 @include breakpoints(medium) {
-                    width: 343px;
-                    height: 347px;
+                    width: 271.2px;
+                    height: 313.6px;
                     float: inherit;
                     margin: 0 auto;
                 }

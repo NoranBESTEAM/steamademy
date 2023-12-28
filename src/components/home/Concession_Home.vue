@@ -6,7 +6,7 @@
             <div class="row">
 
                 <div id="img_content"
-                    class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 wow animate__animated animate__fadeIn animate__slow" data-wow-offset="10" data-wow-delay="0.5s">
+                    class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 wow animate__animated animate__fadeIn animate__slow" data-wow-offset="1" data-wow-delay="0.1s">
 
                     <div id="img_wrapper">
                         <img src="@/assets/images/home/commercial_concession/Kid_pic.webp" alt="">
@@ -17,16 +17,16 @@
                 <div id="text_content"
                     class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 my-auto">
 
-                    <h3 class="fw-bold text-justify mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="10" data-wow-delay="1s">
+                    <h3 class="fw-bold text-justify mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="1" data-wow-delay="0.2s">
                         امتياز STEAM التجاري</h3>
 
-                    <p class="text-justify mb-4 wow animate__animated animate__backInUp animate__slow" data-wow-offset="10" data-wow-delay="1.5s">
+                    <p class="text-justify mb-4 wow animate__animated animate__backInUp animate__slow" data-wow-offset="1" data-wow-delay="0.3s">
                         يوفر
                         لك منظومة متكاملة لتحقيق أفضل عائد على استثماراتك بداية من التجهيزات
                         والمحتوى العلمي وتأهيل فريقك وحتى وسائل التواصل مع الطلاب والتسويق كل ما عليك هو أن تؤمن بقدرتك على
                         تغيير المستقبل وتحقيق أهداف الثورة الصناعية الرابعة.</p>
 
-                    <router-link :to="{ name: 'commercial_concession' }" type="button" class="btn fw-bold wow animate__animated animate__backInUp animate__slow" data-wow-offset="10" data-wow-delay="2s">
+                    <router-link :to="{ name: 'commercial_concession' }" type="button" class="btn fw-bold wow animate__animated animate__backInUp animate__slow" data-wow-offset="1" data-wow-delay="0.4s">
                         عرض المزيد
                         <font-awesome-icon :icon="['fas', 'fa-arrow-left']" class="me-2" />
                     </router-link>
@@ -86,18 +86,18 @@ export default {
                 height: 392px;
 
                 @include breakpoints(x-small) {
-                    width: 343px;
-                    height: 347px;
+                    width: 271.2px;
+                    height: 313.6px;
                 }
 
                 @include breakpoints(small) {
-                    width: 343px;
-                    height: 347px;
+                    width: 271.2px;
+                    height: 313.6px;
                 }
 
                 @include breakpoints(medium) {
-                    width: 343px;
-                    height: 347px;
+                    width: 271.2px;
+                    height: 313.6px;
                 }
 
                 // 0.8

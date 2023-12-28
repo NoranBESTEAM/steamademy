@@ -15,13 +15,13 @@
 
                     <div class="col content_wrapper p-3">
 
-                        <h3 class="fw-bold mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="10" data-wow-delay="0.5s">
+                        <h3 class="fw-bold mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="1" data-wow-delay="0.1s">
 
                             <img src="@/assets/images/about/vision/our_vision.svg" alt="" class="ms-3">رؤيتنا
 
                         </h3>
 
-                        <p class="text-justify wow animate__animated animate__backInUp animate__slow" data-wow-offset="10" data-wow-delay="1s">أن
+                        <p class="text-justify wow animate__animated animate__backInUp animate__slow" data-wow-offset="1" data-wow-delay="0.2s">أن
                             نكون قادرين على تقديم كافة الخدمات التي تمكن الجهات التعليمية والمدربين النهوض بالطلاب نحو
                             مستقبل
                             قائم على النهضة الصناعية الرابعة وتعزيز ثقتهم بنفسهم</p>
@@ -30,13 +30,13 @@
 
                     <div class="col content_wrapper p-3">
 
-                        <h3 class="fw-bold mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="10" data-wow-delay="0.5s">
+                        <h3 class="fw-bold mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="1" data-wow-delay="0.1s">
 
                             <img src="@/assets/images/about/vision/our_message.svg" alt="" class="ms-3">رسالتنا
 
                         </h3>
 
-                        <p class="text-justify wow animate__animated animate__backInUp animate__slow" data-wow-offset="10" data-wow-delay="1s">تنمية
+                        <p class="text-justify wow animate__animated animate__backInUp animate__slow" data-wow-offset="1" data-wow-delay="0.2s">تنمية
                             روح الإبداع للطلاب ومساعتهم على خلق حلول مبتكرة لمواجهة المشاكل المجتمعية</p>
 
                     </div>
@@ -51,13 +51,13 @@
 
                 <div class="content_wrapper_mobile p-3 mb-3">
 
-                    <h3 class="fw-bold mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="10" data-wow-delay="0.5s">
+                    <h3 class="fw-bold mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="1" data-wow-delay="0.1s">
 
                         <img src="@/assets/images/about/vision/our_vision.svg" alt="" class="ms-3">رؤيتنا
 
                     </h3>
 
-                    <p class="text-justify wow animate__animated animate__backInUp animate__slow" data-wow-offset="10" data-wow-delay="1s">أن
+                    <p class="text-justify wow animate__animated animate__backInUp animate__slow" data-wow-offset="1" data-wow-delay="0.2s">أن
                         نكون قادرين على تقديم كافة الخدمات التي تمكن الجهات التعليمية والمدربين النهوض بالطلاب نحو
                         مستقبل
                         قائم على النهضة الصناعية الرابعة وتعزيز ثقتهم بنفسهم</p>
@@ -66,13 +66,13 @@
 
                 <div class="content_wrapper_mobile p-3">
 
-                    <h3 class="fw-bold mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="10" data-wow-delay="0.5s">
+                    <h3 class="fw-bold mb-4 wow animate__animated animate__backInDown animate__slow" data-wow-offset="1" data-wow-delay="0.1s">
 
                         <img src="@/assets/images/about/vision/our_message.svg" alt="" class="ms-3">رسالتنا
 
                     </h3>
 
-                    <p class="text-justify wow animate__animated animate__backInUp animate__slow" data-wow-offset="10" data-wow-delay="1s">تنمية
+                    <p class="text-justify wow animate__animated animate__backInUp animate__slow" data-wow-offset="1" data-wow-delay="0.2s">تنمية
                             روح الإبداع للطلاب ومساعتهم على خلق حلول مبتكرة لمواجهة المشاكل المجتمعية</p>
 
                 </div>
