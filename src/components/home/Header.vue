@@ -44,8 +44,22 @@
 
                 </div>
 
-                <div id="img_wrapper">
+                <!-- <div id="img_wrapper">
                     <img class="img-responsive" src="@/assets/images/home/header/header_img.webp" alt="">
+                </div> -->
+
+                <!-- https://www.youtube.com/watch?v=CapUcqphBpc -->
+
+                <div class="clip-path">
+                    <video playsinline autoplay muted loop>
+                        <source src="@/assets/images/home/header/Hero_video.webm" type="video/webm">
+                        <source src="@/assets/images/home/header/Hero_video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+
+                <div class="img_wrapper">
+                    <img src="@/assets/images/home/header/hero_over.webp" alt="">
                 </div>
 
             </div>
@@ -198,7 +212,7 @@ export default {
 
             }
 
-            #img_wrapper {
+            /* #img_wrapper {
 
                 position: absolute;
                 top: 0;
@@ -246,6 +260,107 @@ export default {
                     object-fit: cover;
                 }
 
+            } */
+            .clip-path {
+                position: absolute;
+                top: 0;
+                left: 0;
+
+                // In XX-Large
+                width: 1008px;
+                height: 784px;
+
+                // In Responsive
+
+                // 0.37
+                @include breakpoints(x-small) {
+                    width: 372.96px;
+                    height: 290.08px;
+                }
+
+                // 0.56
+                @include breakpoints(small) {
+                    width: 564.48px;
+                    height: 439.04px;
+                }
+
+                // 0.7
+                @include breakpoints(medium) {
+                    width: 705.6px;
+                    height: 548.8px;
+                }
+
+                // 0.80
+                @include breakpoints(large) {
+                    width: 806.4px;
+                    height: 627.2px;
+                }
+
+                // 0.9
+                @include breakpoints(x-Large) {
+                    width: 907.2px;
+                    height: 705.6px;
+                }
+
+                // https://codepen.io/adamlaki/pen/JxJwwB/
+                // clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+                clip-path: polygon(100% 0, 0 0, 50% 100%);
+
+                video {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    opacity:1;
+                }
+
+            }
+
+            .img_wrapper{
+                position: absolute;
+                top: 0;
+                left: 0;
+
+                // In XX-Large
+                width: 1008px;
+                height: 784px;
+
+                // In Responsive
+
+                // 0.37
+                @include breakpoints(x-small) {
+                    width: 372.96px;
+                    height: 290.08px;
+                }
+
+                // 0.56
+                @include breakpoints(small) {
+                    width: 564.48px;
+                    height: 439.04px;
+                }
+
+                // 0.7
+                @include breakpoints(medium) {
+                    width: 705.6px;
+                    height: 548.8px;
+                }
+
+                // 0.80
+                @include breakpoints(large) {
+                    width: 806.4px;
+                    height: 627.2px;
+                }
+
+                // 0.9
+                @include breakpoints(x-Large) {
+                    width: 907.2px;
+                    height: 705.6px;
+                }
+
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
             }
 
         }
